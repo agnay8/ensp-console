@@ -158,6 +158,7 @@ console/
 ├── ops.py            配置备份 / 对比 / 连通性矩阵
 ├── brief.py          任务书解析
 ├── persistence.py    状态持久化（state.json / runs）
+├── mcp/              eNSP MCP 服务端源码快照（v1.3.0，见 mcp/README.md）
 ├── web/              前端（index.html + app.js + style.css，原生无构建）
 ├── data/             运行数据（见下表）
 ├── samples/          示例 Excel、任务书、模拟设备脚本
