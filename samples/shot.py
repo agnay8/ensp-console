@@ -1,1 +1,33 @@
-aW1wb3J0IG9zCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKCkNIUk9NRSA9IHIiQzpcUHJvZ3JhbSBGaWxlc1xHb29nbGVcQ2hyb21lXEFwcGxpY2F0aW9uXGNocm9tZS5leGUiCgoKZGVmIHNob3QodXJsOiBzdHIsIG91dDogc3RyLCB3aWR0aDogaW50ID0gMTYwMCwgaGVpZ2h0OiBpbnQgPSAxMjUwLCBidWRnZXQ6IGludCA9IDYwMDApIC0+IGludDoKICAgIGFyZ3MgPSBbCiAgICAgICAgQ0hST01FLAogICAgICAgICItLWhlYWRsZXNzPW5ldyIsCiAgICAgICAgIi0tZGlzYWJsZS1ncHUiLAogICAgICAgICItLW5vLXNhbmRib3giLAogICAgICAgICItLWRpc2FibGUtZGV2LXNobS11c2FnZSIsCiAgICAgICAgIi0taGlkZS1zY3JvbGxiYXJzIiwKICAgICAgICBmIi0td2luZG93LXNpemU9e3dpZHRofSx7aGVpZ2h0fSIsCiAgICAgICAgZiItLXZpcnR1YWwtdGltZS1idWRnZXQ9e2J1ZGdldH0iLAogICAgICAgIGYiLS11c2VyLWRhdGEtZGlyPXtvcy5wYXRoLmpvaW4ob3MuZW52aXJvblsnVEVNUCddLCAnY2hyb21lLXNob3QtcHJvZicpfSIsCiAgICAgICAgZiItLXNjcmVlbnNob3Q9e291dH0iLAogICAgICAgIHVybCwKICAgIF0KICAgIHAgPSBzdWJwcm9jZXNzLnJ1bihhcmdzLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0aW1lb3V0PTkwKQogICAgcmV0dXJuIHAucmV0dXJuY29kZQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB1cmwgPSBzeXMuYXJndlsxXSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlICJodHRwOi8vMTI3LjAuMC4xOjg3NjUvIgogICAgb3V0ID0gc3lzLmFyZ3ZbMl0gaWYgbGVuKHN5cy5hcmd2KSA+IDIgZWxzZSByIkQ6XGh1YXdlaW5ldFxjb25zb2xlXHNhbXBsZXNcdWkucG5nIgogICAgdyA9IGludChzeXMuYXJndlszXSkgaWYgbGVuKHN5cy5hcmd2KSA+IDMgZWxzZSAxNjAwCiAgICBoID0gaW50KHN5cy5hcmd2WzRdKSBpZiBsZW4oc3lzLmFyZ3YpID4gNCBlbHNlIDEyNTAKICAgIHJjID0gc2hvdCh1cmwsIG91dCwgdywgaCkKICAgIHNpemUgPSBvcy5wYXRoLmdldHNpemUob3V0KSBpZiBvcy5wYXRoLmV4aXN0cyhvdXQpIGVsc2UgMAogICAgcHJpbnQoZiJyYz17cmN9IG91dD17b3V0fSBzaXplPXtzaXplfSIpCg==
+import os
+import subprocess
+import sys
+
+CHROME = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+
+def shot(url: str, out: str, width: int = 1600, height: int = 1250, budget: int = 6000) -> int:
+    args = [
+        CHROME,
+        "--headless=new",
+        "--disable-gpu",
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--hide-scrollbars",
+        f"--window-size={width},{height}",
+        f"--virtual-time-budget={budget}",
+        f"--user-data-dir={os.path.join(os.environ['TEMP'], 'chrome-shot-prof')}",
+        f"--screenshot={out}",
+        url,
+    ]
+    p = subprocess.run(args, capture_output=True, timeout=90)
+    return p.returncode
+
+
+if __name__ == "__main__":
+    url = sys.argv[1] if len(sys.argv) > 1 else "http://127.0.0.1:8765/"
+    out = sys.argv[2] if len(sys.argv) > 2 else r"D:\huaweinet\console\samples\ui.png"
+    w = int(sys.argv[3]) if len(sys.argv) > 3 else 1600
+    h = int(sys.argv[4]) if len(sys.argv) > 4 else 1250
+    rc = shot(url, out, w, h)
+    size = os.path.getsize(out) if os.path.exists(out) else 0
+    print(f"rc={rc} out={out} size={size}")

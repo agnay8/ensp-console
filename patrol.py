@@ -1,1 +1,629 @@
-IiIi6K6+5aSH6Ieq5Yqo5YyW5beh5qOA77yaU1NIIC8gVGVsbmV0IOmHh+mbhu+8jOW5tuaKiiBkaXNwbGF5IOi+k+WHuuino+aekOaIkOe7k+aehOWMluaMh+agh+OAggoK5oyH5qCH6Kej5p6Q5Y+q5L6d6LWW5q2j5YiZ5LiO6KGM57uT5p6E77yM5LiN54yc6K+t5LmJ77yb6Kej5p6Q5LiN5Yiw5bCx6L+U5ZueIE5vbmXvvIzljp/lp4vovpPlh7rlp4vnu4jkv53nlZnjgIIKIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXN5bmNpbwppbXBvcnQgcmUKaW1wb3J0IHRpbWUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgQ2FsbGFibGUKCkRFRkFVTFRfQ09NTUFORFMgPSBbCiAgICAiZGlzcGxheSB2ZXJzaW9uIiwKICAgICJkaXNwbGF5IGNwdS11c2FnZSIsCiAgICAiZGlzcGxheSBtZW1vcnktdXNhZ2UiLAogICAgImRpc3BsYXkgaW50ZXJmYWNlIGJyaWVmIiwKICAgICJkaXNwbGF5IHRyYW5zY2VpdmVyIGRpYWdub3NpcyBpbnRlcmZhY2UiLApdCgpFUlJPUl9ISU5UUyA9ICgiRXJyb3I6IiwgIlVucmVjb2duaXplZCBjb21tYW5kIiwgIldyb25nIHBhcmFtZXRlciIsICJJbmNvbXBsZXRlIGNvbW1hbmQiLCAiVG9vIG1hbnkgcGFyYW1ldGVycyIpCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDop6PmnpDlt6XlhbcKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfc2VhcmNoKHBhdHRlcm5zOiBsaXN0W3N0cl0sIHRleHQ6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgIGZvciBwYXR0ZXJuIGluIHBhdHRlcm5zOgogICAgICAgIG0gPSByZS5zZWFyY2gocGF0dGVybiwgdGV4dCwgcmUuSSB8IHJlLk0pCiAgICAgICAgaWYgbToKICAgICAgICAgICAgcmV0dXJuIG0uZ3JvdXAoMSkKICAgIHJldHVybiBOb25lCgoKZGVmIF9udW0odmFsdWU6IHN0ciB8IE5vbmUpIC0+IGZsb2F0IHwgTm9uZToKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHRyeToKICAgICAgICByZXR1cm4gZmxvYXQodmFsdWUpCiAgICBleGNlcHQgKFR5cGVFcnJvciwgVmFsdWVFcnJvcik6CiAgICAgICAgcmV0dXJuIE5vbmUKCgpkZWYgcGFyc2VfY3B1KG91dHB1dDogc3RyKSAtPiBmbG9hdCB8IE5vbmU6CiAgICByYXcgPSBfc2VhcmNoKAogICAgICAgIFsKICAgICAgICAgICAgciJDUFUgVXNhZ2Vccyo6XHMqKFxkKyg/OlwuXGQrKT8pXHMqJSIsCiAgICAgICAgICAgIHIiY3B1LXVzYWdlXHMqOlxzKihcZCsoPzpcLlxkKyk/KVxzKiUiLAogICAgICAgICAgICByIkNQVSB1dGlsaXphdGlvbiBmb3IgZml2ZSBzZWNvbmRzOlxzKihcZCsoPzpcLlxkKyk/KSUiLAogICAgICAgIF0sCiAgICAgICAgb3V0cHV0LAogICAgKQogICAgcmV0dXJuIF9udW0ocmF3KQoKCmRlZiBwYXJzZV9tZW1vcnkob3V0cHV0OiBzdHIpIC0+IGZsb2F0IHwgTm9uZToKICAgIHJhdyA9IF9zZWFyY2goCiAgICAgICAgWwogICAgICAgICAgICByIk1lbW9yeSBVc2luZyBQZXJjZW50YWdlIElzOlxzKihcZCsoPzpcLlxkKyk/KSUiLAogICAgICAgICAgICByIk1lbW9yeSBVc2FnZVxzKjpccyooXGQrKD86XC5cZCspPylccyolIiwKICAgICAgICAgICAgciJtZW1vcnktdXNhZ2Vccyo6XHMqKFxkKyg/OlwuXGQrKT8pXHMqJSIsCiAgICAgICAgICAgICMg6KGo5qC85qC85byP77yaU3lzdGVtIFRvdGFsIE1lbW9yeShLQikgIDUyNDI4OCAgMjYyMTQ0ICAyNjIxNDQgIDUwJQogICAgICAgICAgICByIlN5c3RlbSBUb3RhbCBNZW1vcnlbXlxuXSo/KFxkKyg/OlwuXGQrKT8pXHMqJSIsCiAgICAgICAgXSwKICAgICAgICBvdXRwdXQsCiAgICApCiAgICByZXR1cm4gX251bShyYXcpCgoKZGVmIHBhcnNlX3RlbXBlcmF0dXJlKG91dHB1dDogc3RyKSAtPiBmbG9hdCB8IE5vbmU6CiAgICByYXcgPSBfc2VhcmNoKAogICAgICAgIFsKICAgICAgICAgICAgciJUZW1wZXJhdHVyZVxzKjpccyooXGQrKD86XC5cZCspPykiLAogICAgICAgICAgICByIlRlbXBlcmF0dXJlXChDZWxzaXVzXClccyo6XHMqKFxkKyg/OlwuXGQrKT8pIiwKICAgICAgICAgICAgciIoXGQrKD86XC5cZCspPylccyrihIMiLAogICAgICAgIF0sCiAgICAgICAgb3V0cHV0LAogICAgKQogICAgcmV0dXJuIF9udW0ocmF3KQoKCmRlZiBfdHJhbnNjZWl2ZXJfdGFibGUob3V0cHV0OiBzdHIpIC0+IHR1cGxlW2Zsb2F0IHwgTm9uZSwgZmxvYXQgfCBOb25lXToKICAgICIiIuihqOagvOW8j++8muihqOWktCBSWCBwb3dlciAvIFRYIHBvd2VyIOS4i+WIl+WHuuaVsOWtl+OAgiIiIgogICAgbGluZXMgPSBbbC5yc3RyaXAoKSBmb3IgbCBpbiBvdXRwdXQuc3BsaXRsaW5lcygpXQogICAgZm9yIGlkeCwgbGluZSBpbiBlbnVtZXJhdGUobGluZXMpOgogICAgICAgIGlmIG5vdCByZS5zZWFyY2gociJSWFxzKnBvd2VyIiwgbGluZSwgcmUuSSk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaGVhZGVyID0gbGluZS5sb3dlcigpCiAgICAgICAgZm9yIGZvbGxvdyBpbiBsaW5lc1tpZHggKyAxOiBpZHggKyA0XToKICAgICAgICAgICAgaWYgbm90IGZvbGxvdy5zdHJpcCgpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgbnVtYmVycyA9IHJlLmZpbmRhbGwociItP1xkKyg/OlwuXGQrKT8iLCBmb2xsb3cpCiAgICAgICAgICAgIGlmIGxlbihudW1iZXJzKSA8IDM6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjb2x1bW5zID0gW2Muc3RyaXAoKSBmb3IgYyBpbiByZS5zcGxpdChyIlxzezIsfSIsIGhlYWRlci5zdHJpcCgpKSBpZiBjLnN0cmlwKCldCiAgICAgICAgICAgIHJ4X2lkeCA9IHR4X2lkeCA9IE5vbmUKICAgICAgICAgICAgZm9yIHBvcywgbmFtZSBpbiBlbnVtZXJhdGUoY29sdW1ucyk6CiAgICAgICAgICAgICAgICBpZiAicngiIGluIG5hbWU6CiAgICAgICAgICAgICAgICAgICAgcnhfaWR4ID0gcG9zCiAgICAgICAgICAgICAgICBlbGlmICJ0eCIgaW4gbmFtZToKICAgICAgICAgICAgICAgICAgICB0eF9pZHggPSBwb3MKICAgICAgICAgICAgaWYgcnhfaWR4IGlzIG5vdCBOb25lIGFuZCByeF9pZHggPCBsZW4obnVtYmVycyk6CiAgICAgICAgICAgICAgICByeCA9IF9udW0obnVtYmVyc1tyeF9pZHhdKQogICAgICAgICAgICAgICAgdHggPSBfbnVtKG51bWJlcnNbdHhfaWR4XSkgaWYgdHhfaWR4IGlzIG5vdCBOb25lIGFuZCB0eF9pZHggPCBsZW4obnVtYmVycykgZWxzZSBOb25lCiAgICAgICAgICAgICAgICByZXR1cm4gcngsIHR4CiAgICAgICAgICAgIGlmIGxlbihudW1iZXJzKSA+PSA1OgogICAgICAgICAgICAgICAgcmV0dXJuIF9udW0obnVtYmVyc1szXSksIF9udW0obnVtYmVyc1s0XSkKICAgICAgICAgICAgYnJlYWsKICAgIHJldHVybiBOb25lLCBOb25lCgoKZGVmIHBhcnNlX3RyYW5zY2VpdmVyKG91dHB1dDogc3RyKSAtPiB0dXBsZVtmbG9hdCB8IE5vbmUsIGZsb2F0IHwgTm9uZV06CiAgICByeCA9IF9udW0oX3NlYXJjaChbciJSWFxzKlBvd2VyXHMqKD86XChkQk1cKSk/XHMqOlxzKigtP1xkKyg/OlwuXGQrKT8pIl0sIG91dHB1dCkpCiAgICB0eCA9IF9udW0oX3NlYXJjaChbciJUWFxzKlBvd2VyXHMqKD86XChkQk1cKSk/XHMqOlxzKigtP1xkKyg/OlwuXGQrKT8pIl0sIG91dHB1dCkpCiAgICBpZiByeCBpcyBOb25lIG9yIHR4IGlzIE5vbmU6CiAgICAgICAgdGFibGVfcngsIHRhYmxlX3R4ID0gX3RyYW5zY2VpdmVyX3RhYmxlKG91dHB1dCkKICAgICAgICByeCA9IHJ4IGlmIHJ4IGlzIG5vdCBOb25lIGVsc2UgdGFibGVfcngKICAgICAgICB0eCA9IHR4IGlmIHR4IGlzIG5vdCBOb25lIGVsc2UgdGFibGVfdHgKICAgIHJldHVybiByeCwgdHgKCgpkZWYgcGFyc2VfaW50ZXJmYWNlcyhvdXRwdXQ6IHN0cikgLT4gdHVwbGVbaW50IHwgTm9uZSwgaW50IHwgTm9uZV06CiAgICB1cCA9IGRvd24gPSAwCiAgICBzZWVuID0gRmFsc2UKICAgIGZvciBsaW5lIGluIG91dHB1dC5zcGxpdGxpbmVzKCk6CiAgICAgICAgcGFydHMgPSBsaW5lLnNwbGl0KCkKICAgICAgICBpZiBsZW4ocGFydHMpIDwgMzoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBub3QgcmUubWF0Y2gociJeKEdpZ2FiaXRFdGhlcm5ldHxYR2lnYWJpdEV0aGVybmV0fEV0aGVybmV0fEZhc3RFdGhlcm5ldHxWbGFuaWZ8TG9vcEJhY2t8R0VcZCkiLCBwYXJ0c1swXSwgcmUuSSk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcGh5ID0gcGFydHNbMV0ubG93ZXIoKS5sc3RyaXAoIioiKQogICAgICAgIHNlZW4gPSBUcnVlCiAgICAgICAgaWYgcGh5ID09ICJ1cCI6CiAgICAgICAgICAgIHVwICs9IDEKICAgICAgICBlbGlmIHBoeSBpbiAoImRvd24iLCAib2ZmIiwgImFkbWluaXN0cmF0aXZlbHkiKToKICAgICAgICAgICAgZG93biArPSAxCiAgICByZXR1cm4gKHVwLCBkb3duKSBpZiBzZWVuIGVsc2UgKE5vbmUsIE5vbmUpCgoKZGVmIHBhcnNlX3ZlcnNpb24ob3V0cHV0OiBzdHIpIC0+IGRpY3Q6CiAgICBtb2RlbCA9IF9zZWFyY2goW3IiVlJQIFwoUlwpIHNvZnR3YXJlLCBWZXJzaW9uIFtcZC5dKyBcKChbXildKylcKSJdLCBvdXRwdXQpCiAgICB2ZXJzaW9uID0gX3NlYXJjaChbciJWUlAgXChSXCkgc29mdHdhcmUsIFZlcnNpb24gKFtcZC5dKykiXSwgb3V0cHV0KQogICAgdXB0aW1lID0gX3NlYXJjaChbciJ1cHRpbWUgaXMgKC4rKSJdLCBvdXRwdXQpCiAgICByZXR1cm4geyJtb2RlbCI6IG1vZGVsLCAidmVyc2lvbiI6IHZlcnNpb24sICJ1cHRpbWUiOiB1cHRpbWV9CgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDmjIfmoIflrprkuYkKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmRlZiBfbGV2ZWxfaGlnaCh2YWx1ZTogZmxvYXQgfCBOb25lLCB3YXJuOiBmbG9hdCwgY3JpdDogZmxvYXQpIC0+IHN0cjoKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuICJuYSIKICAgIGlmIHZhbHVlID49IGNyaXQ6CiAgICAgICAgcmV0dXJuICJjcml0IgogICAgaWYgdmFsdWUgPj0gd2FybjoKICAgICAgICByZXR1cm4gIndhcm4iCiAgICByZXR1cm4gIm9rIgoKCmRlZiBfbGV2ZWxfbG93KHZhbHVlOiBmbG9hdCB8IE5vbmUsIHdhcm46IGZsb2F0LCBjcml0OiBmbG9hdCkgLT4gc3RyOgogICAgaWYgdmFsdWUgaXMgTm9uZToKICAgICAgICByZXR1cm4gIm5hIgogICAgaWYgdmFsdWUgPD0gY3JpdDoKICAgICAgICByZXR1cm4gImNyaXQiCiAgICBpZiB2YWx1ZSA8PSB3YXJuOgogICAgICAgIHJldHVybiAid2FybiIKICAgIHJldHVybiAib2siCgoKZGVmIGJ1aWxkX21ldHJpY3MocmF3X3Jlc3VsdHM6IGxpc3RbZGljdF0pIC0+IGxpc3RbZGljdF06CiAgICAiIiLmiorljp/lp4vlkb3ku6Tlm57mmL7ovazmiJDmjIfmoIfliJfooajjgIIiIiIKICAgIGJ5X2NvbW1hbmQgPSB7clsiY29tbWFuZCJdOiByLmdldCgib3V0cHV0Iikgb3IgIiIgZm9yIHIgaW4gcmF3X3Jlc3VsdHN9CiAgICBqb2luZWQgPSAiXG4iLmpvaW4oYnlfY29tbWFuZC52YWx1ZXMoKSkKCiAgICBjcHVfb3V0cHV0ID0gYnlfY29tbWFuZC5nZXQoImRpc3BsYXkgY3B1LXVzYWdlIiwgIiIpCiAgICBtZW1fb3V0cHV0ID0gYnlfY29tbWFuZC5nZXQoImRpc3BsYXkgbWVtb3J5LXVzYWdlIiwgIiIpCiAgICBpZl9vdXRwdXQgPSBieV9jb21tYW5kLmdldCgiZGlzcGxheSBpbnRlcmZhY2UgYnJpZWYiLCAiIikKICAgIHRyYW5zX291dHB1dCA9IGJ5X2NvbW1hbmQuZ2V0KCJkaXNwbGF5IHRyYW5zY2VpdmVyIGRpYWdub3NpcyBpbnRlcmZhY2UiLCAiIikgb3IgYnlfY29tbWFuZC5nZXQoCiAgICAgICAgImRpc3BsYXkgdHJhbnNjZWl2ZXIgaW50ZXJmYWNlIiwgIiIKICAgICkKICAgIHZlcl9vdXRwdXQgPSBieV9jb21tYW5kLmdldCgiZGlzcGxheSB2ZXJzaW9uIiwgIiIpCgogICAgbWV0cmljczogbGlzdFtkaWN0XSA9IFtdCgogICAgY3B1ID0gcGFyc2VfY3B1KGNwdV9vdXRwdXQpCiAgICBtZXRyaWNzLmFwcGVuZCgKICAgICAgICB7CiAgICAgICAgICAgICJrZXkiOiAiY3B1IiwKICAgICAgICAgICAgImxhYmVsIjogIkNQVSDkvb/nlKjnjociLAogICAgICAgICAgICAidmFsdWUiOiBjcHUsCiAgICAgICAgICAgICJ1bml0IjogIiUiLAogICAgICAgICAgICAibGV2ZWwiOiBfbGV2ZWxfaGlnaChjcHUsIDcwLCA5MCksCiAgICAgICAgICAgICJjb21tYW5kIjogImRpc3BsYXkgY3B1LXVzYWdlIiwKICAgICAgICB9CiAgICApCgogICAgbWVtID0gcGFyc2VfbWVtb3J5KG1lbV9vdXRwdXQpCiAgICBtZXRyaWNzLmFwcGVuZCgKICAgICAgICB7CiAgICAgICAgICAgICJrZXkiOiAibWVtb3J5IiwKICAgICAgICAgICAgImxhYmVsIjogIuWGheWtmOS9v+eUqOeOhyIsCiAgICAgICAgICAgICJ2YWx1ZSI6IG1lbSwKICAgICAgICAgICAgInVuaXQiOiAiJSIsCiAgICAgICAgICAgICJsZXZlbCI6IF9sZXZlbF9oaWdoKG1lbSwgNzUsIDkwKSwKICAgICAgICAgICAgImNvbW1hbmQiOiAiZGlzcGxheSBtZW1vcnktdXNhZ2UiLAogICAgICAgIH0KICAgICkKCiAgICB0ZW1wID0gcGFyc2VfdGVtcGVyYXR1cmUoam9pbmVkKSBpZiByZS5zZWFyY2gociJ0ZW1wZXJhdHVyZSIsIGpvaW5lZCwgcmUuSSkgZWxzZSBwYXJzZV90ZW1wZXJhdHVyZSh2ZXJfb3V0cHV0KQogICAgbWV0cmljcy5hcHBlbmQoCiAgICAgICAgewogICAgICAgICAgICAia2V5IjogInRlbXBlcmF0dXJlIiwKICAgICAgICAgICAgImxhYmVsIjogIua4qeW6piIsCiAgICAgICAgICAgICJ2YWx1ZSI6IHRlbXAsCiAgICAgICAgICAgICJ1bml0IjogIuKEgyIsCiAgICAgICAgICAgICJsZXZlbCI6IF9sZXZlbF9oaWdoKHRlbXAsIDYwLCA3NSksCiAgICAgICAgICAgICJjb21tYW5kIjogImRpc3BsYXkgdGVtcGVyYXR1cmUiLAogICAgICAgIH0KICAgICkKCiAgICByeCwgdHggPSBwYXJzZV90cmFuc2NlaXZlcih0cmFuc19vdXRwdXQpCiAgICBtZXRyaWNzLmFwcGVuZCgKICAgICAgICB7CiAgICAgICAgICAgICJrZXkiOiAicnhfcG93ZXIiLAogICAgICAgICAgICAibGFiZWwiOiAi5YWJ5qih5Z2X5pS25YWJIiwKICAgICAgICAgICAgInZhbHVlIjogcngsCiAgICAgICAgICAgICJ1bml0IjogImRCbSIsCiAgICAgICAgICAgICJsZXZlbCI6IF9sZXZlbF9sb3cocngsIC0yMCwgLTI1KSwKICAgICAgICAgICAgImNvbW1hbmQiOiAiZGlzcGxheSB0cmFuc2NlaXZlciBkaWFnbm9zaXMgaW50ZXJmYWNlIiwKICAgICAgICB9CiAgICApCiAgICBtZXRyaWNzLmFwcGVuZCgKICAgICAgICB7CiAgICAgICAgICAgICJrZXkiOiAidHhfcG93ZXIiLAogICAgICAgICAgICAibGFiZWwiOiAi5YWJ5qih5Z2X5Y+R5YWJIiwKICAgICAgICAgICAgInZhbHVlIjogdHgsCiAgICAgICAgICAgICJ1bml0IjogImRCbSIsCiAgICAgICAgICAgICJsZXZlbCI6ICJvayIgaWYgdHggaXMgbm90IE5vbmUgZWxzZSAibmEiLAogICAgICAgICAgICAiY29tbWFuZCI6ICJkaXNwbGF5IHRyYW5zY2VpdmVyIGRpYWdub3NpcyBpbnRlcmZhY2UiLAogICAgICAgIH0KICAgICkKCiAgICB1cCwgZG93biA9IHBhcnNlX2ludGVyZmFjZXMoaWZfb3V0cHV0KQogICAgbWV0cmljcy5hcHBlbmQoCiAgICAgICAgewogICAgICAgICAgICAia2V5IjogImlmX3VwIiwKICAgICAgICAgICAgImxhYmVsIjogIuaOpeWPoyBVUCIsCiAgICAgICAgICAgICJ2YWx1ZSI6IHVwLAogICAgICAgICAgICAidW5pdCI6ICLkuKoiLAogICAgICAgICAgICAibGV2ZWwiOiAib2siIGlmIHVwIGVsc2UgIm5hIiwKICAgICAgICAgICAgImNvbW1hbmQiOiAiZGlzcGxheSBpbnRlcmZhY2UgYnJpZWYiLAogICAgICAgIH0KICAgICkKICAgIG1ldHJpY3MuYXBwZW5kKAogICAgICAgIHsKICAgICAgICAgICAgImtleSI6ICJpZl9kb3duIiwKICAgICAgICAgICAgImxhYmVsIjogIuaOpeWPoyBET1dOIiwKICAgICAgICAgICAgInZhbHVlIjogZG93biwKICAgICAgICAgICAgInVuaXQiOiAi5LiqIiwKICAgICAgICAgICAgIyDmjqXlhaXlj6PmnIkgZG93biDlsZ7luLjmgIHvvIzlj6rkvZzkv6Hmga/lsZXnpLrvvIzkuI3lj4LkuI7lkYrorabnu5/orqEKICAgICAgICAgICAgImxldmVsIjogIm5hIiwKICAgICAgICAgICAgImNvbW1hbmQiOiAiZGlzcGxheSBpbnRlcmZhY2UgYnJpZWYiLAogICAgICAgIH0KICAgICkKCiAgICBpbmZvID0gcGFyc2VfdmVyc2lvbih2ZXJfb3V0cHV0KQogICAgZm9yIGtleSwgbGFiZWwgaW4gKCgibW9kZWwiLCAi6K6+5aSH5Z6L5Y+3IiksICgidmVyc2lvbiIsICLova/ku7bniYjmnKwiKSwgKCJ1cHRpbWUiLCAi6L+Q6KGM5pe26ZW/IikpOgogICAgICAgIG1ldHJpY3MuYXBwZW5kKAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAia2V5Ijoga2V5LAogICAgICAgICAgICAgICAgImxhYmVsIjogbGFiZWwsCiAgICAgICAgICAgICAgICAidmFsdWUiOiBpbmZvLmdldChrZXkpLAogICAgICAgICAgICAgICAgInVuaXQiOiAiIiwKICAgICAgICAgICAgICAgICJsZXZlbCI6ICJuYSIsCiAgICAgICAgICAgICAgICAiY29tbWFuZCI6ICJkaXNwbGF5IHZlcnNpb24iLAogICAgICAgICAgICAgICAgInRleHQiOiBUcnVlLAogICAgICAgICAgICB9CiAgICAgICAgKQoKICAgIHJldHVybiBtZXRyaWNzCgoKZGVmIF9oYXNfZXJyb3Iob3V0cHV0OiBzdHIpIC0+IHN0ciB8IE5vbmU6CiAgICBmb3IgaGludCBpbiBFUlJPUl9ISU5UUzoKICAgICAgICBpZiBoaW50Lmxvd2VyKCkgaW4gb3V0cHV0Lmxvd2VyKCk6CiAgICAgICAgICAgIGxpbmUgPSBuZXh0KChsLnN0cmlwKCkgZm9yIGwgaW4gb3V0cHV0LnNwbGl0bGluZXMoKSBpZiBoaW50Lmxvd2VyKCkgaW4gbC5sb3dlcigpKSwgaGludCkKICAgICAgICAgICAgcmV0dXJuIGxpbmVbOjE2MF0KICAgIHJldHVybiBOb25lCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDov57mjqXvvJpUZWxuZXTvvIjlpI3nlKggZU5TUCBjb25zb2xlIOWunueOsO+8iQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOi/nuaOpe+8mlRlbG5ldCBjb25zb2xlCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgphc3luYyBkZWYgZHJhaW5fY29uc29sZShjb25zb2xlLCBpZGxlOiBmbG9hdCA9IDAuMjUsIGxpbWl0OiBmbG9hdCA9IDEuMCkgLT4gaW50OgogICAgIiIi5riF5o6J6K6+5aSH5aSa5Y+R5Ye65p2l55qE5o+Q56S656ym44CCCgogICAg6YOo5YiGIFZSUCDniYjmnKzvvIjlpoIgQVIxMjIw77yJ5q+P5p2h5ZG95Luk5Lya5oqK5o+Q56S656ym5Zue5pi+5Lik5qyh77yM56ys5LqM5Liq5o+Q56S656ym6Iul55WZ5ZyoCiAgICDnvJPlhrLljLrph4zvvIzkuIvkuIDmnaHlkb3ku6TkvJrnq4vliLsi6K+75Yiw5o+Q56S656ymIuiAjOi/lOWbnuepuu+8jOWGjeS4i+S4gOadoeaJjeaLv+WIsOS4iuS4gOadoeeahOi+k+WHuu+8jAogICAg5pW05om55ZG95Luk5bCx5q2k6ZSZ5L2N5LiA5qC844CC5ZG95Luk5LmL6Ze05riF5LiA5qyh57yT5Yay5Y2z5Y+v5a+56b2Q44CCCiAgICAiIiIKICAgIGRyb3BwZWQgPSAwCiAgICBkZWFkbGluZSA9IHRpbWUubW9ub3RvbmljKCkgKyBsaW1pdAogICAgd2hpbGUgdGltZS5tb25vdG9uaWMoKSA8IGRlYWRsaW5lOgogICAgICAgIHRyeToKICAgICAgICAgICAgZGF0YSA9IGF3YWl0IGFzeW5jaW8ud2FpdF9mb3IoY29uc29sZS5yZWFkZXIucmVhZCg0MDk2KSwgdGltZW91dD1pZGxlKQogICAgICAgIGV4Y2VwdCBhc3luY2lvLlRpbWVvdXRFcnJvcjoKICAgICAgICAgICAgYnJlYWsKICAgICAgICBpZiBub3QgZGF0YToKICAgICAgICAgICAgYnJlYWsKICAgICAgICBkcm9wcGVkICs9IGxlbihkYXRhKQogICAgcmV0dXJuIGRyb3BwZWQKCgphc3luYyBkZWYgb3Blbl9jb25zb2xlKGhvc3Q6IHN0ciwgcG9ydDogaW50LCB1c2VybmFtZTogc3RyID0gIiIsIHBhc3N3b3JkOiBzdHIgPSAiIiwgdGltZW91dDogZmxvYXQgPSA4LjApOgogICAgZnJvbSBlbnNwX21jcC5jb25zb2xlIGltcG9ydCBDb25zb2xlCgogICAgY29uc29sZSA9IENvbnNvbGUoaG9zdD1ob3N0LCBwb3J0PWludChwb3J0KSkKICAgIGNyZWRlbnRpYWxzID0gKHVzZXJuYW1lLCBwYXNzd29yZCkgaWYgdXNlcm5hbWUgZWxzZSBOb25lCiAgICBhd2FpdCBjb25zb2xlLm9wZW4odGltZW91dD10aW1lb3V0LCBjcmVkZW50aWFscz1jcmVkZW50aWFscykKICAgIGF3YWl0IGRyYWluX2NvbnNvbGUoY29uc29sZSkKICAgIHRyeToKICAgICAgICBhd2FpdCBjb25zb2xlLmRpc2FibGVfcGFnaW5nKCkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcGFzcwogICAgYXdhaXQgZHJhaW5fY29uc29sZShjb25zb2xlKQogICAgcmV0dXJuIGNvbnNvbGUKCgphc3luYyBkZWYgY29uc29sZV9zZW5kKGNvbnNvbGUsIGNvbW1hbmQ6IHN0ciwgdGltZW91dDogZmxvYXQgfCBOb25lID0gTm9uZSkgLT4gc3RyOgogICAgb3V0cHV0ID0gYXdhaXQgY29uc29sZS5zZW5kKGNvbW1hbmQsIHRpbWVvdXQ9dGltZW91dCkgaWYgdGltZW91dCBlbHNlIGF3YWl0IGNvbnNvbGUuc2VuZChjb21tYW5kKQogICAgYXdhaXQgZHJhaW5fY29uc29sZShjb25zb2xlKQogICAgcmV0dXJuIG91dHB1dAoKCmFzeW5jIGRlZiBpbnNwZWN0X3RlbG5ldCgKICAgIGRldmljZTogZGljdCwgY29tbWFuZHM6IGxpc3Rbc3RyXSwgdXNlcm5hbWU6IHN0ciwgcGFzc3dvcmQ6IHN0ciwgdGltZW91dDogZmxvYXQKKSAtPiBkaWN0OgogICAgc3RhcnRlZCA9IHRpbWUubW9ub3RvbmljKCkKICAgIGNvbnNvbGUgPSBOb25lCiAgICByZXN1bHQgPSB7CiAgICAgICAgImRldmljZSI6IGRldmljZVsibmFtZSJdLAogICAgICAgICJob3N0IjogZGV2aWNlWyJob3N0Il0sCiAgICAgICAgInBvcnQiOiBkZXZpY2VbInBvcnQiXSwKICAgICAgICAicHJvdG9jb2wiOiAidGVsbmV0IiwKICAgICAgICAib2siOiBGYWxzZSwKICAgICAgICAiZXJyb3IiOiBOb25lLAogICAgICAgICJyYXciOiBbXSwKICAgIH0KICAgIHRyeToKICAgICAgICBjb25zb2xlID0gYXdhaXQgb3Blbl9jb25zb2xlKAogICAgICAgICAgICBkZXZpY2VbImhvc3QiXSwgZGV2aWNlWyJwb3J0Il0sIHVzZXJuYW1lLCBwYXNzd29yZCwgdGltZW91dD10aW1lb3V0CiAgICAgICAgKQogICAgICAgIHJhdyA9IFtdCiAgICAgICAgZm9yIGNvbW1hbmQgaW4gY29tbWFuZHM6CiAgICAgICAgICAgIHRleHQgPSBjb21tYW5kLnN0cmlwKCkKICAgICAgICAgICAgaWYgbm90IHRleHQgb3IgdGV4dC5zdGFydHN3aXRoKCIjIik6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBvdXRwdXQgPSBhd2FpdCBjb25zb2xlX3NlbmQoY29uc29sZSwgdGV4dCkKICAgICAgICAgICAgICAgIHJhdy5hcHBlbmQoeyJjb21tYW5kIjogdGV4dCwgIm91dHB1dCI6IG91dHB1dCwgImVycm9yIjogX2hhc19lcnJvcihvdXRwdXQpfSkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleGM6CiAgICAgICAgICAgICAgICBwYXJ0aWFsID0gZ2V0YXR0cihleGMsICJwYXJ0aWFsX291dHB1dCIsICIiKSBvciAiIgogICAgICAgICAgICAgICAgcmF3LmFwcGVuZCh7ImNvbW1hbmQiOiB0ZXh0LCAib3V0cHV0IjogcGFydGlhbCwgImVycm9yIjogc3RyKGV4Yyl9KQogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICByZXN1bHRbInJhdyJdID0gcmF3CiAgICAgICAgcmVzdWx0WyJvayJdID0gYW55KHIuZ2V0KCJvdXRwdXQiKSBmb3IgciBpbiByYXcpCiAgICAgICAgaWYgbm90IHJlc3VsdFsib2siXToKICAgICAgICAgICAgcmVzdWx0WyJlcnJvciJdID0gIuWRveS7pOayoeaciei/lOWbnuS7u+S9lei+k+WHuiIKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOgogICAgICAgIHJlc3VsdFsiZXJyb3IiXSA9IHN0cihleGMpCiAgICBmaW5hbGx5OgogICAgICAgIGlmIGNvbnNvbGUgaXMgbm90IE5vbmU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGF3YWl0IGNvbnNvbGUuY2xvc2UoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIHJlc3VsdFsiZWxhcHNlZE1zIl0gPSBtYXgoMSwgaW50KCh0aW1lLm1vbm90b25pYygpIC0gc3RhcnRlZCkgKiAxMDAwKSkKICAgIHJldHVybiByZXN1bHQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOi/nuaOpe+8mlNTSO+8iHBhcmFtaWtv77yJCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpkZWYgX3NzaF9yZWFkKGNoYW5uZWwsIGlkbGU6IGZsb2F0ID0gMC44LCBjYXA6IGZsb2F0ID0gMjAuMCkgLT4gc3RyOgogICAgY2h1bmtzOiBsaXN0W3N0cl0gPSBbXQogICAgc3RhcnQgPSB0aW1lLm1vbm90b25pYygpCiAgICBsYXN0ID0gdGltZS5tb25vdG9uaWMoKQogICAgd2hpbGUgdGltZS5tb25vdG9uaWMoKSAtIHN0YXJ0IDwgY2FwOgogICAgICAgIGlmIGNoYW5uZWwucmVjdl9yZWFkeSgpOgogICAgICAgICAgICBkYXRhID0gY2hhbm5lbC5yZWN2KDY1NTM1KQogICAgICAgICAgICBjaHVua3MuYXBwZW5kKGRhdGEuZGVjb2RlKCJ1dGYtOCIsICJyZXBsYWNlIikpCiAgICAgICAgICAgIGxhc3QgPSB0aW1lLm1vbm90b25pYygpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgaWYgdGltZS5tb25vdG9uaWMoKSAtIGxhc3QgPiBpZGxlOgogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgdGltZS5zbGVlcCgwLjEpCiAgICByZXR1cm4gIiIuam9pbihjaHVua3MpCgoKZGVmIGluc3BlY3Rfc3NoKAogICAgZGV2aWNlOiBkaWN0LCBjb21tYW5kczogbGlzdFtzdHJdLCB1c2VybmFtZTogc3RyLCBwYXNzd29yZDogc3RyLCB0aW1lb3V0OiBmbG9hdAopIC0+IGRpY3Q6CiAgICBpbXBvcnQgcGFyYW1pa28KCiAgICBzdGFydGVkID0gdGltZS5tb25vdG9uaWMoKQogICAgcmVzdWx0ID0gewogICAgICAgICJkZXZpY2UiOiBkZXZpY2VbIm5hbWUiXSwKICAgICAgICAiaG9zdCI6IGRldmljZVsiaG9zdCJdLAogICAgICAgICJwb3J0IjogZGV2aWNlWyJwb3J0Il0sCiAgICAgICAgInByb3RvY29sIjogInNzaCIsCiAgICAgICAgIm9rIjogRmFsc2UsCiAgICAgICAgImVycm9yIjogTm9uZSwKICAgICAgICAicmF3IjogW10sCiAgICB9CiAgICBjbGllbnQgPSBwYXJhbWlrby5TU0hDbGllbnQoKQogICAgY2xpZW50LnNldF9taXNzaW5nX2hvc3Rfa2V5X3BvbGljeShwYXJhbWlrby5BdXRvQWRkUG9saWN5KCkpCiAgICB0cnk6CiAgICAgICAgY2xpZW50LmNvbm5lY3QoCiAgICAgICAgICAgIGhvc3RuYW1lPWRldmljZVsiaG9zdCJdLAogICAgICAgICAgICBwb3J0PWludChkZXZpY2VbInBvcnQiXSksCiAgICAgICAgICAgIHVzZXJuYW1lPXVzZXJuYW1lIG9yICJhZG1pbiIsCiAgICAgICAgICAgIHBhc3N3b3JkPXBhc3N3b3JkIG9yICIiLAogICAgICAgICAgICB0aW1lb3V0PXRpbWVvdXQsCiAgICAgICAgICAgIGJhbm5lcl90aW1lb3V0PXRpbWVvdXQsCiAgICAgICAgICAgIGF1dGhfdGltZW91dD10aW1lb3V0LAogICAgICAgICAgICBsb29rX2Zvcl9rZXlzPUZhbHNlLAogICAgICAgICAgICBhbGxvd19hZ2VudD1GYWxzZSwKICAgICAgICApCiAgICAgICAgY2hhbm5lbCA9IGNsaWVudC5pbnZva2Vfc2hlbGwodGVybT0idnQxMDAiLCB3aWR0aD0yMDAsIGhlaWdodD0xMDAwKQogICAgICAgIHRpbWUuc2xlZXAoMC44KQogICAgICAgIF9zc2hfcmVhZChjaGFubmVsLCBpZGxlPTAuNiwgY2FwPTUpCiAgICAgICAgY2hhbm5lbC5zZW5kKCJzY3JlZW4tbGVuZ3RoIDAgdGVtcG9yYXJ5XG4iKQogICAgICAgIHRpbWUuc2xlZXAoMC40KQogICAgICAgIF9zc2hfcmVhZChjaGFubmVsLCBpZGxlPTAuNCwgY2FwPTMpCgogICAgICAgIHJhdyA9IFtdCiAgICAgICAgZm9yIGNvbW1hbmQgaW4gY29tbWFuZHM6CiAgICAgICAgICAgIHRleHQgPSBjb21tYW5kLnN0cmlwKCkKICAgICAgICAgICAgaWYgbm90IHRleHQgb3IgdGV4dC5zdGFydHN3aXRoKCIjIik6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjaGFubmVsLnNlbmQodGV4dCArICJcbiIpCiAgICAgICAgICAgIG91dHB1dCA9IF9zc2hfcmVhZChjaGFubmVsLCBpZGxlPTAuOSwgY2FwPXRpbWVvdXQpCiAgICAgICAgICAgIHJhdy5hcHBlbmQoCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgImNvbW1hbmQiOiB0ZXh0LAogICAgICAgICAgICAgICAgICAgICJvdXRwdXQiOiBvdXRwdXQsCiAgICAgICAgICAgICAgICAgICAgInZpZXciOiAidW5rbm93biIsCiAgICAgICAgICAgICAgICAgICAgImVycm9yIjogX2hhc19lcnJvcihvdXRwdXQpLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgcmVzdWx0WyJyYXciXSA9IHJhdwogICAgICAgIHJlc3VsdFsib2siXSA9IGFueShyLmdldCgib3V0cHV0IikgZm9yIHIgaW4gcmF3KQogICAgICAgIGlmIG5vdCByZXN1bHRbIm9rIl06CiAgICAgICAgICAgIHJlc3VsdFsiZXJyb3IiXSA9ICLlkb3ku6TmsqHmnInov5Tlm57ku7vkvZXovpPlh7oiCiAgICAgICAgY2hhbm5lbC5jbG9zZSgpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzoKICAgICAgICByZXN1bHRbImVycm9yIl0gPSBzdHIoZXhjKQogICAgZmluYWxseToKICAgICAgICB0cnk6CiAgICAgICAgICAgIGNsaWVudC5jbG9zZSgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgICAgIHJlc3VsdFsiZWxhcHNlZE1zIl0gPSBtYXgoMSwgaW50KCh0aW1lLm1vbm90b25pYygpIC0gc3RhcnRlZCkgKiAxMDAwKSkKICAgIHJldHVybiByZXN1bHQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOiwg+W6pgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKYXN5bmMgZGVmIHJ1bl9pbnNwZWN0aW9uKHBheWxvYWQ6IGRpY3QpIC0+IGRpY3Q6CiAgICBkZXZpY2VzID0gcGF5bG9hZC5nZXQoImRldmljZXMiKSBvciBbXQogICAgaWYgbm90IGRldmljZXM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigi5rKh5pyJ6KaB5beh5qOA55qE6K6+5aSHIikKCiAgICBjb21tYW5kcyA9IFtjLnN0cmlwKCkgZm9yIGMgaW4gKHBheWxvYWQuZ2V0KCJjb21tYW5kcyIpIG9yIERFRkFVTFRfQ09NTUFORFMpIGlmIGMgYW5kIGMuc3RyaXAoKV0KICAgIGlmIG5vdCBjb21tYW5kczoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCLlt6Hmo4Dlkb3ku6TkuI3og73kuLrnqboiKQoKICAgIHVzZXJuYW1lID0gcGF5bG9hZC5nZXQoInVzZXJuYW1lIikgb3IgIiIKICAgIHBhc3N3b3JkID0gcGF5bG9hZC5nZXQoInBhc3N3b3JkIikgb3IgIiIKICAgIHRpbWVvdXQgPSBmbG9hdChwYXlsb2FkLmdldCgidGltZW91dCIpIG9yIDIwKQogICAgY29uY3VycmVuY3kgPSBtYXgoMSwgbWluKDE2LCBpbnQocGF5bG9hZC5nZXQoImNvbmN1cnJlbmN5Iikgb3IgNCkpKQoKICAgIHNlbWFwaG9yZSA9IGFzeW5jaW8uU2VtYXBob3JlKGNvbmN1cnJlbmN5KQoKICAgIGFzeW5jIGRlZiBvbmUoZGV2aWNlOiBkaWN0KToKICAgICAgICBhc3luYyB3aXRoIHNlbWFwaG9yZToKICAgICAgICAgICAgcHJvdG8gPSAoZGV2aWNlLmdldCgicHJvdG9jb2wiKSBvciAidGVsbmV0IikubG93ZXIoKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBpZiBwcm90byA9PSAic3NoIjoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gYXdhaXQgYXN5bmNpby53YWl0X2ZvcigKICAgICAgICAgICAgICAgICAgICAgICAgYXN5bmNpby50b190aHJlYWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnNwZWN0X3NzaCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGV2aWNlLmdldCgidXNlcm5hbWUiKSBvciB1c2VybmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZS5nZXQoInBhc3N3b3JkIikgb3IgcGFzc3dvcmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW1lb3V0LAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICB0aW1lb3V0PXRpbWVvdXQgKiAobGVuKGNvbW1hbmRzKSArIDIpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHJldHVybiBhd2FpdCBhc3luY2lvLndhaXRfZm9yKAogICAgICAgICAgICAgICAgICAgIGluc3BlY3RfdGVsbmV0KAogICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2UsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLAogICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2UuZ2V0KCJ1c2VybmFtZSIpIG9yIHVzZXJuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2UuZ2V0KCJwYXNzd29yZCIpIG9yIHBhc3N3b3JkLAogICAgICAgICAgICAgICAgICAgICAgICB0aW1lb3V0LAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgdGltZW91dD10aW1lb3V0ICogKGxlbihjb21tYW5kcykgKyAyKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgZXhjZXB0IGFzeW5jaW8uVGltZW91dEVycm9yOgogICAgICAgICAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgICAgICAgICAiZGV2aWNlIjogZGV2aWNlLmdldCgibmFtZSIpLAogICAgICAgICAgICAgICAgICAgICJob3N0IjogZGV2aWNlLmdldCgiaG9zdCIpLAogICAgICAgICAgICAgICAgICAgICJwb3J0IjogZGV2aWNlLmdldCgicG9ydCIpLAogICAgICAgICAgICAgICAgICAgICJwcm90b2NvbCI6IHByb3RvLAogICAgICAgICAgICAgICAgICAgICJvayI6IEZhbHNlLAogICAgICAgICAgICAgICAgICAgICJlcnJvciI6ICLlt6Hmo4DotoXml7YiLAogICAgICAgICAgICAgICAgICAgICJyYXciOiBbXSwKICAgICAgICAgICAgICAgICAgICAiZWxhcHNlZE1zIjogaW50KHRpbWVvdXQgKiAobGVuKGNvbW1hbmRzKSArIDIpICogMTAwMCksCiAgICAgICAgICAgICAgICB9CgogICAgcmF3X3Jlc3VsdHMgPSBhd2FpdCBhc3luY2lvLmdhdGhlcigqKG9uZShkKSBmb3IgZCBpbiBkZXZpY2VzKSkKCiAgICBmb3IgaXRlbSBpbiByYXdfcmVzdWx0czoKICAgICAgICBpdGVtWyJtZXRyaWNzIl0gPSBidWlsZF9tZXRyaWNzKGl0ZW0uZ2V0KCJyYXciKSBvciBbXSkKICAgICAgICBsZXZlbHMgPSBbbVsibGV2ZWwiXSBmb3IgbSBpbiBpdGVtWyJtZXRyaWNzIl1dCiAgICAgICAgaXRlbVsid2FybkNvdW50Il0gPSBsZXZlbHMuY291bnQoIndhcm4iKQogICAgICAgIGl0ZW1bImNyaXRDb3VudCJdID0gbGV2ZWxzLmNvdW50KCJjcml0IikKCiAgICBvayA9IHN1bSgxIGZvciByIGluIHJhd19yZXN1bHRzIGlmIHJbIm9rIl0pCiAgICBmaW5pc2hlZCA9IGRhdGV0aW1lLm5vdygpLmFzdGltZXpvbmUoKQoKICAgIHJldHVybiB7CiAgICAgICAgIm9rIjogVHJ1ZSwKICAgICAgICAiZmluaXNoZWRBdCI6IGZpbmlzaGVkLmlzb2Zvcm1hdCh0aW1lc3BlYz0ic2Vjb25kcyIpLAogICAgICAgICJkZXZpY2VzIjogcmF3X3Jlc3VsdHMsCiAgICAgICAgInN1bW1hcnkiOiB7CiAgICAgICAgICAgICJ0b3RhbCI6IGxlbihyYXdfcmVzdWx0cyksCiAgICAgICAgICAgICJzdWNjZWVkZWQiOiBvaywKICAgICAgICAgICAgImZhaWxlZCI6IGxlbihyYXdfcmVzdWx0cykgLSBvaywKICAgICAgICAgICAgIndhcm5Db3VudCI6IHN1bShyWyJ3YXJuQ291bnQiXSBmb3IgciBpbiByYXdfcmVzdWx0cyksCiAgICAgICAgICAgICJjcml0Q291bnQiOiBzdW0oclsiY3JpdENvdW50Il0gZm9yIHIgaW4gcmF3X3Jlc3VsdHMpLAogICAgICAgIH0sCiAgICAgICAgImNvbW1hbmRzIjogY29tbWFuZHMsCiAgICB9CgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDlr7zlh7oKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KClNVTU1BUllfQ09MVU1OUyA9IFsKICAgICgiZGV2aWNlIiwgIuiuvuWkhyIpLAogICAgKCJhZGRyZXNzIiwgIuWcsOWdgCIpLAogICAgKCJwcm90b2NvbCIsICLljY/orq4iKSwKICAgICgic3RhdHVzIiwgIueKtuaAgSIpLAogICAgKCJjcHUiLCAiQ1BVKCUpIiksCiAgICAoIm1lbW9yeSIsICLlhoXlrZgoJSkiKSwKICAgICgidGVtcGVyYXR1cmUiLCAi5rip5bqmKOKEgykiKSwKICAgICgicnhfcG93ZXIiLCAi5pS25YWJKGRCbSkiKSwKICAgICgidHhfcG93ZXIiLCAi5Y+R5YWJKGRCbSkiKSwKICAgICgiaWZfdXAiLCAi5o6l5Y+jVVAiKSwKICAgICgiaWZfZG93biIsICLmjqXlj6NET1dOIiksCiAgICAoIm1vZGVsIiwgIuWei+WPtyIpLAogICAgKCJ1cHRpbWUiLCAi6L+Q6KGM5pe26ZW/IiksCiAgICAoImVsYXBzZWRNcyIsICLogJfml7YobXMpIiksCiAgICAoImVycm9yIiwgIumUmeivryIpLApdCgoKZGVmIF9mbXQodmFsdWU6IEFueSkgLT4gQW55OgogICAgIiIi5pW05pWw5YC855qE5rWu54K55Y675o6JIC4w77yM5a+85Ye65YiwIENTViDml7bmm7TlubLlh4DjgIIiIiIKICAgIGlmIHZhbHVlIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuICIiCiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBmbG9hdCkgYW5kIHZhbHVlLmlzX2ludGVnZXIoKToKICAgICAgICByZXR1cm4gaW50KHZhbHVlKQogICAgcmV0dXJuIHZhbHVlCgoKZGVmIHRvX3N1bW1hcnlfcm93cyhyZXN1bHQ6IGRpY3QpIC0+IGxpc3RbbGlzdFtBbnldXToKICAgIHJvd3MgPSBbXQogICAgZm9yIGl0ZW0gaW4gcmVzdWx0LmdldCgiZGV2aWNlcyIpIG9yIFtdOgogICAgICAgIG1ldHJpY19tYXAgPSB7bVsia2V5Il06IG0gZm9yIG0gaW4gaXRlbS5nZXQoIm1ldHJpY3MiKSBvciBbXX0KICAgICAgICByb3cgPSBbXQogICAgICAgIGZvciBrZXksIF9sYWJlbCBpbiBTVU1NQVJZX0NPTFVNTlM6CiAgICAgICAgICAgIGlmIGtleSA9PSAiYWRkcmVzcyI6CiAgICAgICAgICAgICAgICByb3cuYXBwZW5kKGYie2l0ZW0uZ2V0KCdob3N0Jyl9OntpdGVtLmdldCgncG9ydCcpfSIpCiAgICAgICAgICAgIGVsaWYga2V5ID09ICJzdGF0dXMiOgogICAgICAgICAgICAgICAgcm93LmFwcGVuZCgi5oiQ5YqfIiBpZiBpdGVtLmdldCgib2siKSBlbHNlICLlpLHotKUiKQogICAgICAgICAgICBlbGlmIGtleSA9PSAiZXJyb3IiOgogICAgICAgICAgICAgICAgcm93LmFwcGVuZChpdGVtLmdldCgiZXJyb3IiKSBvciAiIikKICAgICAgICAgICAgZWxpZiBrZXkgPT0gImVsYXBzZWRNcyI6CiAgICAgICAgICAgICAgICByb3cuYXBwZW5kKGl0ZW0uZ2V0KCJlbGFwc2VkTXMiKSBvciAiIikKICAgICAgICAgICAgZWxpZiBrZXkgPT0gInByb3RvY29sIjoKICAgICAgICAgICAgICAgIHJvdy5hcHBlbmQoaXRlbS5nZXQoInByb3RvY29sIikgb3IgIiIpCiAgICAgICAgICAgIGVsaWYga2V5ID09ICJkZXZpY2UiOgogICAgICAgICAgICAgICAgcm93LmFwcGVuZChpdGVtLmdldCgiZGV2aWNlIikgb3IgIiIpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBtZXRyaWMgPSBtZXRyaWNfbWFwLmdldChrZXkpCiAgICAgICAgICAgICAgICByb3cuYXBwZW5kKF9mbXQobWV0cmljLmdldCgidmFsdWUiKSBpZiBtZXRyaWMgZWxzZSBOb25lKSkKICAgICAgICByb3dzLmFwcGVuZChyb3cpCiAgICByZXR1cm4gcm93cwoKCmRlZiB0b19kZXRhaWxfcm93cyhyZXN1bHQ6IGRpY3QpIC0+IGxpc3RbbGlzdFtBbnldXToKICAgIHJvd3MgPSBbXQogICAgZm9yIGl0ZW0gaW4gcmVzdWx0LmdldCgiZGV2aWNlcyIpIG9yIFtdOgogICAgICAgIGZvciBtZXRyaWMgaW4gaXRlbS5nZXQoIm1ldHJpY3MiKSBvciBbXToKICAgICAgICAgICAgcm93cy5hcHBlbmQoCiAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgaXRlbS5nZXQoImRldmljZSIpIG9yICIiLAogICAgICAgICAgICAgICAgICAgIGYie2l0ZW0uZ2V0KCdob3N0Jyl9OntpdGVtLmdldCgncG9ydCcpfSIsCiAgICAgICAgICAgICAgICAgICAgbWV0cmljLmdldCgibGFiZWwiKSBvciAiIiwKICAgICAgICAgICAgICAgICAgICBfZm10KG1ldHJpYy5nZXQoInZhbHVlIikpLAogICAgICAgICAgICAgICAgICAgIG1ldHJpYy5nZXQoInVuaXQiKSBvciAiIiwKICAgICAgICAgICAgICAgICAgICB7Im9rIjogIuato+W4uCIsICJ3YXJuIjogIuitpuWRiiIsICJjcml0IjogIuW8guW4uCIsICJuYSI6ICLigJQifS5nZXQobWV0cmljLmdldCgibGV2ZWwiKSwgIiIpLAogICAgICAgICAgICAgICAgXQogICAgICAgICAgICApCiAgICByZXR1cm4gcm93cwo=
+"""设备自动化巡检：SSH / Telnet 采集，并把 display 输出解析成结构化指标。
+
+指标解析只依赖正则与行结构，不猜语义；解析不到就返回 None，原始输出始终保留。
+"""
+
+from __future__ import annotations
+
+import asyncio
+import re
+import time
+from datetime import datetime
+from typing import Any, Callable
+
+DEFAULT_COMMANDS = [
+    "display version",
+    "display cpu-usage",
+    "display memory-usage",
+    "display interface brief",
+    "display transceiver diagnosis interface",
+]
+
+ERROR_HINTS = ("Error:", "Unrecognized command", "Wrong parameter", "Incomplete command", "Too many parameters")
+
+
+# ---------------------------------------------------------------------------
+# 解析工具
+# ---------------------------------------------------------------------------
+
+def _search(patterns: list[str], text: str) -> str | None:
+    for pattern in patterns:
+        m = re.search(pattern, text, re.I | re.M)
+        if m:
+            return m.group(1)
+    return None
+
+
+def _num(value: str | None) -> float | None:
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def parse_cpu(output: str) -> float | None:
+    raw = _search(
+        [
+            r"CPU Usage\s*:\s*(\d+(?:\.\d+)?)\s*%",
+            r"cpu-usage\s*:\s*(\d+(?:\.\d+)?)\s*%",
+            r"CPU utilization for five seconds:\s*(\d+(?:\.\d+)?)%",
+        ],
+        output,
+    )
+    return _num(raw)
+
+
+def parse_memory(output: str) -> float | None:
+    raw = _search(
+        [
+            r"Memory Using Percentage Is:\s*(\d+(?:\.\d+)?)%",
+            r"Memory Usage\s*:\s*(\d+(?:\.\d+)?)\s*%",
+            r"memory-usage\s*:\s*(\d+(?:\.\d+)?)\s*%",
+            # 表格格式：System Total Memory(KB)  524288  262144  262144  50%
+            r"System Total Memory[^\n]*?(\d+(?:\.\d+)?)\s*%",
+        ],
+        output,
+    )
+    return _num(raw)
+
+
+def parse_temperature(output: str) -> float | None:
+    raw = _search(
+        [
+            r"Temperature\s*:\s*(\d+(?:\.\d+)?)",
+            r"Temperature\(Celsius\)\s*:\s*(\d+(?:\.\d+)?)",
+            r"(\d+(?:\.\d+)?)\s*℃",
+        ],
+        output,
+    )
+    return _num(raw)
+
+
+def _transceiver_table(output: str) -> tuple[float | None, float | None]:
+    """表格式：表头 RX power / TX power 下列出数字。"""
+    lines = [l.rstrip() for l in output.splitlines()]
+    for idx, line in enumerate(lines):
+        if not re.search(r"RX\s*power", line, re.I):
+            continue
+        header = line.lower()
+        for follow in lines[idx + 1: idx + 4]:
+            if not follow.strip():
+                continue
+            numbers = re.findall(r"-?\d+(?:\.\d+)?", follow)
+            if len(numbers) < 3:
+                continue
+            columns = [c.strip() for c in re.split(r"\s{2,}", header.strip()) if c.strip()]
+            rx_idx = tx_idx = None
+            for pos, name in enumerate(columns):
+                if "rx" in name:
+                    rx_idx = pos
+                elif "tx" in name:
+                    tx_idx = pos
+            if rx_idx is not None and rx_idx < len(numbers):
+                rx = _num(numbers[rx_idx])
+                tx = _num(numbers[tx_idx]) if tx_idx is not None and tx_idx < len(numbers) else None
+                return rx, tx
+            if len(numbers) >= 5:
+                return _num(numbers[3]), _num(numbers[4])
+            break
+    return None, None
+
+
+def parse_transceiver(output: str) -> tuple[float | None, float | None]:
+    rx = _num(_search([r"RX\s*Power\s*(?:\(dBM\))?\s*:\s*(-?\d+(?:\.\d+)?)"], output))
+    tx = _num(_search([r"TX\s*Power\s*(?:\(dBM\))?\s*:\s*(-?\d+(?:\.\d+)?)"], output))
+    if rx is None or tx is None:
+        table_rx, table_tx = _transceiver_table(output)
+        rx = rx if rx is not None else table_rx
+        tx = tx if tx is not None else table_tx
+    return rx, tx
+
+
+def parse_interfaces(output: str) -> tuple[int | None, int | None]:
+    up = down = 0
+    seen = False
+    for line in output.splitlines():
+        parts = line.split()
+        if len(parts) < 3:
+            continue
+        if not re.match(r"^(GigabitEthernet|XGigabitEthernet|Ethernet|FastEthernet|Vlanif|LoopBack|GE\d)", parts[0], re.I):
+            continue
+        phy = parts[1].lower().lstrip("*")
+        seen = True
+        if phy == "up":
+            up += 1
+        elif phy in ("down", "off", "administratively"):
+            down += 1
+    return (up, down) if seen else (None, None)
+
+
+def parse_version(output: str) -> dict:
+    model = _search([r"VRP \(R\) software, Version [\d.]+ \(([^)]+)\)"], output)
+    version = _search([r"VRP \(R\) software, Version ([\d.]+)"], output)
+    uptime = _search([r"uptime is (.+)"], output)
+    return {"model": model, "version": version, "uptime": uptime}
+
+
+# ---------------------------------------------------------------------------
+# 指标定义
+# ---------------------------------------------------------------------------
+
+def _level_high(value: float | None, warn: float, crit: float) -> str:
+    if value is None:
+        return "na"
+    if value >= crit:
+        return "crit"
+    if value >= warn:
+        return "warn"
+    return "ok"
+
+
+def _level_low(value: float | None, warn: float, crit: float) -> str:
+    if value is None:
+        return "na"
+    if value <= crit:
+        return "crit"
+    if value <= warn:
+        return "warn"
+    return "ok"
+
+
+def build_metrics(raw_results: list[dict]) -> list[dict]:
+    """把原始命令回显转成指标列表。"""
+    by_command = {r["command"]: r.get("output") or "" for r in raw_results}
+    joined = "\n".join(by_command.values())
+
+    cpu_output = by_command.get("display cpu-usage", "")
+    mem_output = by_command.get("display memory-usage", "")
+    if_output = by_command.get("display interface brief", "")
+    trans_output = by_command.get("display transceiver diagnosis interface", "") or by_command.get(
+        "display transceiver interface", ""
+    )
+    ver_output = by_command.get("display version", "")
+
+    metrics: list[dict] = []
+
+    cpu = parse_cpu(cpu_output)
+    metrics.append(
+        {
+            "key": "cpu",
+            "label": "CPU 使用率",
+            "value": cpu,
+            "unit": "%",
+            "level": _level_high(cpu, 70, 90),
+            "command": "display cpu-usage",
+        }
+    )
+
+    mem = parse_memory(mem_output)
+    metrics.append(
+        {
+            "key": "memory",
+            "label": "内存使用率",
+            "value": mem,
+            "unit": "%",
+            "level": _level_high(mem, 75, 90),
+            "command": "display memory-usage",
+        }
+    )
+
+    temp = parse_temperature(joined) if re.search(r"temperature", joined, re.I) else parse_temperature(ver_output)
+    metrics.append(
+        {
+            "key": "temperature",
+            "label": "温度",
+            "value": temp,
+            "unit": "℃",
+            "level": _level_high(temp, 60, 75),
+            "command": "display temperature",
+        }
+    )
+
+    rx, tx = parse_transceiver(trans_output)
+    metrics.append(
+        {
+            "key": "rx_power",
+            "label": "光模块收光",
+            "value": rx,
+            "unit": "dBm",
+            "level": _level_low(rx, -20, -25),
+            "command": "display transceiver diagnosis interface",
+        }
+    )
+    metrics.append(
+        {
+            "key": "tx_power",
+            "label": "光模块发光",
+            "value": tx,
+            "unit": "dBm",
+            "level": "ok" if tx is not None else "na",
+            "command": "display transceiver diagnosis interface",
+        }
+    )
+
+    up, down = parse_interfaces(if_output)
+    metrics.append(
+        {
+            "key": "if_up",
+            "label": "接口 UP",
+            "value": up,
+            "unit": "个",
+            "level": "ok" if up else "na",
+            "command": "display interface brief",
+        }
+    )
+    metrics.append(
+        {
+            "key": "if_down",
+            "label": "接口 DOWN",
+            "value": down,
+            "unit": "个",
+            # 接入口有 down 属常态，只作信息展示，不参与告警统计
+            "level": "na",
+            "command": "display interface brief",
+        }
+    )
+
+    info = parse_version(ver_output)
+    for key, label in (("model", "设备型号"), ("version", "软件版本"), ("uptime", "运行时长")):
+        metrics.append(
+            {
+                "key": key,
+                "label": label,
+                "value": info.get(key),
+                "unit": "",
+                "level": "na",
+                "command": "display version",
+                "text": True,
+            }
+        )
+
+    return metrics
+
+
+def _has_error(output: str) -> str | None:
+    for hint in ERROR_HINTS:
+        if hint.lower() in output.lower():
+            line = next((l.strip() for l in output.splitlines() if hint.lower() in l.lower()), hint)
+            return line[:160]
+    return None
+
+
+# ---------------------------------------------------------------------------
+# 连接：Telnet（复用 eNSP console 实现）
+# ---------------------------------------------------------------------------
+# 连接：Telnet console
+# ---------------------------------------------------------------------------
+
+async def drain_console(console, idle: float = 0.25, limit: float = 1.0) -> int:
+    """清掉设备多发出来的提示符。
+
+    部分 VRP 版本（如 AR1220）每条命令会把提示符回显两次，第二个提示符若留在
+    缓冲区里，下一条命令会立刻"读到提示符"而返回空，再下一条才拿到上一条的输出，
+    整批命令就此错位一格。命令之间清一次缓冲即可对齐。
+    """
+    dropped = 0
+    deadline = time.monotonic() + limit
+    while time.monotonic() < deadline:
+        try:
+            data = await asyncio.wait_for(console.reader.read(4096), timeout=idle)
+        except asyncio.TimeoutError:
+            break
+        if not data:
+            break
+        dropped += len(data)
+    return dropped
+
+
+async def open_console(host: str, port: int, username: str = "", password: str = "", timeout: float = 8.0):
+    from ensp_mcp.console import Console
+
+    console = Console(host=host, port=int(port))
+    credentials = (username, password) if username else None
+    await console.open(timeout=timeout, credentials=credentials)
+    await drain_console(console)
+    try:
+        await console.disable_paging()
+    except Exception:
+        pass
+    await drain_console(console)
+    return console
+
+
+async def console_send(console, command: str, timeout: float | None = None) -> str:
+    output = await console.send(command, timeout=timeout) if timeout else await console.send(command)
+    await drain_console(console)
+    return output
+
+
+async def inspect_telnet(
+    device: dict, commands: list[str], username: str, password: str, timeout: float
+) -> dict:
+    started = time.monotonic()
+    console = None
+    result = {
+        "device": device["name"],
+        "host": device["host"],
+        "port": device["port"],
+        "protocol": "telnet",
+        "ok": False,
+        "error": None,
+        "raw": [],
+    }
+    try:
+        console = await open_console(
+            device["host"], device["port"], username, password, timeout=timeout
+        )
+        raw = []
+        for command in commands:
+            text = command.strip()
+            if not text or text.startswith("#"):
+                continue
+            try:
+                output = await console_send(console, text)
+                raw.append({"command": text, "output": output, "error": _has_error(output)})
+            except Exception as exc:
+                partial = getattr(exc, "partial_output", "") or ""
+                raw.append({"command": text, "output": partial, "error": str(exc)})
+                break
+        result["raw"] = raw
+        result["ok"] = any(r.get("output") for r in raw)
+        if not result["ok"]:
+            result["error"] = "命令没有返回任何输出"
+    except Exception as exc:
+        result["error"] = str(exc)
+    finally:
+        if console is not None:
+            try:
+                await console.close()
+            except Exception:
+                pass
+        result["elapsedMs"] = max(1, int((time.monotonic() - started) * 1000))
+    return result
+
+
+# ---------------------------------------------------------------------------
+# 连接：SSH（paramiko）
+# ---------------------------------------------------------------------------
+
+def _ssh_read(channel, idle: float = 0.8, cap: float = 20.0) -> str:
+    chunks: list[str] = []
+    start = time.monotonic()
+    last = time.monotonic()
+    while time.monotonic() - start < cap:
+        if channel.recv_ready():
+            data = channel.recv(65535)
+            chunks.append(data.decode("utf-8", "replace"))
+            last = time.monotonic()
+        else:
+            if time.monotonic() - last > idle:
+                break
+            time.sleep(0.1)
+    return "".join(chunks)
+
+
+def inspect_ssh(
+    device: dict, commands: list[str], username: str, password: str, timeout: float
+) -> dict:
+    import paramiko
+
+    started = time.monotonic()
+    result = {
+        "device": device["name"],
+        "host": device["host"],
+        "port": device["port"],
+        "protocol": "ssh",
+        "ok": False,
+        "error": None,
+        "raw": [],
+    }
+    client = paramiko.SSHClient()
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    try:
+        client.connect(
+            hostname=device["host"],
+            port=int(device["port"]),
+            username=username or "admin",
+            password=password or "",
+            timeout=timeout,
+            banner_timeout=timeout,
+            auth_timeout=timeout,
+            look_for_keys=False,
+            allow_agent=False,
+        )
+        channel = client.invoke_shell(term="vt100", width=200, height=1000)
+        time.sleep(0.8)
+        _ssh_read(channel, idle=0.6, cap=5)
+        channel.send("screen-length 0 temporary\n")
+        time.sleep(0.4)
+        _ssh_read(channel, idle=0.4, cap=3)
+
+        raw = []
+        for command in commands:
+            text = command.strip()
+            if not text or text.startswith("#"):
+                continue
+            channel.send(text + "\n")
+            output = _ssh_read(channel, idle=0.9, cap=timeout)
+            raw.append(
+                {
+                    "command": text,
+                    "output": output,
+                    "view": "unknown",
+                    "error": _has_error(output),
+                }
+            )
+        result["raw"] = raw
+        result["ok"] = any(r.get("output") for r in raw)
+        if not result["ok"]:
+            result["error"] = "命令没有返回任何输出"
+        channel.close()
+    except Exception as exc:
+        result["error"] = str(exc)
+    finally:
+        try:
+            client.close()
+        except Exception:
+            pass
+        result["elapsedMs"] = max(1, int((time.monotonic() - started) * 1000))
+    return result
+
+
+# ---------------------------------------------------------------------------
+# 调度
+# ---------------------------------------------------------------------------
+
+async def run_inspection(payload: dict) -> dict:
+    devices = payload.get("devices") or []
+    if not devices:
+        raise ValueError("没有要巡检的设备")
+
+    commands = [c.strip() for c in (payload.get("commands") or DEFAULT_COMMANDS) if c and c.strip()]
+    if not commands:
+        raise ValueError("巡检命令不能为空")
+
+    username = payload.get("username") or ""
+    password = payload.get("password") or ""
+    timeout = float(payload.get("timeout") or 20)
+    concurrency = max(1, min(16, int(payload.get("concurrency") or 4)))
+
+    semaphore = asyncio.Semaphore(concurrency)
+
+    async def one(device: dict):
+        async with semaphore:
+            proto = (device.get("protocol") or "telnet").lower()
+            try:
+                if proto == "ssh":
+                    return await asyncio.wait_for(
+                        asyncio.to_thread(
+                            inspect_ssh,
+                            device,
+                            commands,
+                            device.get("username") or username,
+                            device.get("password") or password,
+                            timeout,
+                        ),
+                        timeout=timeout * (len(commands) + 2),
+                    )
+                return await asyncio.wait_for(
+                    inspect_telnet(
+                        device,
+                        commands,
+                        device.get("username") or username,
+                        device.get("password") or password,
+                        timeout,
+                    ),
+                    timeout=timeout * (len(commands) + 2),
+                )
+            except asyncio.TimeoutError:
+                return {
+                    "device": device.get("name"),
+                    "host": device.get("host"),
+                    "port": device.get("port"),
+                    "protocol": proto,
+                    "ok": False,
+                    "error": "巡检超时",
+                    "raw": [],
+                    "elapsedMs": int(timeout * (len(commands) + 2) * 1000),
+                }
+
+    raw_results = await asyncio.gather(*(one(d) for d in devices))
+
+    for item in raw_results:
+        item["metrics"] = build_metrics(item.get("raw") or [])
+        levels = [m["level"] for m in item["metrics"]]
+        item["warnCount"] = levels.count("warn")
+        item["critCount"] = levels.count("crit")
+
+    ok = sum(1 for r in raw_results if r["ok"])
+    finished = datetime.now().astimezone()
+
+    return {
+        "ok": True,
+        "finishedAt": finished.isoformat(timespec="seconds"),
+        "devices": raw_results,
+        "summary": {
+            "total": len(raw_results),
+            "succeeded": ok,
+            "failed": len(raw_results) - ok,
+            "warnCount": sum(r["warnCount"] for r in raw_results),
+            "critCount": sum(r["critCount"] for r in raw_results),
+        },
+        "commands": commands,
+    }
+
+
+# ---------------------------------------------------------------------------
+# 导出
+# ---------------------------------------------------------------------------
+
+SUMMARY_COLUMNS = [
+    ("device", "设备"),
+    ("address", "地址"),
+    ("protocol", "协议"),
+    ("status", "状态"),
+    ("cpu", "CPU(%)"),
+    ("memory", "内存(%)"),
+    ("temperature", "温度(℃)"),
+    ("rx_power", "收光(dBm)"),
+    ("tx_power", "发光(dBm)"),
+    ("if_up", "接口UP"),
+    ("if_down", "接口DOWN"),
+    ("model", "型号"),
+    ("uptime", "运行时长"),
+    ("elapsedMs", "耗时(ms)"),
+    ("error", "错误"),
+]
+
+
+def _fmt(value: Any) -> Any:
+    """整数值的浮点去掉 .0，导出到 CSV 时更干净。"""
+    if value is None:
+        return ""
+    if isinstance(value, float) and value.is_integer():
+        return int(value)
+    return value
+
+
+def to_summary_rows(result: dict) -> list[list[Any]]:
+    rows = []
+    for item in result.get("devices") or []:
+        metric_map = {m["key"]: m for m in item.get("metrics") or []}
+        row = []
+        for key, _label in SUMMARY_COLUMNS:
+            if key == "address":
+                row.append(f"{item.get('host')}:{item.get('port')}")
+            elif key == "status":
+                row.append("成功" if item.get("ok") else "失败")
+            elif key == "error":
+                row.append(item.get("error") or "")
+            elif key == "elapsedMs":
+                row.append(item.get("elapsedMs") or "")
+            elif key == "protocol":
+                row.append(item.get("protocol") or "")
+            elif key == "device":
+                row.append(item.get("device") or "")
+            else:
+                metric = metric_map.get(key)
+                row.append(_fmt(metric.get("value") if metric else None))
+        rows.append(row)
+    return rows
+
+
+def to_detail_rows(result: dict) -> list[list[Any]]:
+    rows = []
+    for item in result.get("devices") or []:
+        for metric in item.get("metrics") or []:
+            rows.append(
+                [
+                    item.get("device") or "",
+                    f"{item.get('host')}:{item.get('port')}",
+                    metric.get("label") or "",
+                    _fmt(metric.get("value")),
+                    metric.get("unit") or "",
+                    {"ok": "正常", "warn": "警告", "crit": "异常", "na": "—"}.get(metric.get("level"), ""),
+                ]
+            )
+    return rows

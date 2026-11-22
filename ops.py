@@ -1,1 +1,301 @@
-IiIi6YWN572u6L+Q57u077ya5om56YeP5aSH5Lu96YWN572u44CB6YWN572u5beu5byC5a+55q+U44CB6K6+5aSH6Ze06L+e6YCa5oCn55+p6Zi144CCIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXN5bmNpbwppbXBvcnQgZGlmZmxpYgppbXBvcnQgcmUKaW1wb3J0IHRpbWUKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudApCQUNLVVBfRElSID0gUk9PVCAvICJkYXRhIiAvICJiYWNrdXBzIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMg6K6+5aSH6L+e5o6lCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgphc3luYyBkZWYgX29wZW5fY29uc29sZShob3N0OiBzdHIsIHBvcnQ6IGludCwgdXNlcm5hbWU6IHN0ciwgcGFzc3dvcmQ6IHN0ciwgdGltZW91dDogZmxvYXQgPSA4LjApOgogICAgZnJvbSBwYXRyb2wgaW1wb3J0IG9wZW5fY29uc29sZQoKICAgIHJldHVybiBhd2FpdCBvcGVuX2NvbnNvbGUoaG9zdCwgcG9ydCwgdXNlcm5hbWUsIHBhc3N3b3JkLCB0aW1lb3V0PXRpbWVvdXQpCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDphY3nva7lpIfku70KIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmFzeW5jIGRlZiBfYmFja3VwX29uZShkZXZpY2U6IGRpY3QsIHVzZXJuYW1lOiBzdHIsIHBhc3N3b3JkOiBzdHIsIHRpbWVvdXQ6IGZsb2F0KSAtPiBkaWN0OgogICAgZnJvbSBwYXRyb2wgaW1wb3J0IGNvbnNvbGVfc2VuZAoKICAgIHN0YXJ0ZWQgPSB0aW1lLm1vbm90b25pYygpCiAgICByZXN1bHQgPSB7CiAgICAgICAgImRldmljZSI6IGRldmljZS5nZXQoIm5hbWUiKSwKICAgICAgICAiaG9zdCI6IGRldmljZS5nZXQoImhvc3QiKSwKICAgICAgICAicG9ydCI6IGRldmljZS5nZXQoInBvcnQiKSwKICAgICAgICAib2siOiBGYWxzZSwKICAgICAgICAiZXJyb3IiOiBOb25lLAogICAgICAgICJjb25maWciOiAiIiwKICAgIH0KICAgIGNvbnNvbGUgPSBOb25lCiAgICB0cnk6CiAgICAgICAgY29uc29sZSA9IGF3YWl0IF9vcGVuX2NvbnNvbGUoZGV2aWNlWyJob3N0Il0sIGRldmljZVsicG9ydCJdLCB1c2VybmFtZSwgcGFzc3dvcmQpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBhd2FpdCBjb25zb2xlLnRvX3VzZXJfdmlldygpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgICAgIHRleHQgPSBhd2FpdCBjb25zb2xlX3NlbmQoY29uc29sZSwgImRpc3BsYXkgY3VycmVudC1jb25maWd1cmF0aW9uIiwgdGltZW91dCkKICAgICAgICByZXN1bHRbImNvbmZpZyJdID0gdGV4dCBvciAiIgogICAgICAgIHJlc3VsdFsib2siXSA9IGJvb2wocmVzdWx0WyJjb25maWciXS5zdHJpcCgpKQogICAgICAgIGlmIG5vdCByZXN1bHRbIm9rIl06CiAgICAgICAgICAgIHJlc3VsdFsiZXJyb3IiXSA9ICLmsqHmnInlj5bliLDphY3nva7lhoXlrrkiCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzoKICAgICAgICByZXN1bHRbImVycm9yIl0gPSBzdHIoZXhjKQogICAgZmluYWxseToKICAgICAgICBpZiBjb25zb2xlIGlzIG5vdCBOb25lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBhd2FpdCBjb25zb2xlLmNsb3NlKCkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICByZXN1bHRbImVsYXBzZWRNcyJdID0gbWF4KDEsIGludCgodGltZS5tb25vdG9uaWMoKSAtIHN0YXJ0ZWQpICogMTAwMCkpCiAgICByZXR1cm4gcmVzdWx0CgoKYXN5bmMgZGVmIHJ1bl9iYWNrdXAoCiAgICBkZXZpY2VzOiBsaXN0W2RpY3RdLCB1c2VybmFtZTogc3RyID0gIiIsIHBhc3N3b3JkOiBzdHIgPSAiIiwgY29uY3VycmVuY3k6IGludCA9IDQKKSAtPiBkaWN0OgogICAgaWYgbm90IGRldmljZXM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigi5rKh5pyJ6KaB5aSH5Lu955qE6K6+5aSHIikKCiAgICBjb25jdXJyZW5jeSA9IG1heCgxLCBtaW4oOCwgaW50KGNvbmN1cnJlbmN5KSkpCiAgICBzZW1hcGhvcmUgPSBhc3luY2lvLlNlbWFwaG9yZShjb25jdXJyZW5jeSkKCiAgICBhc3luYyBkZWYgb25lKGRldjogZGljdCk6CiAgICAgICAgYXN5bmMgd2l0aCBzZW1hcGhvcmU6CiAgICAgICAgICAgIHJldHVybiBhd2FpdCBfYmFja3VwX29uZShkZXYsIHVzZXJuYW1lLCBwYXNzd29yZCwgNDUpCgogICAgcmVzdWx0cyA9IGF3YWl0IGFzeW5jaW8uZ2F0aGVyKCoob25lKGQpIGZvciBkIGluIGRldmljZXMpKQoKICAgIHN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZC0lSCVNJVMiKQogICAgZm9sZGVyID0gQkFDS1VQX0RJUiAvIHN0YW1wCiAgICBmb2xkZXIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQoKICAgIHNhdmVkID0gW10KICAgIGZvciBpdGVtIGluIHJlc3VsdHM6CiAgICAgICAgaWYgbm90IGl0ZW1bIm9rIl06CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgbmFtZSA9IHJlLnN1YihyIlteXHdcLS5dKyIsICJfIiwgc3RyKGl0ZW1bImRldmljZSJdIG9yICJkZXZpY2UiKSkKICAgICAgICBwYXRoID0gZm9sZGVyIC8gZiJ7bmFtZX0uY2ZnIgogICAgICAgIHRyeToKICAgICAgICAgICAgcGF0aC53cml0ZV90ZXh0KGl0ZW1bImNvbmZpZyJdLCBlbmNvZGluZz0idXRmLTgiKQogICAgICAgICAgICBpdGVtWyJmaWxlIl0gPSBzdHIocGF0aCkKICAgICAgICAgICAgaXRlbVsibGluZXMiXSA9IGxlbihbbCBmb3IgbCBpbiBpdGVtWyJjb25maWciXS5zcGxpdGxpbmVzKCkgaWYgbC5zdHJpcCgpXSkKICAgICAgICAgICAgaXRlbVsiYnl0ZXMiXSA9IHBhdGguc3RhdCgpLnN0X3NpemUKICAgICAgICAgICAgc2F2ZWQuYXBwZW5kKHsiZGV2aWNlIjogaXRlbVsiZGV2aWNlIl0sICJmaWxlIjogc3RyKHBhdGgpLCAibGluZXMiOiBpdGVtWyJsaW5lcyJdfSkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzoKICAgICAgICAgICAgaXRlbVsib2siXSA9IEZhbHNlCiAgICAgICAgICAgIGl0ZW1bImVycm9yIl0gPSBmIuWGmeWFpeaWh+S7tuWksei0pToge2V4Y30iCgogICAgc3VjY2VlZGVkID0gbGVuKHNhdmVkKQogICAgcmV0dXJuIHsKICAgICAgICAib2siOiBzdWNjZWVkZWQgPiAwLAogICAgICAgICJzdGFtcCI6IHN0YW1wLAogICAgICAgICJmb2xkZXIiOiBzdHIoZm9sZGVyKSwKICAgICAgICAiZGV2aWNlQ291bnQiOiBsZW4ocmVzdWx0cyksCiAgICAgICAgInN1Y2NlZWRlZCI6IHN1Y2NlZWRlZCwKICAgICAgICAiZmFpbGVkIjogbGVuKHJlc3VsdHMpIC0gc3VjY2VlZGVkLAogICAgICAgICJzYXZlZCI6IHNhdmVkLAogICAgICAgICJkZXZpY2VzIjogWwogICAgICAgICAgICB7azogdiBmb3IgaywgdiBpbiBpdGVtLml0ZW1zKCkgaWYgayAhPSAiY29uZmlnIn0gZm9yIGl0ZW0gaW4gcmVzdWx0cwogICAgICAgIF0sCiAgICAgICAgImVycm9yIjogTm9uZSBpZiBzdWNjZWVkZWQgZWxzZSAi5omA5pyJ6K6+5aSH6YO95rKh5Y+W5Yiw6YWN572uIiwKICAgIH0KCgpkZWYgbGlzdF9iYWNrdXBzKCkgLT4gZGljdDoKICAgIEJBQ0tVUF9ESVIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgZm9sZGVycyA9IFtdCiAgICBmb3IgZm9sZGVyIGluIHNvcnRlZChCQUNLVVBfRElSLml0ZXJkaXIoKSwga2V5PWxhbWJkYSBwOiBwLm5hbWUsIHJldmVyc2U9VHJ1ZSk6CiAgICAgICAgaWYgbm90IGZvbGRlci5pc19kaXIoKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBmaWxlcyA9IFtdCiAgICAgICAgZm9yIGNmZyBpbiBzb3J0ZWQoZm9sZGVyLmdsb2IoIiouY2ZnIikpOgogICAgICAgICAgICBzdGF0ID0gY2ZnLnN0YXQoKQogICAgICAgICAgICBmaWxlcy5hcHBlbmQoCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgIm5hbWUiOiBjZmcubmFtZSwKICAgICAgICAgICAgICAgICAgICAiZGV2aWNlIjogY2ZnLnN0ZW0sCiAgICAgICAgICAgICAgICAgICAgInBhdGgiOiBzdHIoY2ZnKSwKICAgICAgICAgICAgICAgICAgICAiYnl0ZXMiOiBzdGF0LnN0X3NpemUsCiAgICAgICAgICAgICAgICAgICAgIm1vZGlmaWVkIjogZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcChzdGF0LnN0X210aW1lKS5zdHJmdGltZSgiJVktJW0tJWQgJUg6JU06JVMiKSwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIGlmIGZpbGVzOgogICAgICAgICAgICBmb2xkZXJzLmFwcGVuZCh7InN0YW1wIjogZm9sZGVyLm5hbWUsICJwYXRoIjogc3RyKGZvbGRlciksICJmaWxlcyI6IGZpbGVzfSkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgImZvbGRlcnMiOiBmb2xkZXJzLCAiZm9sZGVyQ291bnQiOiBsZW4oZm9sZGVycyl9CgoKZGVmIF9zYWZlX2ZpbGUocmF3OiBzdHIpIC0+IFBhdGg6CiAgICBwYXRoID0gUGF0aChyYXcpLnJlc29sdmUoKQogICAgcm9vdCA9IEJBQ0tVUF9ESVIucmVzb2x2ZSgpCiAgICBpZiByb290IG5vdCBpbiBwYXRoLnBhcmVudHM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigi5Y+q6IO96K+75Y+W5aSH5Lu955uu5b2V5YaF55qE5paH5Lu2IikKICAgIGlmIG5vdCBwYXRoLmV4aXN0cygpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIuWkh+S7veaWh+S7tuS4jeWtmOWcqCIpCiAgICByZXR1cm4gcGF0aAoKCmRlZiByZWFkX2NvbmZpZyhyYXc6IHN0ciwgbGltaXQ6IGludCA9IDIwMF8wMDApIC0+IGRpY3Q6CiAgICBwYXRoID0gX3NhZmVfZmlsZShyYXcpCiAgICB0ZXh0ID0gcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikKICAgIHRydW5jYXRlZCA9IGxlbih0ZXh0KSA+IGxpbWl0CiAgICByZXR1cm4gewogICAgICAgICJvayI6IFRydWUsCiAgICAgICAgIm5hbWUiOiBwYXRoLm5hbWUsCiAgICAgICAgImRldmljZSI6IHBhdGguc3RlbSwKICAgICAgICAicGF0aCI6IHN0cihwYXRoKSwKICAgICAgICAidGV4dCI6IHRleHRbOmxpbWl0XSwKICAgICAgICAidHJ1bmNhdGVkIjogdHJ1bmNhdGVkLAogICAgICAgICJsaW5lcyI6IGxlbih0ZXh0LnNwbGl0bGluZXMoKSksCiAgICB9CgoKZGVmIGRpZmZfY29uZmlncyhwYXRoX2E6IHN0ciwgcGF0aF9iOiBzdHIsIGNvbnRleHQ6IGludCA9IDIpIC0+IGRpY3Q6CiAgICBmaWxlX2EgPSBfc2FmZV9maWxlKHBhdGhfYSkKICAgIGZpbGVfYiA9IF9zYWZlX2ZpbGUocGF0aF9iKQoKICAgIGxpbmVzX2EgPSBmaWxlX2EucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpLnNwbGl0bGluZXMoKQogICAgbGluZXNfYiA9IGZpbGVfYi5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikuc3BsaXRsaW5lcygpCgogICAgZGlmZiA9IGxpc3QoCiAgICAgICAgZGlmZmxpYi51bmlmaWVkX2RpZmYoCiAgICAgICAgICAgIGxpbmVzX2EsIGxpbmVzX2IsIGZyb21maWxlPWZpbGVfYS5uYW1lLCB0b2ZpbGU9ZmlsZV9iLm5hbWUsIGxpbmV0ZXJtPSIiLCBuPWNvbnRleHQKICAgICAgICApCiAgICApCgogICAgcm93cyA9IFtdCiAgICBhZGRlZCA9IHJlbW92ZWQgPSAwCiAgICBmb3IgbGluZSBpbiBkaWZmOgogICAgICAgIGlmIGxpbmUuc3RhcnRzd2l0aCgiKysrIikgb3IgbGluZS5zdGFydHN3aXRoKCItLS0iKToKICAgICAgICAgICAgcm93cy5hcHBlbmQoeyJ0eXBlIjogIm1ldGEiLCAidGV4dCI6IGxpbmV9KQogICAgICAgIGVsaWYgbGluZS5zdGFydHN3aXRoKCJAQCIpOgogICAgICAgICAgICByb3dzLmFwcGVuZCh7InR5cGUiOiAiaHVuayIsICJ0ZXh0IjogbGluZX0pCiAgICAgICAgZWxpZiBsaW5lLnN0YXJ0c3dpdGgoIisiKToKICAgICAgICAgICAgYWRkZWQgKz0gMQogICAgICAgICAgICByb3dzLmFwcGVuZCh7InR5cGUiOiAiYWRkIiwgInRleHQiOiBsaW5lWzE6XX0pCiAgICAgICAgZWxpZiBsaW5lLnN0YXJ0c3dpdGgoIi0iKToKICAgICAgICAgICAgcmVtb3ZlZCArPSAxCiAgICAgICAgICAgIHJvd3MuYXBwZW5kKHsidHlwZSI6ICJkZWwiLCAidGV4dCI6IGxpbmVbMTpdfSkKICAgICAgICBlbHNlOgogICAgICAgICAgICByb3dzLmFwcGVuZCh7InR5cGUiOiAiY3R4IiwgInRleHQiOiBsaW5lWzE6XSBpZiBsaW5lLnN0YXJ0c3dpdGgoIiAiKSBlbHNlIGxpbmV9KQoKICAgIHJldHVybiB7CiAgICAgICAgIm9rIjogVHJ1ZSwKICAgICAgICAiYSI6IHsibmFtZSI6IGZpbGVfYS5uYW1lLCAicGF0aCI6IHN0cihmaWxlX2EpLCAibGluZXMiOiBsZW4obGluZXNfYSl9LAogICAgICAgICJiIjogeyJuYW1lIjogZmlsZV9iLm5hbWUsICJwYXRoIjogc3RyKGZpbGVfYiksICJsaW5lcyI6IGxlbihsaW5lc19iKX0sCiAgICAgICAgImFkZGVkIjogYWRkZWQsCiAgICAgICAgInJlbW92ZWQiOiByZW1vdmVkLAogICAgICAgICJzYW1lIjogYWRkZWQgPT0gMCBhbmQgcmVtb3ZlZCA9PSAwLAogICAgICAgICJyb3dzIjogcm93c1s6NDAwMF0sCiAgICAgICAgInRydW5jYXRlZCI6IGxlbihyb3dzKSA+IDQwMDAsCiAgICB9CgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDov57pgJrmgKfnn6npmLUKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KClBJTkdfUkVDRUlWRUQgPSByZS5jb21waWxlKHIiKFxkKylccytwYWNrZXRcKHNcKVxzK3JlY2VpdmVkIiwgcmUuSSkKUElOR19MT1NTID0gcmUuY29tcGlsZShyIihbXGQuXSspJVxzKnBhY2tldFxzKmxvc3MiLCByZS5JKQoKCmRlZiBfcGluZ19vayhvdXRwdXQ6IHN0cikgLT4gYm9vbCB8IE5vbmU6CiAgICBtID0gUElOR19SRUNFSVZFRC5zZWFyY2gob3V0cHV0IG9yICIiKQogICAgaWYgbToKICAgICAgICByZXR1cm4gaW50KG0uZ3JvdXAoMSkpID4gMAogICAgbSA9IFBJTkdfTE9TUy5zZWFyY2gob3V0cHV0IG9yICIiKQogICAgaWYgbToKICAgICAgICByZXR1cm4gZmxvYXQobS5ncm91cCgxKSkgPCAxMDAKICAgIHJldHVybiBOb25lCgoKYXN5bmMgZGVmIF9waW5nX2Zyb20oZGV2aWNlOiBkaWN0LCB0YXJnZXQ6IHN0ciwgdXNlcm5hbWU6IHN0ciwgcGFzc3dvcmQ6IHN0cikgLT4gZGljdDoKICAgIHN0YXJ0ZWQgPSB0aW1lLm1vbm90b25pYygpCiAgICBjb25zb2xlID0gTm9uZQogICAgcm93ID0geyJkZXZpY2UiOiBkZXZpY2UuZ2V0KCJuYW1lIiksICJ0YXJnZXQiOiB0YXJnZXQsICJvayI6IE5vbmUsICJlcnJvciI6IE5vbmV9CiAgICB0cnk6CiAgICAgICAgY29uc29sZSA9IGF3YWl0IF9vcGVuX2NvbnNvbGUoZGV2aWNlWyJob3N0Il0sIGRldmljZVsicG9ydCJdLCB1c2VybmFtZSwgcGFzc3dvcmQsIHRpbWVvdXQ9OCkKICAgICAgICB0ZXh0ID0gYXdhaXQgY29uc29sZS5zZW5kKGYicGluZyAtYyAxIC13IDEwMDAge3RhcmdldH0iLCB0aW1lb3V0PTEyKQogICAgICAgIHJvd1sib2siXSA9IF9waW5nX29rKHRleHQpCiAgICAgICAgaWYgcm93WyJvayJdIGlzIE5vbmU6CiAgICAgICAgICAgIHJvd1siZXJyb3IiXSA9ICLml6Dms5Xop6PmnpAgcGluZyDnu5PmnpwiCiAgICAgICAgcm93WyJvdXRwdXQiXSA9ICh0ZXh0IG9yICIiKVs6ODAwXQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleGM6CiAgICAgICAgcm93WyJlcnJvciJdID0gc3RyKGV4YykKICAgIGZpbmFsbHk6CiAgICAgICAgaWYgY29uc29sZSBpcyBub3QgTm9uZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgYXdhaXQgY29uc29sZS5jbG9zZSgpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgcm93WyJlbGFwc2VkTXMiXSA9IG1heCgxLCBpbnQoKHRpbWUubW9ub3RvbmljKCkgLSBzdGFydGVkKSAqIDEwMDApKQogICAgcmV0dXJuIHJvdwoKCmFzeW5jIGRlZiBydW5fbWF0cml4KAogICAgZGV2aWNlczogbGlzdFtkaWN0XSwKICAgIHRhcmdldHM6IGxpc3RbZGljdF0sCiAgICB1c2VybmFtZTogc3RyID0gIiIsCiAgICBwYXNzd29yZDogc3RyID0gIiIsCiAgICBjb25jdXJyZW5jeTogaW50ID0gNCwKKSAtPiBkaWN0OgogICAgaWYgbm90IGRldmljZXMgb3Igbm90IHRhcmdldHM6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigi6K6+5aSH5YiX6KGo5ZKM55uu5qCH5Zyw5Z2A6YO95LiN6IO95Li656m6IikKICAgIGlmIGxlbihkZXZpY2VzKSAqIGxlbih0YXJnZXRzKSA+IDY0OgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiLorr7lpIcgw5cg55uu5qCHID0ge2xlbihkZXZpY2VzKSAqIGxlbih0YXJnZXRzKX3vvIzotoXov4cgNjQg5qyh5LiK6ZmQ77yM6K+35YeP5bCR5pWw6YePIikKCiAgICBjb25jdXJyZW5jeSA9IG1heCgxLCBtaW4oOCwgaW50KGNvbmN1cnJlbmN5KSkpCiAgICBzZW1hcGhvcmUgPSBhc3luY2lvLlNlbWFwaG9yZShjb25jdXJyZW5jeSkKCiAgICBhc3luYyBkZWYgb25lKGRldjogZGljdCwgdGFyZ2V0OiBkaWN0KToKICAgICAgICBhc3luYyB3aXRoIHNlbWFwaG9yZToKICAgICAgICAgICAgcmV0dXJuIGF3YWl0IF9waW5nX2Zyb20oZGV2LCB0YXJnZXRbImlwIl0sIHVzZXJuYW1lLCBwYXNzd29yZCkKCiAgICB0YXNrcyA9IFtvbmUoZGV2LCB0YXJnZXQpIGZvciBkZXYgaW4gZGV2aWNlcyBmb3IgdGFyZ2V0IGluIHRhcmdldHNdCiAgICByZXN1bHRzID0gYXdhaXQgYXN5bmNpby5nYXRoZXIoKnRhc2tzKQoKICAgIGxvb2t1cCA9IHsoclsiZGV2aWNlIl0sIHJbInRhcmdldCJdKTogciBmb3IgciBpbiByZXN1bHRzfQogICAgcm93cyA9IFtdCiAgICByZWFjaGFibGUgPSAwCiAgICB0b3RhbCA9IDAKICAgIGZvciBkZXYgaW4gZGV2aWNlczoKICAgICAgICBjZWxscyA9IFtdCiAgICAgICAgZm9yIHRhcmdldCBpbiB0YXJnZXRzOgogICAgICAgICAgICBpdGVtID0gbG9va3VwLmdldCgoZGV2LmdldCgibmFtZSIpLCB0YXJnZXRbImlwIl0pKSBvciB7fQogICAgICAgICAgICBvayA9IGl0ZW0uZ2V0KCJvayIpCiAgICAgICAgICAgIGNlbGxzLmFwcGVuZCgKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAidGFyZ2V0IjogdGFyZ2V0WyJsYWJlbCJdLAogICAgICAgICAgICAgICAgICAgICJpcCI6IHRhcmdldFsiaXAiXSwKICAgICAgICAgICAgICAgICAgICAib2siOiBvaywKICAgICAgICAgICAgICAgICAgICAiZXJyb3IiOiBpdGVtLmdldCgiZXJyb3IiKSwKICAgICAgICAgICAgICAgICAgICAiZWxhcHNlZE1zIjogaXRlbS5nZXQoImVsYXBzZWRNcyIpLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIG9rIGlzIFRydWU6CiAgICAgICAgICAgICAgICByZWFjaGFibGUgKz0gMQogICAgICAgICAgICBpZiBvayBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgIHRvdGFsICs9IDEKICAgICAgICByb3dzLmFwcGVuZCh7ImRldmljZSI6IGRldi5nZXQoIm5hbWUiKSwgImNlbGxzIjogY2VsbHN9KQoKICAgIHJldHVybiB7CiAgICAgICAgIm9rIjogVHJ1ZSwKICAgICAgICAicm93cyI6IHJvd3MsCiAgICAgICAgInRhcmdldHMiOiB0YXJnZXRzLAogICAgICAgICJyZWFjaGFibGUiOiByZWFjaGFibGUsCiAgICAgICAgInRvdGFsIjogdG90YWwsCiAgICAgICAgImRldmljZUNvdW50IjogbGVuKGRldmljZXMpLAogICAgICAgICJ0YXJnZXRDb3VudCI6IGxlbih0YXJnZXRzKSwKICAgIH0K
+"""配置运维：批量备份配置、配置差异对比、设备间连通性矩阵。"""
+
+from __future__ import annotations
+
+import asyncio
+import difflib
+import re
+import time
+from datetime import datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+BACKUP_DIR = ROOT / "data" / "backups"
+
+
+# ---------------------------------------------------------------------------
+# 设备连接
+# ---------------------------------------------------------------------------
+
+async def _open_console(host: str, port: int, username: str, password: str, timeout: float = 8.0):
+    from patrol import open_console
+
+    return await open_console(host, port, username, password, timeout=timeout)
+
+
+# ---------------------------------------------------------------------------
+# 配置备份
+# ---------------------------------------------------------------------------
+
+async def _backup_one(device: dict, username: str, password: str, timeout: float) -> dict:
+    from patrol import console_send
+
+    started = time.monotonic()
+    result = {
+        "device": device.get("name"),
+        "host": device.get("host"),
+        "port": device.get("port"),
+        "ok": False,
+        "error": None,
+        "config": "",
+    }
+    console = None
+    try:
+        console = await _open_console(device["host"], device["port"], username, password)
+        try:
+            await console.to_user_view()
+        except Exception:
+            pass
+        text = await console_send(console, "display current-configuration", timeout)
+        result["config"] = text or ""
+        result["ok"] = bool(result["config"].strip())
+        if not result["ok"]:
+            result["error"] = "没有取到配置内容"
+    except Exception as exc:
+        result["error"] = str(exc)
+    finally:
+        if console is not None:
+            try:
+                await console.close()
+            except Exception:
+                pass
+        result["elapsedMs"] = max(1, int((time.monotonic() - started) * 1000))
+    return result
+
+
+async def run_backup(
+    devices: list[dict], username: str = "", password: str = "", concurrency: int = 4
+) -> dict:
+    if not devices:
+        raise ValueError("没有要备份的设备")
+
+    concurrency = max(1, min(8, int(concurrency)))
+    semaphore = asyncio.Semaphore(concurrency)
+
+    async def one(dev: dict):
+        async with semaphore:
+            return await _backup_one(dev, username, password, 45)
+
+    results = await asyncio.gather(*(one(d) for d in devices))
+
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    folder = BACKUP_DIR / stamp
+    folder.mkdir(parents=True, exist_ok=True)
+
+    saved = []
+    for item in results:
+        if not item["ok"]:
+            continue
+        name = re.sub(r"[^\w\-.]+", "_", str(item["device"] or "device"))
+        path = folder / f"{name}.cfg"
+        try:
+            path.write_text(item["config"], encoding="utf-8")
+            item["file"] = str(path)
+            item["lines"] = len([l for l in item["config"].splitlines() if l.strip()])
+            item["bytes"] = path.stat().st_size
+            saved.append({"device": item["device"], "file": str(path), "lines": item["lines"]})
+        except Exception as exc:
+            item["ok"] = False
+            item["error"] = f"写入文件失败: {exc}"
+
+    succeeded = len(saved)
+    return {
+        "ok": succeeded > 0,
+        "stamp": stamp,
+        "folder": str(folder),
+        "deviceCount": len(results),
+        "succeeded": succeeded,
+        "failed": len(results) - succeeded,
+        "saved": saved,
+        "devices": [
+            {k: v for k, v in item.items() if k != "config"} for item in results
+        ],
+        "error": None if succeeded else "所有设备都没取到配置",
+    }
+
+
+def list_backups() -> dict:
+    BACKUP_DIR.mkdir(parents=True, exist_ok=True)
+    folders = []
+    for folder in sorted(BACKUP_DIR.iterdir(), key=lambda p: p.name, reverse=True):
+        if not folder.is_dir():
+            continue
+        files = []
+        for cfg in sorted(folder.glob("*.cfg")):
+            stat = cfg.stat()
+            files.append(
+                {
+                    "name": cfg.name,
+                    "device": cfg.stem,
+                    "path": str(cfg),
+                    "bytes": stat.st_size,
+                    "modified": datetime.fromtimestamp(stat.st_mtime).strftime("%Y-%m-%d %H:%M:%S"),
+                }
+            )
+        if files:
+            folders.append({"stamp": folder.name, "path": str(folder), "files": files})
+    return {"ok": True, "folders": folders, "folderCount": len(folders)}
+
+
+def _safe_file(raw: str) -> Path:
+    path = Path(raw).resolve()
+    root = BACKUP_DIR.resolve()
+    if root not in path.parents:
+        raise ValueError("只能读取备份目录内的文件")
+    if not path.exists():
+        raise ValueError("备份文件不存在")
+    return path
+
+
+def read_config(raw: str, limit: int = 200_000) -> dict:
+    path = _safe_file(raw)
+    text = path.read_text(encoding="utf-8", errors="replace")
+    truncated = len(text) > limit
+    return {
+        "ok": True,
+        "name": path.name,
+        "device": path.stem,
+        "path": str(path),
+        "text": text[:limit],
+        "truncated": truncated,
+        "lines": len(text.splitlines()),
+    }
+
+
+def diff_configs(path_a: str, path_b: str, context: int = 2) -> dict:
+    file_a = _safe_file(path_a)
+    file_b = _safe_file(path_b)
+
+    lines_a = file_a.read_text(encoding="utf-8", errors="replace").splitlines()
+    lines_b = file_b.read_text(encoding="utf-8", errors="replace").splitlines()
+
+    diff = list(
+        difflib.unified_diff(
+            lines_a, lines_b, fromfile=file_a.name, tofile=file_b.name, lineterm="", n=context
+        )
+    )
+
+    rows = []
+    added = removed = 0
+    for line in diff:
+        if line.startswith("+++") or line.startswith("---"):
+            rows.append({"type": "meta", "text": line})
+        elif line.startswith("@@"):
+            rows.append({"type": "hunk", "text": line})
+        elif line.startswith("+"):
+            added += 1
+            rows.append({"type": "add", "text": line[1:]})
+        elif line.startswith("-"):
+            removed += 1
+            rows.append({"type": "del", "text": line[1:]})
+        else:
+            rows.append({"type": "ctx", "text": line[1:] if line.startswith(" ") else line})
+
+    return {
+        "ok": True,
+        "a": {"name": file_a.name, "path": str(file_a), "lines": len(lines_a)},
+        "b": {"name": file_b.name, "path": str(file_b), "lines": len(lines_b)},
+        "added": added,
+        "removed": removed,
+        "same": added == 0 and removed == 0,
+        "rows": rows[:4000],
+        "truncated": len(rows) > 4000,
+    }
+
+
+# ---------------------------------------------------------------------------
+# 连通性矩阵
+# ---------------------------------------------------------------------------
+
+PING_RECEIVED = re.compile(r"(\d+)\s+packet\(s\)\s+received", re.I)
+PING_LOSS = re.compile(r"([\d.]+)%\s*packet\s*loss", re.I)
+
+
+def _ping_ok(output: str) -> bool | None:
+    m = PING_RECEIVED.search(output or "")
+    if m:
+        return int(m.group(1)) > 0
+    m = PING_LOSS.search(output or "")
+    if m:
+        return float(m.group(1)) < 100
+    return None
+
+
+async def _ping_from(device: dict, target: str, username: str, password: str) -> dict:
+    started = time.monotonic()
+    console = None
+    row = {"device": device.get("name"), "target": target, "ok": None, "error": None}
+    try:
+        console = await _open_console(device["host"], device["port"], username, password, timeout=8)
+        text = await console.send(f"ping -c 1 -w 1000 {target}", timeout=12)
+        row["ok"] = _ping_ok(text)
+        if row["ok"] is None:
+            row["error"] = "无法解析 ping 结果"
+        row["output"] = (text or "")[:800]
+    except Exception as exc:
+        row["error"] = str(exc)
+    finally:
+        if console is not None:
+            try:
+                await console.close()
+            except Exception:
+                pass
+        row["elapsedMs"] = max(1, int((time.monotonic() - started) * 1000))
+    return row
+
+
+async def run_matrix(
+    devices: list[dict],
+    targets: list[dict],
+    username: str = "",
+    password: str = "",
+    concurrency: int = 4,
+) -> dict:
+    if not devices or not targets:
+        raise ValueError("设备列表和目标地址都不能为空")
+    if len(devices) * len(targets) > 64:
+        raise ValueError(f"设备 × 目标 = {len(devices) * len(targets)}，超过 64 次上限，请减少数量")
+
+    concurrency = max(1, min(8, int(concurrency)))
+    semaphore = asyncio.Semaphore(concurrency)
+
+    async def one(dev: dict, target: dict):
+        async with semaphore:
+            return await _ping_from(dev, target["ip"], username, password)
+
+    tasks = [one(dev, target) for dev in devices for target in targets]
+    results = await asyncio.gather(*tasks)
+
+    lookup = {(r["device"], r["target"]): r for r in results}
+    rows = []
+    reachable = 0
+    total = 0
+    for dev in devices:
+        cells = []
+        for target in targets:
+            item = lookup.get((dev.get("name"), target["ip"])) or {}
+            ok = item.get("ok")
+            cells.append(
+                {
+                    "target": target["label"],
+                    "ip": target["ip"],
+                    "ok": ok,
+                    "error": item.get("error"),
+                    "elapsedMs": item.get("elapsedMs"),
+                }
+            )
+            if ok is True:
+                reachable += 1
+            if ok is not None:
+                total += 1
+        rows.append({"device": dev.get("name"), "cells": cells})
+
+    return {
+        "ok": True,
+        "rows": rows,
+        "targets": targets,
+        "reachable": reachable,
+        "total": total,
+        "deviceCount": len(devices),
+        "targetCount": len(targets),
+    }

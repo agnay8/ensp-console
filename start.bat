@@ -1,1 +1,13 @@
-QGVjaG8gb2ZmDQp0aXRsZSBlTlNQIFRvcG9sb2d5IENvbnNvbGUNCmNkIC9kICIlfmRwMCINCnNldCBQWVRIT05JT0VOQ09ESU5HPXV0Zi04DQplY2hvIFN0YXJ0aW5nIGVOU1AgY29uc29sZSBhdCBodHRwOi8vMTI3LjAuMC4xOjg3NjUNCmVjaG8gS2VlcCB0aGlzIHdpbmRvdyBvcGVuIHdoaWxlIHVzaW5nIHRoZSBjb25zb2xlLg0KZWNobyBCcm93c2VyIHdpbGwgb3BlbiBhdXRvbWF0aWNhbGx5IGluIGEgZmV3IHNlY29uZHMuDQplY2hvLg0Kc3RhcnQgIiIgcG93ZXJzaGVsbCAtTm9Qcm9maWxlIC1XaW5kb3dTdHlsZSBIaWRkZW4gLUNvbW1hbmQgIlN0YXJ0LVNsZWVwIC1TZWNvbmRzIDQ7IFN0YXJ0LVByb2Nlc3MgJ2h0dHA6Ly8xMjcuMC4wLjE6ODc2NSciDQoiQzpcVXNlcnNcYWduYXlcLnZlbnZzXGVuc3AtbWNwXFNjcmlwdHNccHl0aG9uLmV4ZSIgLW0gdXZpY29ybiBhcHA6YXBwIC0taG9zdCAxMjcuMC4wLjEgLS1wb3J0IDg3NjUNCmVjaG8uDQplY2hvIFNlcnZlciBzdG9wcGVkLg0KcGF1c2UNCg==
+@echo off
+title eNSP Topology Console
+cd /d "%~dp0"
+set PYTHONIOENCODING=utf-8
+echo Starting eNSP console at http://127.0.0.1:8765
+echo Keep this window open while using the console.
+echo Browser will open automatically in a few seconds.
+echo.
+start "" powershell -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 4; Start-Process 'http://127.0.0.1:8765'"
+"C:\Users\agnay\.venvs\ensp-mcp\Scripts\python.exe" -m uvicorn app:app --host 127.0.0.1 --port 8765
+echo.
+echo Server stopped.
+pause

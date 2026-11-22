@@ -1,1 +1,118 @@
-IiIi55Sf5oiQ5o6n5Yi25Y+w55So55qE56S65L6LIEV4Y2Vs77ya6K6+5aSH5riF5Y2VICsg5ZG95Luk6KGoIiIiCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSBvcGVucHl4bCBpbXBvcnQgV29ya2Jvb2sKZnJvbSBvcGVucHl4bC5zdHlsZXMgaW1wb3J0IEFsaWdubWVudCwgRm9udCwgUGF0dGVybkZpbGwKCk9VVCA9IFBhdGgociJEOlxodWF3ZWluZXRcY29uc29sZVxzYW1wbGVzIikKT1VULm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKCkhFQURfRklMTCA9IFBhdHRlcm5GaWxsKCJzb2xpZCIsIGZnQ29sb3I9IkVBRjBGRSIpCkhFQURfRk9OVCA9IEZvbnQoYm9sZD1UcnVlLCBjb2xvcj0iMUQ0RUQ4IikKCkNPTU1BTkRTID0gewogICAgIlIxIjogWwogICAgICAgICJzeXN0ZW0tdmlldyIsCiAgICAgICAgInN5c25hbWUgUjEiLAogICAgICAgICJpbnRlcmZhY2UgTG9vcEJhY2swIiwKICAgICAgICAiIGlwIGFkZHJlc3MgMS4xLjEuMSAyNTUuMjU1LjI1NS4yNTUiLAogICAgICAgICJpbnRlcmZhY2UgR2lnYWJpdEV0aGVybmV0MC8wLzAiLAogICAgICAgICIgaXAgYWRkcmVzcyAxMC4xLjEyLjEgMjU1LjI1NS4yNTUuMCIsCiAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMSIsCiAgICAgICAgIiBpcCBhZGRyZXNzIDEwLjEuNDEuMSAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAicXVpdCIsCiAgICAgICAgIm9zcGYgMSByb3V0ZXItaWQgMS4xLjEuMSIsCiAgICAgICAgIiBhcmVhIDAiLAogICAgICAgICIgIG5ldHdvcmsgMTAuMS4xMi4wIDAuMC4wLjI1NSIsCiAgICAgICAgIiAgbmV0d29yayAxMC4xLjQxLjAgMC4wLjAuMjU1IiwKICAgICAgICAiICBuZXR3b3JrIDEuMS4xLjEgMC4wLjAuMCIsCiAgICBdLAogICAgIlIyIjogWwogICAgICAgICJzeXN0ZW0tdmlldyIsCiAgICAgICAgInN5c25hbWUgUjIiLAogICAgICAgICJpbnRlcmZhY2UgTG9vcEJhY2swIiwKICAgICAgICAiIGlwIGFkZHJlc3MgMi4yLjIuMiAyNTUuMjU1LjI1NS4yNTUiLAogICAgICAgICJpbnRlcmZhY2UgR2lnYWJpdEV0aGVybmV0MC8wLzAiLAogICAgICAgICIgaXAgYWRkcmVzcyAxMC4xLjEyLjIgMjU1LjI1NS4yNTUuMCIsCiAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMSIsCiAgICAgICAgIiBpcCBhZGRyZXNzIDEwLjEuMjMuMiAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAicXVpdCIsCiAgICAgICAgIm9zcGYgMSByb3V0ZXItaWQgMi4yLjIuMiIsCiAgICAgICAgIiBhcmVhIDAiLAogICAgICAgICIgIG5ldHdvcmsgMTAuMS4xMi4wIDAuMC4wLjI1NSIsCiAgICAgICAgIiAgbmV0d29yayAxMC4xLjIzLjAgMC4wLjAuMjU1IiwKICAgICAgICAiICBuZXR3b3JrIDIuMi4yLjIgMC4wLjAuMCIsCiAgICBdLAogICAgIlIzIjogWwogICAgICAgICJzeXN0ZW0tdmlldyIsCiAgICAgICAgInN5c25hbWUgUjMiLAogICAgICAgICJpbnRlcmZhY2UgTG9vcEJhY2swIiwKICAgICAgICAiIGlwIGFkZHJlc3MgMy4zLjMuMyAyNTUuMjU1LjI1NS4yNTUiLAogICAgICAgICJpbnRlcmZhY2UgR2lnYWJpdEV0aGVybmV0MC8wLzAiLAogICAgICAgICIgaXAgYWRkcmVzcyAxMC4xLjIzLjMgMjU1LjI1NS4yNTUuMCIsCiAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMSIsCiAgICAgICAgIiBpcCBhZGRyZXNzIDEwLjEuMzQuMyAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAicXVpdCIsCiAgICAgICAgIm9zcGYgMSByb3V0ZXItaWQgMy4zLjMuMyIsCiAgICAgICAgIiBhcmVhIDAiLAogICAgICAgICIgIG5ldHdvcmsgMTAuMS4yMy4wIDAuMC4wLjI1NSIsCiAgICAgICAgIiAgbmV0d29yayAxMC4xLjM0LjAgMC4wLjAuMjU1IiwKICAgICAgICAiICBuZXR3b3JrIDMuMy4zLjMgMC4wLjAuMCIsCiAgICBdLAogICAgIlI0IjogWwogICAgICAgICJzeXN0ZW0tdmlldyIsCiAgICAgICAgInN5c25hbWUgUjQiLAogICAgICAgICJpbnRlcmZhY2UgTG9vcEJhY2swIiwKICAgICAgICAiIGlwIGFkZHJlc3MgNC40LjQuNCAyNTUuMjU1LjI1NS4yNTUiLAogICAgICAgICJpbnRlcmZhY2UgR2lnYWJpdEV0aGVybmV0MC8wLzAiLAogICAgICAgICIgaXAgYWRkcmVzcyAxMC4xLjM0LjQgMjU1LjI1NS4yNTUuMCIsCiAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMSIsCiAgICAgICAgIiBpcCBhZGRyZXNzIDEwLjEuNDEuNCAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAicXVpdCIsCiAgICAgICAgIm9zcGYgMSByb3V0ZXItaWQgNC40LjQuNCIsCiAgICAgICAgIiBhcmVhIDAiLAogICAgICAgICIgIG5ldHdvcmsgMTAuMS4zNC4wIDAuMC4wLjI1NSIsCiAgICAgICAgIiAgbmV0d29yayAxMC4xLjQxLjAgMC4wLjAuMjU1IiwKICAgICAgICAiICBuZXR3b3JrIDQuNC40LjQgMC4wLjAuMCIsCiAgICBdLAp9CgpST0xFUyA9IHsKICAgICJSMSI6ICgiQVIyMjIwIiwgIuaguOW/g++8iOi/nuaOpSBSMiAvIFI077yJIiksCiAgICAiUjIiOiAoIkFSMjIyMCIsICLmsYfogZrvvIjov57mjqUgUjEgLyBSM++8iSIpLAogICAgIlIzIjogKCJBUjIyMjAiLCAi5rGH6IGa77yI6L+e5o6lIFIyIC8gUjTvvIkiKSwKICAgICJSNCI6ICgiQVIyMjIwIiwgIuaguOW/g++8iOi/nuaOpSBSMyAvIFIx77yJIiksCn0KCgpkZWYgaGVhZCh3cywgY29scyk6CiAgICB3cy5hcHBlbmQoY29scykKICAgIGZvciBjZWxsIGluIHdzWzFdOgogICAgICAgIGNlbGwuZmlsbCA9IEhFQURfRklMTAogICAgICAgIGNlbGwuZm9udCA9IEhFQURfRk9OVAogICAgICAgIGNlbGwuYWxpZ25tZW50ID0gQWxpZ25tZW50KGhvcml6b250YWw9ImNlbnRlciIpCiAgICB3cy5mcmVlemVfcGFuZXMgPSAiQTIiCgoKd2IgPSBXb3JrYm9vaygpCgp3czEgPSB3Yi5hY3RpdmUKd3MxLnRpdGxlID0gIuiuvuWkh+a4heWNlSIKaGVhZCh3czEsIFsi6K6+5aSHIiwgIuWei+WPtyIsICLop5LoibIiXSkKZm9yIG5hbWUsIChtb2RlbCwgcm9sZSkgaW4gUk9MRVMuaXRlbXMoKToKICAgIHdzMS5hcHBlbmQoW25hbWUsIG1vZGVsLCByb2xlXSkKd3MxLmNvbHVtbl9kaW1lbnNpb25zWyJBIl0ud2lkdGggPSAxMgp3czEuY29sdW1uX2RpbWVuc2lvbnNbIkIiXS53aWR0aCA9IDEyCndzMS5jb2x1bW5fZGltZW5zaW9uc1siQyJdLndpZHRoID0gMjYKCndzMiA9IHdiLmNyZWF0ZV9zaGVldCgiT1NQRuWRveS7pCIpCmhlYWQod3MyLCBbIuiuvuWkhyIsICLlkb3ku6QiXSkKZm9yIG5hbWUsIGNtZHMgaW4gQ09NTUFORFMuaXRlbXMoKToKICAgIGZvciBjIGluIGNtZHM6CiAgICAgICAgd3MyLmFwcGVuZChbbmFtZSwgY10pCndzMi5jb2x1bW5fZGltZW5zaW9uc1siQSJdLndpZHRoID0gMTIKd3MyLmNvbHVtbl9kaW1lbnNpb25zWyJCIl0ud2lkdGggPSA1NgoKcGF0aCA9IE9VVCAvICLorr7lpIfkuI7lkb3ku6TnpLrkvosueGxzeCIKd2Iuc2F2ZShwYXRoKQpwcmludCgic2F2ZWQiLCBwYXRoLCBwYXRoLnN0YXQoKS5zdF9zaXplLCAiYnl0ZXMiKQo=
+"""生成控制台用的示例 Excel：设备清单 + 命令表"""
+from pathlib import Path
+
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Font, PatternFill
+
+OUT = Path(r"D:\huaweinet\console\samples")
+OUT.mkdir(parents=True, exist_ok=True)
+
+HEAD_FILL = PatternFill("solid", fgColor="EAF0FE")
+HEAD_FONT = Font(bold=True, color="1D4ED8")
+
+COMMANDS = {
+    "R1": [
+        "system-view",
+        "sysname R1",
+        "interface LoopBack0",
+        " ip address 1.1.1.1 255.255.255.255",
+        "interface GigabitEthernet0/0/0",
+        " ip address 10.1.12.1 255.255.255.0",
+        "interface GigabitEthernet0/0/1",
+        " ip address 10.1.41.1 255.255.255.0",
+        "quit",
+        "ospf 1 router-id 1.1.1.1",
+        " area 0",
+        "  network 10.1.12.0 0.0.0.255",
+        "  network 10.1.41.0 0.0.0.255",
+        "  network 1.1.1.1 0.0.0.0",
+    ],
+    "R2": [
+        "system-view",
+        "sysname R2",
+        "interface LoopBack0",
+        " ip address 2.2.2.2 255.255.255.255",
+        "interface GigabitEthernet0/0/0",
+        " ip address 10.1.12.2 255.255.255.0",
+        "interface GigabitEthernet0/0/1",
+        " ip address 10.1.23.2 255.255.255.0",
+        "quit",
+        "ospf 1 router-id 2.2.2.2",
+        " area 0",
+        "  network 10.1.12.0 0.0.0.255",
+        "  network 10.1.23.0 0.0.0.255",
+        "  network 2.2.2.2 0.0.0.0",
+    ],
+    "R3": [
+        "system-view",
+        "sysname R3",
+        "interface LoopBack0",
+        " ip address 3.3.3.3 255.255.255.255",
+        "interface GigabitEthernet0/0/0",
+        " ip address 10.1.23.3 255.255.255.0",
+        "interface GigabitEthernet0/0/1",
+        " ip address 10.1.34.3 255.255.255.0",
+        "quit",
+        "ospf 1 router-id 3.3.3.3",
+        " area 0",
+        "  network 10.1.23.0 0.0.0.255",
+        "  network 10.1.34.0 0.0.0.255",
+        "  network 3.3.3.3 0.0.0.0",
+    ],
+    "R4": [
+        "system-view",
+        "sysname R4",
+        "interface LoopBack0",
+        " ip address 4.4.4.4 255.255.255.255",
+        "interface GigabitEthernet0/0/0",
+        " ip address 10.1.34.4 255.255.255.0",
+        "interface GigabitEthernet0/0/1",
+        " ip address 10.1.41.4 255.255.255.0",
+        "quit",
+        "ospf 1 router-id 4.4.4.4",
+        " area 0",
+        "  network 10.1.34.0 0.0.0.255",
+        "  network 10.1.41.0 0.0.0.255",
+        "  network 4.4.4.4 0.0.0.0",
+    ],
+}
+
+ROLES = {
+    "R1": ("AR2220", "核心（连接 R2 / R4）"),
+    "R2": ("AR2220", "汇聚（连接 R1 / R3）"),
+    "R3": ("AR2220", "汇聚（连接 R2 / R4）"),
+    "R4": ("AR2220", "核心（连接 R3 / R1）"),
+}
+
+
+def head(ws, cols):
+    ws.append(cols)
+    for cell in ws[1]:
+        cell.fill = HEAD_FILL
+        cell.font = HEAD_FONT
+        cell.alignment = Alignment(horizontal="center")
+    ws.freeze_panes = "A2"
+
+
+wb = Workbook()
+
+ws1 = wb.active
+ws1.title = "设备清单"
+head(ws1, ["设备", "型号", "角色"])
+for name, (model, role) in ROLES.items():
+    ws1.append([name, model, role])
+ws1.column_dimensions["A"].width = 12
+ws1.column_dimensions["B"].width = 12
+ws1.column_dimensions["C"].width = 26
+
+ws2 = wb.create_sheet("OSPF命令")
+head(ws2, ["设备", "命令"])
+for name, cmds in COMMANDS.items():
+    for c in cmds:
+        ws2.append([name, c])
+ws2.column_dimensions["A"].width = 12
+ws2.column_dimensions["B"].width = 56
+
+path = OUT / "设备与命令示例.xlsx"
+wb.save(path)
+print("saved", path, path.stat().st_size, "bytes")

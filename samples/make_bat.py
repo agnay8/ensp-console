@@ -1,1 +1,23 @@
-ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpQWSA9IHIiQzpcVXNlcnNcYWduYXlcLnZlbnZzXGVuc3AtbWNwXFNjcmlwdHNccHl0aG9uLmV4ZSIKCmJhdCA9IGYiIiJAZWNobyBvZmYKdGl0bGUgZU5TUCBUb3BvbG9neSBDb25zb2xlCmNkIC9kICIlfmRwMCIKc2V0IFBZVEhPTklPRU5DT0RJTkc9dXRmLTgKZWNobyBTdGFydGluZyBlTlNQIGNvbnNvbGUgYXQgaHR0cDovLzEyNy4wLjAuMTo4NzY1CmVjaG8gS2VlcCB0aGlzIHdpbmRvdyBvcGVuIHdoaWxlIHVzaW5nIHRoZSBjb25zb2xlLgplY2hvIEJyb3dzZXIgd2lsbCBvcGVuIGF1dG9tYXRpY2FsbHkgaW4gYSBmZXcgc2Vjb25kcy4KZWNoby4Kc3RhcnQgIiIgcG93ZXJzaGVsbCAtTm9Qcm9maWxlIC1XaW5kb3dTdHlsZSBIaWRkZW4gLUNvbW1hbmQgIlN0YXJ0LVNsZWVwIC1TZWNvbmRzIDQ7IFN0YXJ0LVByb2Nlc3MgJ2h0dHA6Ly8xMjcuMC4wLjE6ODc2NSciCiJ7UFl9IiAtbSB1dmljb3JuIGFwcDphcHAgLS1ob3N0IDEyNy4wLjAuMSAtLXBvcnQgODc2NQplY2hvLgplY2hvIFNlcnZlciBzdG9wcGVkLgpwYXVzZQoiIiIKCnBhdGggPSBQYXRoKHIiRDpcaHVhd2VpbmV0XGNvbnNvbGVcc3RhcnQuYmF0IikKcGF0aC53cml0ZV90ZXh0KGJhdCwgZW5jb2Rpbmc9ImdiayIsIG5ld2xpbmU9IlxyXG4iKQpwcmludCgid3JpdHRlbiIsIHBhdGgsIHBhdGguc3RhdCgpLnN0X3NpemUsICJieXRlcyIpCnByaW50KHJlcHIoYmF0Wzo4MF0pKQo=
+from pathlib import Path
+
+PY = r"C:\Users\agnay\.venvs\ensp-mcp\Scripts\python.exe"
+
+bat = f"""@echo off
+title eNSP Topology Console
+cd /d "%~dp0"
+set PYTHONIOENCODING=utf-8
+echo Starting eNSP console at http://127.0.0.1:8765
+echo Keep this window open while using the console.
+echo Browser will open automatically in a few seconds.
+echo.
+start "" powershell -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 4; Start-Process 'http://127.0.0.1:8765'"
+"{PY}" -m uvicorn app:app --host 127.0.0.1 --port 8765
+echo.
+echo Server stopped.
+pause
+"""
+
+path = Path(r"D:\huaweinet\console\start.bat")
+path.write_text(bat, encoding="gbk", newline="\r\n")
+print("written", path, path.stat().st_size, "bytes")
+print(repr(bat[:80]))

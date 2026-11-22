@@ -1,1 +1,68 @@
-IiIi54q25oCB5oyB5LmF5YyW77ya5YWz6ZSu54q25oCB5a2Y5YiwIGRhdGEvc3RhdGUuanNvbu+8jOmHjeWQr+WQjuiHquWKqOaBouWkjeOAgiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50CkRBVEEgPSBST09UIC8gImRhdGEiClNUQVRFX0ZJTEUgPSBEQVRBIC8gInN0YXRlLmpzb24iClJVTlNfRElSID0gREFUQSAvICJydW5zIgoKIyDlj6rmjIHkuYXljJbov5nkupvplK7vvIzpgb/lhY3miorkuLTml7blr7nosaHlhpnov5vljrsKUEVSU0lTVF9LRVlTID0gKCJ0b3BvIiwgInRvcG9OYW1lIiwgImluc3BlY3QiLCAiZXhjZWwiLCAiYnJpZWYiLCAibGFzdFJ1bklkIiwgImJhY2t1cEZvbGRlciIpCgoKZGVmIGxvYWQoKSAtPiBkaWN0OgogICAgaWYgbm90IFNUQVRFX0ZJTEUuZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIHt9CiAgICB0cnk6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMoU1RBVEVfRklMRS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgcmV0dXJuIGRhdGEgaWYgaXNpbnN0YW5jZShkYXRhLCBkaWN0KSBlbHNlIHt9CiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiB7fQoKCmRlZiBzYXZlKHN0YXRlOiBkaWN0KSAtPiBOb25lOgogICAgREFUQS5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBwYXlsb2FkID0ge2s6IHN0YXRlLmdldChrKSBmb3IgayBpbiBQRVJTSVNUX0tFWVMgaWYgc3RhdGUuZ2V0KGspIGlzIG5vdCBOb25lfQogICAgdG1wID0gU1RBVEVfRklMRS53aXRoX3N1ZmZpeCgiLnRtcCIpCiAgICB0cnk6CiAgICAgICAgdG1wLndyaXRlX3RleHQoanNvbi5kdW1wcyhwYXlsb2FkLCBlbnN1cmVfYXNjaWk9RmFsc2UpLCBlbmNvZGluZz0idXRmLTgiKQogICAgICAgIHRtcC5yZXBsYWNlKFNUQVRFX0ZJTEUpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHBhc3MKCgpkZWYgc2F2ZV9ydW4ocnVuX2lkOiBzdHIsIHJlc3VsdDogZGljdCkgLT4gTm9uZToKICAgIFJVTlNfRElSLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHRyeToKICAgICAgICAoUlVOU19ESVIgLyBmIntydW5faWR9Lmpzb24iKS53cml0ZV90ZXh0KAogICAgICAgICAgICBqc29uLmR1bXBzKHJlc3VsdCwgZW5zdXJlX2FzY2lpPUZhbHNlKSwgZW5jb2Rpbmc9InV0Zi04IgogICAgICAgICkKICAgICAgICBfcHJ1bmVfcnVucygpCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHBhc3MKCgpkZWYgbG9hZF9ydW4ocnVuX2lkOiBzdHIpIC0+IGRpY3QgfCBOb25lOgogICAgcGF0aCA9IFJVTlNfRElSIC8gZiJ7cnVuX2lkfS5qc29uIgogICAgaWYgbm90IHBhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHRyeToKICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIE5vbmUKCgpkZWYgX3BydW5lX3J1bnMoa2VlcDogaW50ID0gNDApIC0+IE5vbmU6CiAgICBpZiBub3QgUlVOU19ESVIuZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuCiAgICBmaWxlcyA9IHNvcnRlZChSVU5TX0RJUi5nbG9iKCIqLmpzb24iKSwga2V5PWxhbWJkYSBwOiBwLnN0YXQoKS5zdF9tdGltZSkKICAgIGZvciBvbGQgaW4gZmlsZXNbOi1rZWVwXToKICAgICAgICB0cnk6CiAgICAgICAgICAgIG9sZC51bmxpbmsoKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBhc3MK
+"""状态持久化：关键状态存到 data/state.json，重启后自动恢复。"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parent
+DATA = ROOT / "data"
+STATE_FILE = DATA / "state.json"
+RUNS_DIR = DATA / "runs"
+
+# 只持久化这些键，避免把临时对象写进去
+PERSIST_KEYS = ("topo", "topoName", "inspect", "excel", "brief", "lastRunId", "backupFolder")
+
+
+def load() -> dict:
+    if not STATE_FILE.exists():
+        return {}
+    try:
+        data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def save(state: dict) -> None:
+    DATA.mkdir(parents=True, exist_ok=True)
+    payload = {k: state.get(k) for k in PERSIST_KEYS if state.get(k) is not None}
+    tmp = STATE_FILE.with_suffix(".tmp")
+    try:
+        tmp.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+        tmp.replace(STATE_FILE)
+    except Exception:
+        pass
+
+
+def save_run(run_id: str, result: dict) -> None:
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        (RUNS_DIR / f"{run_id}.json").write_text(
+            json.dumps(result, ensure_ascii=False), encoding="utf-8"
+        )
+        _prune_runs()
+    except Exception:
+        pass
+
+
+def load_run(run_id: str) -> dict | None:
+    path = RUNS_DIR / f"{run_id}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _prune_runs(keep: int = 40) -> None:
+    if not RUNS_DIR.exists():
+        return
+    files = sorted(RUNS_DIR.glob("*.json"), key=lambda p: p.stat().st_mtime)
+    for old in files[:-keep]:
+        try:
+            old.unlink()
+        except Exception:
+            pass

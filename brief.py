@@ -1,1 +1,183 @@
-IiIi5Lu75Yqh5Lmm6Kej5p6Q77ya5oq95Y+W57qv5paH5pys77yM5bm26K+G5Yir6K6+5aSH44CB572R5q6144CB5Y2P6K6u562J5YWz6ZSu6KaB57Sg44CCCgrlj6rlgZrjgIzor7vlh7rmnaUgKyDmoIflh7ropoHntKDjgI3vvIzkuI3lgZror63kuYnmjqjmlq3vvJvphY3nva7pqqjmnrbmmI7noa7moIfms6jkuLrlvoXooaXlhajjgIIKIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcmUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgojIOiuvuWkh+WQje+8muW4uOingeWJjee8gCArIDF+MiDkvY3nvJblj7fvvIgzIOS9jeS7peS4iuinhuS4uuWei+WPt++8jOWmgiBBUjIyMjAgLyBTNTcwMO+8iQpERVZJQ0VfUkUgPSByZS5jb21waWxlKHIiXGIoKD86QVJ8Q0V8TkV8U1J8TFNXfFNXfEZXfFJUfFJ8UylcZHsxLDJ9KVxiIikKSVBfUkUgPSByZS5jb21waWxlKHIiXGIoXGR7MSwzfSg/OlwuXGR7MSwzfSl7M30pKD86LyhcZHsxLDJ9KSk/XGIiKQpWTEFOX1JFID0gcmUuY29tcGlsZShyIig/OlZMQU58dmxhbilccyooPzpiYXRjaFxzKik/KCg/OlxkezEsNH1bXHMs77yM44CBXSopKykiKQpBUkVBX1JFID0gcmUuY29tcGlsZShyIig/OmFyZWF85Yy65Z+fKVxzKihbXGQuXSspIiwgcmUuSSkKQVNfUkUgPSByZS5jb21waWxlKHIiXGJBU1xzKihcZHsxLDV9KVxiIikKUk9VVEVSX0lEX1JFID0gcmUuY29tcGlsZShyInJvdXRlclstIF0/aWRccyooW1xkLl0rKSIsIHJlLkkpCk1BU0tfUkUgPSByZS5jb21waWxlKHIiXGIoMjU1XC4oPzoyNTV8MClcLig/OjI1NXwwKVwuKD86MjU1fDApKVxiIikKClBST1RPQ09MUyA9IFsKICAgICJPU1BGIiwgIkJHUCIsICJSSVAiLCAiSVMtSVMiLCAiVlJSUCIsICJNU1RQIiwgIlJTVFAiLCAiU1RQIiwgIlZMQU4iLAogICAgIk5BVCIsICJBQ0wiLCAiREhDUCIsICJQUFAiLCAiUFBQb0UiLCAiRXRoLVRydW5rIiwgIumTvui3r+iBmuWQiCIsICLnq6/lj6PlronlhagiLAogICAgIumdmeaAgei3r+eUsSIsICLpu5jorqTot6/nlLEiLCAiUW9TIiwgIk1QTFMiLCAiSVB2NiIsICJHUkUiLCAiSVBTZWMiLCAiTEFDUCIsICJCRkQiLApdCgpQUk9UT0NPTF9BTElBUyA9IHsKICAgICJvc3BmIjogIk9TUEYiLCAiYmdwIjogIkJHUCIsICJyaXAiOiAiUklQIiwgImlzaXMiOiAiSVMtSVMiLCAiaXMtaXMiOiAiSVMtSVMiLAogICAgInZycnAiOiAiVlJSUCIsICJzdHAiOiAiU1RQIiwgInZsYW4iOiAiVkxBTiIsICJuYXQiOiAiTkFUIiwgImFjbCI6ICJBQ0wiLAogICAgImRoY3AiOiAiREhDUCIsICJwcHAiOiAiUFBQIiwgIm1wbHMiOiAiTVBMUyIsICJpcHY2IjogIklQdjYiLCAiYmZkIjogIkJGRCIsCn0KCgpkZWYgZXh0cmFjdF90ZXh0KHBhdGg6IFBhdGgpIC0+IHR1cGxlW3N0ciwgc3RyXToKICAgICIiIui/lOWbniAo57qv5paH5pysLCDmlofku7bnsbvlnosp44CCIiIiCiAgICBzdWZmaXggPSBwYXRoLnN1ZmZpeC5sb3dlcigpCgogICAgaWYgc3VmZml4IGluICgiLnR4dCIsICIubWQiLCAiLnRleHQiKToKICAgICAgICBmb3IgZW5jIGluICgidXRmLTgiLCAidXRmLTgtc2lnIiwgImdiayIsICJnYjE4MDMwIik6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJldHVybiBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz1lbmMpLCBzdWZmaXgubHN0cmlwKCIuIikKICAgICAgICAgICAgZXhjZXB0IFVuaWNvZGVEZWNvZGVFcnJvcjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcmV0dXJuIHBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpLCBzdWZmaXgubHN0cmlwKCIuIikKCiAgICBpZiBzdWZmaXggPT0gIi5kb2N4IjoKICAgICAgICBmcm9tIGRvY3ggaW1wb3J0IERvY3VtZW50CgogICAgICAgIGRvYyA9IERvY3VtZW50KHN0cihwYXRoKSkKICAgICAgICBwYXJ0czogbGlzdFtzdHJdID0gW3AudGV4dCBmb3IgcCBpbiBkb2MucGFyYWdyYXBocyBpZiBwLnRleHQuc3RyaXAoKV0KICAgICAgICBmb3IgdGFibGUgaW4gZG9jLnRhYmxlczoKICAgICAgICAgICAgZm9yIHJvdyBpbiB0YWJsZS5yb3dzOgogICAgICAgICAgICAgICAgY2VsbHMgPSBbYy50ZXh0LnN0cmlwKCkgZm9yIGMgaW4gcm93LmNlbGxzXQogICAgICAgICAgICAgICAgaWYgYW55KGNlbGxzKToKICAgICAgICAgICAgICAgICAgICBwYXJ0cy5hcHBlbmQoIiB8ICIuam9pbihjZWxscykpCiAgICAgICAgcmV0dXJuICJcbiIuam9pbihwYXJ0cyksICJkb2N4IgoKICAgIGlmIHN1ZmZpeCA9PSAiLnBkZiI6CiAgICAgICAgZnJvbSBweXBkZiBpbXBvcnQgUGRmUmVhZGVyCgogICAgICAgIHJlYWRlciA9IFBkZlJlYWRlcihzdHIocGF0aCkpCiAgICAgICAgcGFnZXMgPSBbXQogICAgICAgIGZvciBwYWdlIGluIHJlYWRlci5wYWdlczoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcGFnZXMuYXBwZW5kKHBhZ2UuZXh0cmFjdF90ZXh0KCkgb3IgIiIpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYWdlcy5hcHBlbmQoIiIpCiAgICAgICAgcmV0dXJuICJcbiIuam9pbihwYWdlcyksICJwZGYiCgogICAgcmFpc2UgVmFsdWVFcnJvcihmIuS4jeaUr+aMgeeahOagvOW8jyB7c3VmZml4fe+8jOivt+eUqCAudHh0IC8gLm1kIC8gLmRvY3ggLyAucGRmIikKCgpkZWYgX3ZhbGlkX2lwKGlwOiBzdHIpIC0+IGJvb2w6CiAgICByZXR1cm4gYWxsKDAgPD0gaW50KHBhcnQpIDw9IDI1NSBmb3IgcGFydCBpbiBpcC5zcGxpdCgiLiIpKQoKCmRlZiBhbmFseXNlKHRleHQ6IHN0cikgLT4gZGljdDoKICAgIGRldmljZXMgPSBzb3J0ZWQoe20uZ3JvdXAoMSkgZm9yIG0gaW4gREVWSUNFX1JFLmZpbmRpdGVyKHRleHQpfSkKCiAgICBpcHM6IGxpc3Rbc3RyXSA9IFtdCiAgICBuZXRzOiBsaXN0W3N0cl0gPSBbXQogICAgZm9yIG0gaW4gSVBfUkUuZmluZGl0ZXIodGV4dCk6CiAgICAgICAgaXAsIHByZWZpeCA9IG0uZ3JvdXAoMSksIG0uZ3JvdXAoMikKICAgICAgICBpZiBub3QgX3ZhbGlkX2lwKGlwKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBtYXNrZWQgPSBpcC5zdGFydHN3aXRoKCIyNTUuIikgb3IgaXAuZW5kc3dpdGgoIi4wIikKICAgICAgICBpZiBwcmVmaXg6CiAgICAgICAgICAgIG5ldHMuYXBwZW5kKGYie2lwfS97cHJlZml4fSIpCiAgICAgICAgZWxpZiBtYXNrZWQ6CiAgICAgICAgICAgIG5ldHMuYXBwZW5kKGlwKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlwcy5hcHBlbmQoaXApCgogICAgbG93ZXIgPSB0ZXh0Lmxvd2VyKCkKICAgIHByb3RvY29scyA9IFtwIGZvciBwIGluIFBST1RPQ09MUyBpZiBwLmxvd2VyKCkgaW4gbG93ZXJdCgogICAgdmxhbnM6IGxpc3RbaW50XSA9IFtdCiAgICBmb3IgbSBpbiBWTEFOX1JFLmZpbmRpdGVyKHRleHQpOgogICAgICAgIGZvciB0b2tlbiBpbiByZS5maW5kYWxsKHIiXGR7MSw0fSIsIG0uZ3JvdXAoMSkpOgogICAgICAgICAgICB2ID0gaW50KHRva2VuKQogICAgICAgICAgICBpZiAxIDw9IHYgPD0gNDA5NCBhbmQgdiBub3QgaW4gdmxhbnM6CiAgICAgICAgICAgICAgICB2bGFucy5hcHBlbmQodikKCiAgICBhcmVhcyA9IHNvcnRlZCh7bS5ncm91cCgxKSBmb3IgbSBpbiBBUkVBX1JFLmZpbmRpdGVyKHRleHQpfSkKICAgIGFzbnMgPSBzb3J0ZWQoe20uZ3JvdXAoMSkgZm9yIG0gaW4gQVNfUkUuZmluZGl0ZXIodGV4dCl9KQogICAgcm91dGVyX2lkcyA9IHNvcnRlZCh7bS5ncm91cCgxKSBmb3IgbSBpbiBST1VURVJfSURfUkUuZmluZGl0ZXIodGV4dCkgaWYgX3ZhbGlkX2lwKG0uZ3JvdXAoMSkpfSkKICAgIG1hc2tzID0gc29ydGVkKHttLmdyb3VwKDEpIGZvciBtIGluIE1BU0tfUkUuZmluZGl0ZXIodGV4dCl9KQoKICAgIHNlY3Rpb25zID0gX291dGxpbmUodGV4dCkKCiAgICByZXR1cm4gewogICAgICAgICJkZXZpY2VzIjogZGV2aWNlcywKICAgICAgICAiaXBzIjogc29ydGVkKHNldChpcHMpKSwKICAgICAgICAibmV0d29ya3MiOiBzb3J0ZWQoc2V0KG5ldHMpKSwKICAgICAgICAibWFza3MiOiBtYXNrcywKICAgICAgICAicHJvdG9jb2xzIjogcHJvdG9jb2xzLAogICAgICAgICJ2bGFucyI6IHNvcnRlZCh2bGFucyksCiAgICAgICAgImFyZWFzIjogYXJlYXMsCiAgICAgICAgImFzTnVtYmVycyI6IGFzbnMsCiAgICAgICAgInJvdXRlcklkcyI6IHJvdXRlcl9pZHMsCiAgICAgICAgInNlY3Rpb25zIjogc2VjdGlvbnMsCiAgICAgICAgImNoYXJDb3VudCI6IGxlbih0ZXh0KSwKICAgICAgICAibGluZUNvdW50IjogbGVuKFtsIGZvciBsIGluIHRleHQuc3BsaXRsaW5lcygpIGlmIGwuc3RyaXAoKV0pLAogICAgfQoKCmRlZiBfb3V0bGluZSh0ZXh0OiBzdHIpIC0+IGxpc3Rbc3RyXToKICAgICIiIuaKk+WPluWDj+Wwj+agh+mimOeahOihjO+8muS4gOOAgTEuIDEpIO+8iOS4gO+8iSDnrKxY56ugIOetieOAgiIiIgogICAgcGF0ID0gcmUuY29tcGlsZShyIl5ccyooPzrnrKxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2B55m+XStb56ug6IqC6YOo5YiGXXxb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXStb44CBLl18XGQrW+OAgS4p77yJXXzvvIhb5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXSvvvIkpIikKICAgIG91dCA9IFtdCiAgICBmb3IgbGluZSBpbiB0ZXh0LnNwbGl0bGluZXMoKToKICAgICAgICBzID0gbGluZS5zdHJpcCgpCiAgICAgICAgaWYgcyBhbmQgbGVuKHMpIDw9IDQwIGFuZCBub3Qgcy5lbmRzd2l0aCgoIuOAgiIsICLvvJsiLCAi77yMIiwgIi4iLCAiOyIpKSBhbmQgcGF0Lm1hdGNoKHMpOgogICAgICAgICAgICBvdXQuYXBwZW5kKHMpCiAgICAgICAgaWYgbGVuKG91dCkgPj0gNDA6CiAgICAgICAgICAgIGJyZWFrCiAgICByZXR1cm4gb3V0CgoKZGVmIGJ1aWxkX3NrZWxldG9uKGRldmljZXM6IGxpc3Rbc3RyXSwgaW5mbzogZGljdCkgLT4gZGljdFtzdHIsIGxpc3Rbc3RyXV06CiAgICAiIiLmjInorr7lpIfnlJ/miJDphY3nva7pqqjmnrbvvIzlhajpg6jkuLrlj6/nvJbovpHljaDkvY3vvIzkuI3lkKvnnJ/lrp7lnLDlnYDjgIIiIiIKICAgIHN1cHBvcnRzX29zcGYgPSAiT1NQRiIgaW4gaW5mby5nZXQoInByb3RvY29scyIsIFtdKQogICAgc3VwcG9ydHNfdmxhbiA9ICJWTEFOIiBpbiBpbmZvLmdldCgicHJvdG9jb2xzIiwgW10pCgogICAgb3V0OiBkaWN0W3N0ciwgbGlzdFtzdHJdXSA9IHt9CiAgICBmb3IgaW5kZXgsIG5hbWUgaW4gZW51bWVyYXRlKGRldmljZXMsIHN0YXJ0PTEpOgogICAgICAgIGNtZHMgPSBbInN5c3RlbS12aWV3IiwgZiJzeXNuYW1lIHtuYW1lfSJdCgogICAgICAgIGlmIHN1cHBvcnRzX3ZsYW4gYW5kICJWTEFOIiBpbiBpbmZvLmdldCgicHJvdG9jb2xzIiwgW10pOgogICAgICAgICAgICB2bGFucyA9IGluZm8uZ2V0KCJ2bGFucyIpIG9yIFtdCiAgICAgICAgICAgIGlmIHZsYW5zOgogICAgICAgICAgICAgICAgY21kcy5hcHBlbmQoZiJ2bGFuIGJhdGNoIHsnICcuam9pbihzdHIodikgZm9yIHYgaW4gdmxhbnMpfSIpCgogICAgICAgIGNtZHMgKz0gWwogICAgICAgICAgICAiIyBUT0RPIOaMieS7u+WKoeS5pumFjee9ruaOpeWPo+WcsOWdgO+8jOS+i+Wmgu+8miIsCiAgICAgICAgICAgICIjIGludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMCIsCiAgICAgICAgICAgICIjICBpcCBhZGRyZXNzIDEwLjAuMC4xIDI1NS4yNTUuMjU1LjAiLAogICAgICAgIF0KCiAgICAgICAgaWYgc3VwcG9ydHNfb3NwZjoKICAgICAgICAgICAgcmlkID0gZiJ7aW5kZXh9LntpbmRleH0ue2luZGV4fS57aW5kZXh9IgogICAgICAgICAgICBhcmVhID0gaW5mb1siYXJlYXMiXVswXSBpZiBpbmZvLmdldCgiYXJlYXMiKSBlbHNlICIwIgogICAgICAgICAgICBjbWRzICs9IFsKICAgICAgICAgICAgICAgICIjIFRPRE8g5oyJ5Lu75Yqh5Lmm6YWN572uIExvb3BiYWNrIOS4jiBPU1BGIOWuo+WRiue9keautSIsCiAgICAgICAgICAgICAgICBmIm9zcGYgMSByb3V0ZXItaWQge3JpZH0iLAogICAgICAgICAgICAgICAgZiIgYXJlYSB7YXJlYX0iLAogICAgICAgICAgICBdCiAgICAgICAgICAgIGZvciBuZXQgaW4gKGluZm8uZ2V0KCJuZXR3b3JrcyIpIG9yIFtdKVs6NF06CiAgICAgICAgICAgICAgICBpZiAiLyIgaW4gbmV0OgogICAgICAgICAgICAgICAgICAgIGlwLCBwcmVmaXggPSBuZXQuc3BsaXQoIi8iLCAxKQogICAgICAgICAgICAgICAgICAgIGNtZHMuYXBwZW5kKGYiICAjIG5ldHdvcmsge2lwfSB7X3dpbGRjYXJkKGludChwcmVmaXgpKX0iKQogICAgICAgICAgICBjbWRzLmFwcGVuZCgicXVpdCIpCgogICAgICAgIGNtZHMgKz0gWyJyZXR1cm4iLCAic2F2ZSJdCiAgICAgICAgb3V0W25hbWVdID0gY21kcwoKICAgIHJldHVybiBvdXQKCgpkZWYgX3dpbGRjYXJkKHByZWZpeDogaW50KSAtPiBzdHI6CiAgICBpZiBub3QgMCA8PSBwcmVmaXggPD0gMzI6CiAgICAgICAgcmV0dXJuICIwLjAuMC4yNTUiCiAgICBiaXRzID0gKDEgPDwgKDMyIC0gcHJlZml4KSkgLSAxCiAgICByZXR1cm4gIi4iLmpvaW4oc3RyKChiaXRzID4+IHNoaWZ0KSAmIDB4RkYpIGZvciBzaGlmdCBpbiAoMjQsIDE2LCA4LCAwKSkK
+"""任务书解析：抽取纯文本，并识别设备、网段、协议等关键要素。
+
+只做「读出来 + 标出要素」，不做语义推断；配置骨架明确标注为待补全。
+"""
+
+from __future__ import annotations
+
+import re
+from pathlib import Path
+
+# 设备名：常见前缀 + 1~2 位编号（3 位以上视为型号，如 AR2220 / S5700）
+DEVICE_RE = re.compile(r"\b((?:AR|CE|NE|SR|LSW|SW|FW|RT|R|S)\d{1,2})\b")
+IP_RE = re.compile(r"\b(\d{1,3}(?:\.\d{1,3}){3})(?:/(\d{1,2}))?\b")
+VLAN_RE = re.compile(r"(?:VLAN|vlan)\s*(?:batch\s*)?((?:\d{1,4}[\s,，、]*)+)")
+AREA_RE = re.compile(r"(?:area|区域)\s*([\d.]+)", re.I)
+AS_RE = re.compile(r"\bAS\s*(\d{1,5})\b")
+ROUTER_ID_RE = re.compile(r"router[- ]?id\s*([\d.]+)", re.I)
+MASK_RE = re.compile(r"\b(255\.(?:255|0)\.(?:255|0)\.(?:255|0))\b")
+
+PROTOCOLS = [
+    "OSPF", "BGP", "RIP", "IS-IS", "VRRP", "MSTP", "RSTP", "STP", "VLAN",
+    "NAT", "ACL", "DHCP", "PPP", "PPPoE", "Eth-Trunk", "链路聚合", "端口安全",
+    "静态路由", "默认路由", "QoS", "MPLS", "IPv6", "GRE", "IPSec", "LACP", "BFD",
+]
+
+PROTOCOL_ALIAS = {
+    "ospf": "OSPF", "bgp": "BGP", "rip": "RIP", "isis": "IS-IS", "is-is": "IS-IS",
+    "vrrp": "VRRP", "stp": "STP", "vlan": "VLAN", "nat": "NAT", "acl": "ACL",
+    "dhcp": "DHCP", "ppp": "PPP", "mpls": "MPLS", "ipv6": "IPv6", "bfd": "BFD",
+}
+
+
+def extract_text(path: Path) -> tuple[str, str]:
+    """返回 (纯文本, 文件类型)。"""
+    suffix = path.suffix.lower()
+
+    if suffix in (".txt", ".md", ".text"):
+        for enc in ("utf-8", "utf-8-sig", "gbk", "gb18030"):
+            try:
+                return path.read_text(encoding=enc), suffix.lstrip(".")
+            except UnicodeDecodeError:
+                continue
+        return path.read_text(encoding="utf-8", errors="replace"), suffix.lstrip(".")
+
+    if suffix == ".docx":
+        from docx import Document
+
+        doc = Document(str(path))
+        parts: list[str] = [p.text for p in doc.paragraphs if p.text.strip()]
+        for table in doc.tables:
+            for row in table.rows:
+                cells = [c.text.strip() for c in row.cells]
+                if any(cells):
+                    parts.append(" | ".join(cells))
+        return "\n".join(parts), "docx"
+
+    if suffix == ".pdf":
+        from pypdf import PdfReader
+
+        reader = PdfReader(str(path))
+        pages = []
+        for page in reader.pages:
+            try:
+                pages.append(page.extract_text() or "")
+            except Exception:
+                pages.append("")
+        return "\n".join(pages), "pdf"
+
+    raise ValueError(f"不支持的格式 {suffix}，请用 .txt / .md / .docx / .pdf")
+
+
+def _valid_ip(ip: str) -> bool:
+    return all(0 <= int(part) <= 255 for part in ip.split("."))
+
+
+def analyse(text: str) -> dict:
+    devices = sorted({m.group(1) for m in DEVICE_RE.finditer(text)})
+
+    ips: list[str] = []
+    nets: list[str] = []
+    for m in IP_RE.finditer(text):
+        ip, prefix = m.group(1), m.group(2)
+        if not _valid_ip(ip):
+            continue
+        masked = ip.startswith("255.") or ip.endswith(".0")
+        if prefix:
+            nets.append(f"{ip}/{prefix}")
+        elif masked:
+            nets.append(ip)
+        else:
+            ips.append(ip)
+
+    lower = text.lower()
+    protocols = [p for p in PROTOCOLS if p.lower() in lower]
+
+    vlans: list[int] = []
+    for m in VLAN_RE.finditer(text):
+        for token in re.findall(r"\d{1,4}", m.group(1)):
+            v = int(token)
+            if 1 <= v <= 4094 and v not in vlans:
+                vlans.append(v)
+
+    areas = sorted({m.group(1) for m in AREA_RE.finditer(text)})
+    asns = sorted({m.group(1) for m in AS_RE.finditer(text)})
+    router_ids = sorted({m.group(1) for m in ROUTER_ID_RE.finditer(text) if _valid_ip(m.group(1))})
+    masks = sorted({m.group(1) for m in MASK_RE.finditer(text)})
+
+    sections = _outline(text)
+
+    return {
+        "devices": devices,
+        "ips": sorted(set(ips)),
+        "networks": sorted(set(nets)),
+        "masks": masks,
+        "protocols": protocols,
+        "vlans": sorted(vlans),
+        "areas": areas,
+        "asNumbers": asns,
+        "routerIds": router_ids,
+        "sections": sections,
+        "charCount": len(text),
+        "lineCount": len([l for l in text.splitlines() if l.strip()]),
+    }
+
+
+def _outline(text: str) -> list[str]:
+    """抓取像小标题的行：一、1. 1) （一） 第X章 等。"""
+    pat = re.compile(r"^\s*(?:第[一二三四五六七八九十百]+[章节部分]|[一二三四五六七八九十]+[、.]|\d+[、.)）]|（[一二三四五六七八九十]+）)")
+    out = []
+    for line in text.splitlines():
+        s = line.strip()
+        if s and len(s) <= 40 and not s.endswith(("。", "；", "，", ".", ";")) and pat.match(s):
+            out.append(s)
+        if len(out) >= 40:
+            break
+    return out
+
+
+def build_skeleton(devices: list[str], info: dict) -> dict[str, list[str]]:
+    """按设备生成配置骨架，全部为可编辑占位，不含真实地址。"""
+    supports_ospf = "OSPF" in info.get("protocols", [])
+    supports_vlan = "VLAN" in info.get("protocols", [])
+
+    out: dict[str, list[str]] = {}
+    for index, name in enumerate(devices, start=1):
+        cmds = ["system-view", f"sysname {name}"]
+
+        if supports_vlan and "VLAN" in info.get("protocols", []):
+            vlans = info.get("vlans") or []
+            if vlans:
+                cmds.append(f"vlan batch {' '.join(str(v) for v in vlans)}")
+
+        cmds += [
+            "# TODO 按任务书配置接口地址，例如：",
+            "# interface GigabitEthernet0/0/0",
+            "#  ip address 10.0.0.1 255.255.255.0",
+        ]
+
+        if supports_ospf:
+            rid = f"{index}.{index}.{index}.{index}"
+            area = info["areas"][0] if info.get("areas") else "0"
+            cmds += [
+                "# TODO 按任务书配置 Loopback 与 OSPF 宣告网段",
+                f"ospf 1 router-id {rid}",
+                f" area {area}",
+            ]
+            for net in (info.get("networks") or [])[:4]:
+                if "/" in net:
+                    ip, prefix = net.split("/", 1)
+                    cmds.append(f"  # network {ip} {_wildcard(int(prefix))}")
+            cmds.append("quit")
+
+        cmds += ["return", "save"]
+        out[name] = cmds
+
+    return out
+
+
+def _wildcard(prefix: int) -> str:
+    if not 0 <= prefix <= 32:
+        return "0.0.0.255"
+    bits = (1 << (32 - prefix)) - 1
+    return ".".join(str((bits >> shift) & 0xFF) for shift in (24, 16, 8, 0))

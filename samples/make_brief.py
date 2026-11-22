@@ -1,1 +1,76 @@
-ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIGRvY3ggaW1wb3J0IERvY3VtZW50CmZyb20gZG9jeC5zaGFyZWQgaW1wb3J0IFB0CgpPVVQgPSBQYXRoKHIiRDpcaHVhd2VpbmV0XGNvbnNvbGVcc2FtcGxlcyIpCk9VVC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCgpkb2MgPSBEb2N1bWVudCgpCnN0eWxlID0gZG9jLnN0eWxlc1siTm9ybWFsIl0Kc3R5bGUuZm9udC5uYW1lID0gIuW+rui9r+mbhem7kSIKc3R5bGUuZm9udC5zaXplID0gUHQoMTAuNSkKCmRvYy5hZGRfaGVhZGluZygi5a6e6aqM5ZubICBPU1BGIOWNleWMuuWfn+i3r+eUsemFjee9riIsIGxldmVsPTEpCgpkb2MuYWRkX2hlYWRpbmcoIuS4gOOAgeWunumqjOebrueahCIsIGxldmVsPTIpCmRvYy5hZGRfcGFyYWdyYXBoKCLmjozmj6EgT1NQRiDljZXljLrln5/nmoTln7rmnKzphY3nva7mlrnms5XvvIznkIbop6PpgrvlsYXlu7rnq4vov4fnqIvkuI7ot6/nlLHorqHnrpfjgIIiKQoKZG9jLmFkZF9oZWFkaW5nKCLkuozjgIHlrp7pqozmi5PmiZEiLCBsZXZlbD0yKQpkb2MuYWRkX3BhcmFncmFwaCgi5L2/55So5Zub5Y+wIEFSMjIyMCDot6/nlLHlmajnu4TmiJDnjq/lvaLnvZHnu5zvvIzorr7lpIflkb3lkI3kuLogUjHjgIFSMuOAgVIz44CBUjTvvIzkvp3mrKHnjq/lvaLkupLogZTjgIIiKQpkb2MuYWRkX3BhcmFncmFwaCgi5LqS6IGU6ZO+6Lev5Zyw5Z2A6KeE5YiS5aaC5LiL77yaIikKdCA9IGRvYy5hZGRfdGFibGUocm93cz0xLCBjb2xzPTMpCnQuc3R5bGUgPSAiVGFibGUgR3JpZCIKaGRyID0gdC5yb3dzWzBdLmNlbGxzCmhkclswXS50ZXh0LCBoZHJbMV0udGV4dCwgaGRyWzJdLnRleHQgPSAi6ZO+6LevIiwgIue9keautSIsICLor7TmmI4iCmZvciByb3cgaW4gWwogICAgKCJSMSAtIFIyIiwgIjEwLjEuMTIuMC8yNCIsICJSMSDlj5YgLjHvvIxSMiDlj5YgLjIiKSwKICAgICgiUjIgLSBSMyIsICIxMC4xLjIzLjAvMjQiLCAiUjIg5Y+WIC4y77yMUjMg5Y+WIC4zIiksCiAgICAoIlIzIC0gUjQiLCAiMTAuMS4zNC4wLzI0IiwgIlIzIOWPliAuM++8jFI0IOWPliAuNCIpLAogICAgKCJSNCAtIFIxIiwgIjEwLjEuNDEuMC8yNCIsICJSNCDlj5YgLjTvvIxSMSDlj5YgLjEiKSwKXToKICAgIGNlbGxzID0gdC5hZGRfcm93KCkuY2VsbHMKICAgIGNlbGxzWzBdLnRleHQsIGNlbGxzWzFdLnRleHQsIGNlbGxzWzJdLnRleHQgPSByb3cKCmRvYy5hZGRfcGFyYWdyYXBoKCLmr4/lj7Dot6/nlLHlmajphY3nva4gTG9vcGJhY2swIOS9nOS4uiBSb3V0ZXItSUTvvJpSMSDkuLogMS4xLjEuMS8zMu+8jFIyIOS4uiAyLjIuMi4yLzMy77yMUjMg5Li6IDMuMy4zLjMvMzLvvIxSNCDkuLogNC40LjQuNC8zMuOAgiIpCgpkb2MuYWRkX2hlYWRpbmcoIuS4ieOAgemFjee9ruimgeaxgiIsIGxldmVsPTIpCmRvYy5hZGRfcGFyYWdyYXBoKCIxLiDlm5vlj7Dot6/nlLHlmajlnYfov5DooYwgT1NQRiDov5vnqIsgMe+8jOWFqOmDqOWIkuWFpeWMuuWfnyAw44CCIiwgc3R5bGU9Ikxpc3QgTnVtYmVyIikKZG9jLmFkZF9wYXJhZ3JhcGgoIjIuIFJvdXRlci1JRCDkvb/nlKjlkIToh6rnmoQgTG9vcGJhY2swIOWcsOWdgOOAgiIsIHN0eWxlPSJMaXN0IE51bWJlciIpCmRvYy5hZGRfcGFyYWdyYXBoKCIzLiDkupLogZTnvZHmrrXkuI4gTG9vcGJhY2sg572R5q615YWo6YOo6YCa6L+HIG5ldHdvcmsg5ZG95Luk5a6j5ZGK44CCIiwgc3R5bGU9Ikxpc3QgTnVtYmVyIikKZG9jLmFkZF9wYXJhZ3JhcGgoIjQuIOmFjee9ruWujOaIkOWQjuS/neWtmOmFjee9ruOAgiIsIHN0eWxlPSJMaXN0IE51bWJlciIpCgpkb2MuYWRkX2hlYWRpbmcoIuWbm+OAgemqjOivgeimgeaxgiIsIGxldmVsPTIpCmRvYy5hZGRfcGFyYWdyYXBoKCJkaXNwbGF5IG9zcGYgcGVlciBicmllZiDlupTnnIvliLDpgrvlsYXnirbmgIHkuLogRnVsbO+8m+S7u+aEj+S4pOWPsOi3r+eUseWZqOeahCBMb29wYmFjayDlnLDlnYDlupTog73kupLpgJrjgIIiKQoKcGF0aCA9IE9VVCAvICLlrp7pqozlm5stT1NQRuWNleWMuuWfn+S7u+WKoeS5pi5kb2N4Igpkb2Muc2F2ZShwYXRoKQpwcmludCgic2F2ZWQiLCBwYXRoLCBwYXRoLnN0YXQoKS5zdF9zaXplLCAiYnl0ZXMiKQoKIyDlkIzlhoXlrrnnuq/mlofmnKzniYjvvIzmlrnkvr/lv6vpgJ/pqozor4EKdHh0ID0gT1VUIC8gIuWunumqjOWbmy1PU1BG5Y2V5Yy65Z+f5Lu75Yqh5LmmLnR4dCIKdHh0LndyaXRlX3RleHQoCiAgICAiIiLlrp7pqozlm5sgT1NQRiDljZXljLrln5/ot6/nlLHphY3nva4KCuS4gOOAgeWunumqjOebrueahArmjozmj6EgT1NQRiDljZXljLrln5/nmoTln7rmnKzphY3nva7mlrnms5XjgIIKCuS6jOOAgeWunumqjOaLk+aJkQrlm5vlj7AgQVIyMjIwIOi3r+eUseWZqCBSMeOAgVIy44CBUjPjgIFSNCDnjq/lvaLkupLogZTjgIIKUjEgLSBSMiAgMTAuMS4xMi4wLzI0ClIyIC0gUjMgIDEwLjEuMjMuMC8yNApSMyAtIFI0ICAxMC4xLjM0LjAvMjQKUjQgLSBSMSAgMTAuMS40MS4wLzI0Ckxvb3BiYWNrMO+8mjEuMS4xLjEvMzLjgIEyLjIuMi4yLzMy44CBMy4zLjMuMy8zMuOAgTQuNC40LjQvMzIKCuS4ieOAgemFjee9ruimgeaxggoxLiDlm5vlj7Dot6/nlLHlmajov5DooYwgT1NQRiDov5vnqIsgMe+8jOWIkuWFpeWMuuWfnyAw44CCCjIuIFJvdXRlci1JRCDkvb/nlKggTG9vcGJhY2swIOWcsOWdgOOAggozLiDlhajpg6jnvZHmrrXpgJrov4cgbmV0d29yayDlrqPlkYrjgIIKCuWbm+OAgemqjOivgeimgeaxggpkaXNwbGF5IG9zcGYgcGVlciBicmllZiDpgrvlsYXlupTkuLogRnVsbOOAggoiIiIsCiAgICBlbmNvZGluZz0idXRmLTgiLAopCnByaW50KCJzYXZlZCIsIHR4dCwgdHh0LnN0YXQoKS5zdF9zaXplLCAiYnl0ZXMiKQo=
+from pathlib import Path
+
+from docx import Document
+from docx.shared import Pt
+
+OUT = Path(r"D:\huaweinet\console\samples")
+OUT.mkdir(parents=True, exist_ok=True)
+
+doc = Document()
+style = doc.styles["Normal"]
+style.font.name = "微软雅黑"
+style.font.size = Pt(10.5)
+
+doc.add_heading("实验四  OSPF 单区域路由配置", level=1)
+
+doc.add_heading("一、实验目的", level=2)
+doc.add_paragraph("掌握 OSPF 单区域的基本配置方法，理解邻居建立过程与路由计算。")
+
+doc.add_heading("二、实验拓扑", level=2)
+doc.add_paragraph("使用四台 AR2220 路由器组成环形网络，设备命名为 R1、R2、R3、R4，依次环形互联。")
+doc.add_paragraph("互联链路地址规划如下：")
+t = doc.add_table(rows=1, cols=3)
+t.style = "Table Grid"
+hdr = t.rows[0].cells
+hdr[0].text, hdr[1].text, hdr[2].text = "链路", "网段", "说明"
+for row in [
+    ("R1 - R2", "10.1.12.0/24", "R1 取 .1，R2 取 .2"),
+    ("R2 - R3", "10.1.23.0/24", "R2 取 .2，R3 取 .3"),
+    ("R3 - R4", "10.1.34.0/24", "R3 取 .3，R4 取 .4"),
+    ("R4 - R1", "10.1.41.0/24", "R4 取 .4，R1 取 .1"),
+]:
+    cells = t.add_row().cells
+    cells[0].text, cells[1].text, cells[2].text = row
+
+doc.add_paragraph("每台路由器配置 Loopback0 作为 Router-ID：R1 为 1.1.1.1/32，R2 为 2.2.2.2/32，R3 为 3.3.3.3/32，R4 为 4.4.4.4/32。")
+
+doc.add_heading("三、配置要求", level=2)
+doc.add_paragraph("1. 四台路由器均运行 OSPF 进程 1，全部划入区域 0。", style="List Number")
+doc.add_paragraph("2. Router-ID 使用各自的 Loopback0 地址。", style="List Number")
+doc.add_paragraph("3. 互联网段与 Loopback 网段全部通过 network 命令宣告。", style="List Number")
+doc.add_paragraph("4. 配置完成后保存配置。", style="List Number")
+
+doc.add_heading("四、验证要求", level=2)
+doc.add_paragraph("display ospf peer brief 应看到邻居状态为 Full；任意两台路由器的 Loopback 地址应能互通。")
+
+path = OUT / "实验四-OSPF单区域任务书.docx"
+doc.save(path)
+print("saved", path, path.stat().st_size, "bytes")
+
+# 同内容纯文本版，方便快速验证
+txt = OUT / "实验四-OSPF单区域任务书.txt"
+txt.write_text(
+    """实验四 OSPF 单区域路由配置
+
+一、实验目的
+掌握 OSPF 单区域的基本配置方法。
+
+二、实验拓扑
+四台 AR2220 路由器 R1、R2、R3、R4 环形互联。
+R1 - R2  10.1.12.0/24
+R2 - R3  10.1.23.0/24
+R3 - R4  10.1.34.0/24
+R4 - R1  10.1.41.0/24
+Loopback0：1.1.1.1/32、2.2.2.2/32、3.3.3.3/32、4.4.4.4/32
+
+三、配置要求
+1. 四台路由器运行 OSPF 进程 1，划入区域 0。
+2. Router-ID 使用 Loopback0 地址。
+3. 全部网段通过 network 宣告。
+
+四、验证要求
+display ospf peer brief 邻居应为 Full。
+""",
+    encoding="utf-8",
+)
+print("saved", txt, txt.stat().st_size, "bytes")

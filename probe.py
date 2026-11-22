@@ -1,1 +1,354 @@
-IiIi6K6+5aSH5Zyo57q/5o6i5rWL44CCCgrnrKzkuIDmgKfljp/nkIYKLS0tLS0tLS0tLQoi6K6+5aSH5Zyo57q/IueahOacrOi0qO+8jOaYr+Wug+eahOiZmuaLn+ehrOS7tuatpOWIu+WtmOWcqOS6jiBlTlNQIOeahOi/kOihjOaXtumHjOOAggrkuI3lkIzorr7lpIfnsbvliKvvvIzlkIzkuIDkuKrkuovlrp7nmoQqKuaKleW9sSoq5LiN5ZCM77yaCgoqIEFSIOi3r+eUseWZqCAvIOS6pOaNouacuu+8mmVOU1Ag5Lya5Li66L+Q6KGM5Lit55qE6K6+5aSH5ZCv5YqoIGNvbnNvbGUg5pyN5YqhCiAg77yIMC4wLjAuMDoyMDAweO+8jOeUsSBlTlNQX0NsaWVudCDov5vnqIvnm5HlkKzvvInjgILnq6/lj6Pog73ov57kuIrvvIzljbPorr7lpIflnKjot5HjgIIKKiBQQyAvIOe7iOerr++8iFNpbVBD77yJ77ya5ouT5omR6YeMIGNvbV9wb3J0IOaBkuS4uiAw77yM5pei5rKh5pyJIGNvbnNvbGUg5pyN5Yqh77yM5Lmf5rKh5pyJCiAg54us56uL6L+b56iL77yb5a6/5Li755qEIFRDUCAvIElDTVAg6YO95Yiw5LiN5LqG5a6D77yIZU5TUCDomZrmi5/nvZHnu5zkuI7lrr/kuLvpmpTnprvvvIzlrp7mtYsKICAxMDAlIOS4ouWMhe+8ieOAguWug+WUr+S4gOWPr+S7juWklumDqOingua1i+eahOeJueW+ge+8jOaYr+aPkuWcqOmTvui3r+S4iueahOiZmuaLn+e9keWNoeKAlOKAlOi/meWPjeaYoOS4ugogICoq5LiK5ri46K6+5aSH5a+55bqU56uv5Y+j55qEIFBIWSDnirbmgIEqKu+8muerr+WPoyB1cCA9IOe9keWNoeWtmOWcqCA9IFBDIOW3suWQr+WKqO+8mwogIOerr+WPoyBkb3duID0gUEMg5pyq5ZCv5Yqo44CCCgrmiYDku6XliKTlrprkuI3og73lj6rnnIvnq6/lj6PvvIzogIzopoHmjInorr7lpIfnsbvliKvpgInmi6nmipXlvbHvvJoKICAgIOaciSBjb25zb2xlICAtPiDnm7Tov57mjqLmtLvvvIjnq6/lj6PljbPor4Hmja7vvIkKICAgIOaXoCBjb25zb2xlICAtPiDlgJ/kuIrmuLjorr7lpIfnmoTnq6/lj6PnirbmgIHlj43mjqjvvIjpk77ot6/ljbPor4Hmja7vvIkKCua3t+eUqOS4pOiAhe+8jOWwseS8muaKiuayoeaciSBjb25zb2xlIOeahCBQQyDor6/liKTmiJDnprvnur/igJTigJTov5nlsZ7kuo4i5oyH5qCH5LiN6YCC55SoIu+8jArogIzkuI3mmK8i6K6+5aSH56a757q/IuOAggoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhc3luY2lvCmltcG9ydCByZQpmcm9tIHR5cGluZyBpbXBvcnQgQW55CgojIOerr+WPo+WQjee8qeWGmeW9kuS4gO+8mkdpZ2FiaXRFdGhlcm5ldDAvMC8yMCAvIEdFMC8wLzIwIC8gZ2UwLzAvMjAgLT4gZ2UwLzAvMjAKUE9SVF9QUkVGSVggPSAoCiAgICAoInhnaWdhYml0ZXRoZXJuZXQiLCAieGdlIiksCiAgICAoImdpZ2FiaXRldGhlcm5ldCIsICJnZSIpLAogICAgKCJmYXN0ZXRoZXJuZXQiLCAiZmUiKSwKICAgICgiZXRoZXJuZXQiLCAiZXRoIiksCikKCgpkZWYgbm9ybWFsaXplX3BvcnQobmFtZTogc3RyKSAtPiBzdHI6CiAgICBzID0gKG5hbWUgb3IgIiIpLnN0cmlwKCkubG93ZXIoKS5yZXBsYWNlKCIgIiwgIiIpCiAgICBmb3IgZnVsbCwgc2hvcnQgaW4gUE9SVF9QUkVGSVg6CiAgICAgICAgaWYgcy5zdGFydHN3aXRoKGZ1bGwpOgogICAgICAgICAgICByZXR1cm4gc2hvcnQgKyBzW2xlbihmdWxsKTpdCiAgICByZXR1cm4gcwoKCmRlZiBwYXJzZV9pbnRlcmZhY2VfYnJpZWYob3V0cHV0OiBzdHIpIC0+IGRpY3Rbc3RyLCBzdHJdOgogICAgIiIi5LuOIGRpc3BsYXkgaW50ZXJmYWNlIGJyaWVmIOaPkOWPliB756uv5Y+jOiB1cHxkb3dufe+8jOaMiSBQSFkg5YiX5Yik5a6a44CCIiIiCiAgICBzdGF0ZXM6IGRpY3Rbc3RyLCBzdHJdID0ge30KICAgIGZvciByYXcgaW4gKG91dHB1dCBvciAiIikuc3BsaXRsaW5lcygpOgogICAgICAgIGxpbmUgPSByYXcuc3RyaXAoKQogICAgICAgIGlmIG5vdCBsaW5lIG9yIGxpbmUubG93ZXIoKS5zdGFydHN3aXRoKCJpbnRlcmZhY2UiKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwYXJ0cyA9IGxpbmUuc3BsaXQoKQogICAgICAgIGlmIGxlbihwYXJ0cykgPCAyOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHBvcnQsIHBoeSA9IHBhcnRzWzBdLCBwYXJ0c1sxXS5sb3dlcigpCiAgICAgICAgaWYgbm90IHJlLnNlYXJjaChyIlxkIiwgcG9ydCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcGh5ID0gcGh5LnJlcGxhY2UoIioiLCAiIikKICAgICAgICBpZiBwaHkuc3RhcnRzd2l0aCgidXAiKToKICAgICAgICAgICAgc3RhdGVzW25vcm1hbGl6ZV9wb3J0KHBvcnQpXSA9ICJ1cCIKICAgICAgICBlbGlmIHBoeS5zdGFydHN3aXRoKCJkb3duIik6CiAgICAgICAgICAgIHN0YXRlc1tub3JtYWxpemVfcG9ydChwb3J0KV0gPSAiZG93biIKICAgIHJldHVybiBzdGF0ZXMKCgphc3luYyBkZWYgX3RjcF9hbGl2ZShob3N0OiBzdHIsIHBvcnQ6IGludCwgdGltZW91dDogZmxvYXQpIC0+IGJvb2w6CiAgICB0cnk6CiAgICAgICAgX3JlYWRlciwgd3JpdGVyID0gYXdhaXQgYXN5bmNpby53YWl0X2ZvcigKICAgICAgICAgICAgYXN5bmNpby5vcGVuX2Nvbm5lY3Rpb24oaG9zdCwgcG9ydCksIHRpbWVvdXQ9dGltZW91dAogICAgICAgICkKICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICB0cnk6CiAgICAgICAgd3JpdGVyLmNsb3NlKCkKICAgICAgICBhd2FpdCB3cml0ZXIud2FpdF9jbG9zZWQoKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBwYXNzCiAgICByZXR1cm4gVHJ1ZQoKCmFzeW5jIGRlZiBfcXVlcnlfcGFyZW50KHBhcmVudDogZGljdCwgdGltZW91dDogZmxvYXQpIC0+IHR1cGxlW2RpY3Rbc3RyLCBzdHJdLCBzdHIgfCBOb25lXToKICAgICIiIueZu+W9leS4iua4uOiuvuWkh++8jOivu+S4gOasoSBkaXNwbGF5IGludGVyZmFjZSBicmllZuOAgiIiIgogICAgZnJvbSBwYXRyb2wgaW1wb3J0IGluc3BlY3RfdGVsbmV0CgogICAgdGFyZ2V0ID0gewogICAgICAgICJuYW1lIjogcGFyZW50LmdldCgibmFtZSIpLAogICAgICAgICJob3N0IjogcGFyZW50LmdldCgiaG9zdCIpIG9yICIxMjcuMC4wLjEiLAogICAgICAgICJwb3J0IjogaW50KHBhcmVudFsiY29uc29sZVBvcnQiXSksCiAgICB9CiAgICByZXN1bHQgPSBhd2FpdCBpbnNwZWN0X3RlbG5ldCh0YXJnZXQsIFsiZGlzcGxheSBpbnRlcmZhY2UgYnJpZWYiXSwgIiIsICIiLCB0aW1lb3V0KQogICAgdGV4dCA9ICIiCiAgICBmb3IgaXRlbSBpbiByZXN1bHQuZ2V0KCJyYXciKSBvciBbXToKICAgICAgICBpZiBpdGVtLmdldCgib3V0cHV0Iik6CiAgICAgICAgICAgIHRleHQgKz0gaXRlbVsib3V0cHV0Il0gKyAiXG4iCiAgICByZXR1cm4gcGFyc2VfaW50ZXJmYWNlX2JyaWVmKHRleHQpLCByZXN1bHQuZ2V0KCJlcnJvciIpCgoKZGVmIF9mYW1pbHkobW9kZWw6IHN0ciB8IE5vbmUpIC0+IHN0cjoKICAgICIiIkFSMjIyMCAtPiBBUjIy77yMUzU3MDAgVjIwMFIwMDFDMDAgLT4gUzU344CCIiIiCiAgICBzID0gKG1vZGVsIG9yICIiKS5zdHJpcCgpLnVwcGVyKCkKICAgIG0gPSByZS5tYXRjaChyIihbQS1aXStcZHsyfSkiLCBzKQogICAgcmV0dXJuIG0uZ3JvdXAoMSkgaWYgbSBlbHNlIHMKCgphc3luYyBkZWYgX2RldGVjdF9tb2RlbChob3N0OiBzdHIsIHBvcnQ6IGludCwgdGltZW91dDogZmxvYXQpIC0+IHN0ciB8IE5vbmU6CiAgICAiIiLor7sgZGlzcGxheSB2ZXJzaW9uIOmHjOeahOWunumZheWei+WPt++8jOeUqOadpeaguOWvueerr+WPo+iDjOWQjuaYr+S4jeaYr+aLk+aJkemHjOmCo+WPsOiuvuWkh+OAgiIiIgogICAgZnJvbSBwYXRyb2wgaW1wb3J0IGNvbnNvbGVfc2VuZCwgb3Blbl9jb25zb2xlCgogICAgY29uc29sZSA9IGF3YWl0IG9wZW5fY29uc29sZShob3N0LCBwb3J0LCB0aW1lb3V0PXRpbWVvdXQpCiAgICB0cnk6CiAgICAgICAgb3V0cHV0ID0gYXdhaXQgY29uc29sZV9zZW5kKGNvbnNvbGUsICJkaXNwbGF5IHZlcnNpb24iLCB0aW1lb3V0PXRpbWVvdXQpCiAgICBmaW5hbGx5OgogICAgICAgIHRyeToKICAgICAgICAgICAgYXdhaXQgY29uc29sZS5jbG9zZSgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgbWF0Y2ggPSByZS5zZWFyY2gociJcKChbQS1aXStcZCspW14pXSpcKSIsIG91dHB1dCBvciAiIikKICAgIHJldHVybiBtYXRjaC5ncm91cCgxKSBpZiBtYXRjaCBlbHNlIE5vbmUKCgpkZWYgX21hY19mbXQobWFjOiBzdHIgfCBOb25lKSAtPiBzdHI6CiAgICBpZiBub3QgbWFjOgogICAgICAgIHJldHVybiAiIgogICAgcGFydHMgPSBbbWFjW2k6aSArIDRdIGZvciBpIGluIHJhbmdlKDAsIGxlbihtYWMpLCA0KV0KICAgIHJldHVybiAiLSIuam9pbihwYXJ0cykudXBwZXIoKQoKCmRlZiBub3JtYWxpemVfbWFjKHZhbHVlOiBzdHIgfCBOb25lKSAtPiBzdHI6CiAgICAiIiIwMC1FMC1GQy0yNS04RS0yRCDkuI4gMDBlMC1mYzI1LThlMmQg57uf5LiA5oiQ5ZCM5LiA5b2i5oCB44CCIiIiCiAgICByZXR1cm4gcmUuc3ViKHIiW14wLTlBLUZhLWZdIiwgIiIsIHZhbHVlIG9yICIiKS51cHBlcigpCgoKTUFDX1JFID0gcmUuY29tcGlsZShyIihbMC05QS1GYS1mXXs0fVstOl1bMC05QS1GYS1mXXs0fVstOl1bMC05QS1GYS1mXXs0fSkiKQoKCmFzeW5jIGRlZiBfZGV0ZWN0X21hYyhob3N0OiBzdHIsIHBvcnQ6IGludCwgdGltZW91dDogZmxvYXQpIC0+IHN0ciB8IE5vbmU6CiAgICAiIiLor7sgZGlzcGxheSBicmlkZ2UgbWFjLWFkZHJlc3Mg5ou/6K6+5aSH57O757ufIE1BQ+KAlOKAlOerr+WPo+eahOecn+i6q+S7veOAgiIiIgogICAgZnJvbSBwYXRyb2wgaW1wb3J0IGNvbnNvbGVfc2VuZCwgb3Blbl9jb25zb2xlCgogICAgY29uc29sZSA9IGF3YWl0IG9wZW5fY29uc29sZShob3N0LCBwb3J0LCB0aW1lb3V0PXRpbWVvdXQpCiAgICB0cnk6CiAgICAgICAgb3V0cHV0ID0gYXdhaXQgY29uc29sZV9zZW5kKGNvbnNvbGUsICJkaXNwbGF5IGJyaWRnZSBtYWMtYWRkcmVzcyIsIHRpbWVvdXQpCiAgICBmaW5hbGx5OgogICAgICAgIHRyeToKICAgICAgICAgICAgYXdhaXQgY29uc29sZS5jbG9zZSgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwogICAgbWF0Y2ggPSBNQUNfUkUuc2VhcmNoKG91dHB1dCBvciAiIikKICAgIHJldHVybiBub3JtYWxpemVfbWFjKG1hdGNoLmdyb3VwKDEpKSBpZiBtYXRjaCBlbHNlIE5vbmUKCgphc3luYyBkZWYgcHJvYmVfZGV2aWNlcygKICAgIGRldmljZXM6IGxpc3RbZGljdF0sCiAgICBsaW5rczogbGlzdFtkaWN0XSB8IE5vbmUgPSBOb25lLAogICAgdGltZW91dDogZmxvYXQgPSA4LjAsCiAgICBjb25jdXJyZW5jeTogaW50ID0gOCwKKSAtPiBkaWN0W3N0ciwgQW55XToKICAgIGRldmljZXMgPSBbZCBmb3IgZCBpbiAoZGV2aWNlcyBvciBbXSkgaWYgZC5nZXQoIm5hbWUiKV0KICAgIGxpbmtzID0gbGlua3Mgb3IgW10KICAgIGJ5X25hbWUgPSB7ZFsibmFtZSJdOiBkIGZvciBkIGluIGRldmljZXN9CiAgICBzZW0gPSBhc3luY2lvLlNlbWFwaG9yZShtYXgoMSwgaW50KGNvbmN1cnJlbmN5KSkpCiAgICByZXN1bHRzOiBkaWN0W3N0ciwgZGljdF0gPSB7fQoKICAgICMgLS0tLSAxLiDmnIkgY29uc29sZSDnmoTorr7lpIfvvJrnm7Tov57mjqLmtLsgKyDouqvku73moLjlr7kgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgIyDnq6/lj6Plj7fmmK8gZU5TUCDnmoTlhajlsYDotYTmupDvvIznq6/lj6Pog73ov57lj6ror7TmmI4i5p+Q5Y+w6K6+5aSHIuWcqOebkeWQrO+8jOS4jeiDveivtOaYjgogICAgIyDmmK/mi5PmiZHph4zpgqPlj7DjgILnnJ/mraPnmoTouqvku73nibnlvoHmmK/mi5PmiZHph4znmoQgc3lzdGVtX21hYyDkuI7orr7lpIflrp7miqXnmoTns7vnu58gTUFD77yaCiAgICAjIOS4gOiHtOaJjeeul+WcqOe6v++8m+S4jeS4gOiHtOivtOaYjuerr+WPo+iiq+WPpuS4gOS4quaLk+aJkeeahOiuvuWkh+WNoOeUqO+8jOWIpCLkuI3mmK/mnKzorr7lpIci44CCCiAgICBhc3luYyBkZWYgY2hlY2tfY29uc29sZShkZXY6IGRpY3QpIC0+IE5vbmU6CiAgICAgICAgcG9ydCA9IGludChkZXZbImNvbnNvbGVQb3J0Il0pCiAgICAgICAgaG9zdCA9IGRldi5nZXQoImhvc3QiKSBvciAiMTI3LjAuMC4xIgogICAgICAgIGFzeW5jIHdpdGggc2VtOgogICAgICAgICAgICBhbGl2ZSA9IGF3YWl0IF90Y3BfYWxpdmUoaG9zdCwgcG9ydCwgbWluKHRpbWVvdXQsIDMuMCkpCgogICAgICAgIGV4cGVjdGVkX21hYyA9IG5vcm1hbGl6ZV9tYWMoZGV2LmdldCgic3lzdGVtTWFjIikpCiAgICAgICAgdG9wb19tb2RlbCA9IGRldi5nZXQoIm1vZGVsIikgb3IgIiIKICAgICAgICBkZXRlY3RlZF9tYWMgPSBOb25lCiAgICAgICAgZGV0ZWN0ZWRfbW9kZWwgPSBOb25lCiAgICAgICAgaWRlbnRpdHkgPSBOb25lCgogICAgICAgIGlmIGFsaXZlOgogICAgICAgICAgICBpZiBleHBlY3RlZF9tYWM6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgZGV0ZWN0ZWRfbWFjID0gYXdhaXQgX2RldGVjdF9tYWMoaG9zdCwgcG9ydCwgdGltZW91dCkKICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICAgICAgZGV0ZWN0ZWRfbWFjID0gTm9uZQogICAgICAgICAgICAgICAgaWYgZGV0ZWN0ZWRfbWFjOgogICAgICAgICAgICAgICAgICAgIGlkZW50aXR5ID0gZGV0ZWN0ZWRfbWFjID09IGV4cGVjdGVkX21hYwogICAgICAgICAgICBpZiBpZGVudGl0eSBpcyBOb25lIGFuZCB0b3BvX21vZGVsOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIGRldGVjdGVkX21vZGVsID0gYXdhaXQgX2RldGVjdF9tb2RlbChob3N0LCBwb3J0LCB0aW1lb3V0KQogICAgICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgICAgICBkZXRlY3RlZF9tb2RlbCA9IE5vbmUKICAgICAgICAgICAgICAgIGlmIGRldGVjdGVkX21vZGVsOgogICAgICAgICAgICAgICAgICAgIGlkZW50aXR5ID0gX2ZhbWlseShkZXRlY3RlZF9tb2RlbCkgPT0gX2ZhbWlseSh0b3BvX21vZGVsKQoKICAgICAgICBvbmxpbmUgPSBhbGl2ZSBhbmQgaWRlbnRpdHkgaXMgbm90IEZhbHNlCiAgICAgICAgbWlzbWF0Y2ggPSBhbGl2ZSBhbmQgaWRlbnRpdHkgaXMgRmFsc2UKCiAgICAgICAgZGV0YWlsID0gZiJjb25zb2xlIHtob3N0fTp7cG9ydH0geyflj6/ov57mjqUnIGlmIGFsaXZlIGVsc2UgJ+aXoOWTjeW6lCd9IgogICAgICAgIGlmIGlkZW50aXR5IGlzIFRydWUgYW5kIGRldGVjdGVkX21hYzoKICAgICAgICAgICAgZGV0YWlsICs9IGYi77yb57O757ufIE1BQyB7X21hY19mbXQoZGV0ZWN0ZWRfbWFjKX0g5LiO5ouT5omR5LiA6Ie0IgogICAgICAgIGVsaWYgaWRlbnRpdHkgaXMgVHJ1ZToKICAgICAgICAgICAgZGV0YWlsICs9IGYi77yb5Z6L5Y+3IHtkZXRlY3RlZF9tb2RlbH0g5LiO5ouT5omR5LiA6Ie0IgogICAgICAgIGVsaWYgbWlzbWF0Y2ggYW5kIGRldGVjdGVkX21hYzoKICAgICAgICAgICAgZGV0YWlsICs9ICgKICAgICAgICAgICAgICAgIGYi77yb56uv5Y+j5LiK5piv5Y+m5LiA5Y+w6K6+5aSH77yITUFDIHtfbWFjX2ZtdChkZXRlY3RlZF9tYWMpfe+8ie+8jCIKICAgICAgICAgICAgICAgIGYi5pys5ouT5omR6KaB5rGCIHtfbWFjX2ZtdChleHBlY3RlZF9tYWMpfe+8jOWIpOS4uuS4jeaYr+acrOiuvuWkhyIKICAgICAgICAgICAgKQogICAgICAgIGVsaWYgbWlzbWF0Y2ggYW5kIGRldGVjdGVkX21vZGVsOgogICAgICAgICAgICBkZXRhaWwgKz0gZiLvvJvnq6/lj6Plrp7pmYXmmK8ge2RldGVjdGVkX21vZGVsfe+8jOS4juaLk+aJkSB7dG9wb19tb2RlbH0g5LiN56ymIgogICAgICAgIGVsaWYgYWxpdmUgYW5kIGlkZW50aXR5IGlzIE5vbmU6CiAgICAgICAgICAgIGRldGFpbCArPSAi77yb6K6+5aSH5pyq6L+U5Zue57O757ufIE1BQ++8jOi6q+S7veacqumqjOivgSIKCiAgICAgICAgcmVzdWx0c1tkZXZbIm5hbWUiXV0gPSB7CiAgICAgICAgICAgICJuYW1lIjogZGV2WyJuYW1lIl0sCiAgICAgICAgICAgICJjb25zb2xlUG9ydCI6IHBvcnQsCiAgICAgICAgICAgICJob3N0IjogaG9zdCwKICAgICAgICAgICAgIm9ubGluZSI6IG9ubGluZSwKICAgICAgICAgICAgIm1ldGhvZCI6ICJjb25zb2xlIiwKICAgICAgICAgICAgImRldGFpbCI6IGRldGFpbCwKICAgICAgICAgICAgImRldGVjdGVkTWFjIjogZGV0ZWN0ZWRfbWFjLAogICAgICAgICAgICAiZXhwZWN0ZWRNYWMiOiBleHBlY3RlZF9tYWMsCiAgICAgICAgICAgICJkZXRlY3RlZE1vZGVsIjogZGV0ZWN0ZWRfbW9kZWwsCiAgICAgICAgICAgICJ0b3BvbG9neU1vZGVsIjogdG9wb19tb2RlbCwKICAgICAgICAgICAgImlkZW50aXR5IjogaWRlbnRpdHksCiAgICAgICAgICAgICJpZGVudGl0eU1pc21hdGNoIjogbWlzbWF0Y2gsCiAgICAgICAgICAgICJtb2RlbE1hdGNoZWQiOiAoTm9uZSBpZiBpZGVudGl0eSBpcyBOb25lIGVsc2UgaWRlbnRpdHkpIGlmIHRvcG9fbW9kZWwgZWxzZSBOb25lLAogICAgICAgICAgICAiaWRlbnRpdHlXYXJuaW5nIjogbWlzbWF0Y2gsCiAgICAgICAgfQoKICAgIGF3YWl0IGFzeW5jaW8uZ2F0aGVyKCooY2hlY2tfY29uc29sZShkKSBmb3IgZCBpbiBkZXZpY2VzIGlmIGQuZ2V0KCJjb25zb2xlUG9ydCIpKSkKCiAgICAjIC0tLS0gMi4g5pegIGNvbnNvbGUg55qE6K6+5aSH77ya5om+55u06L+e5LiK5ri477yI5b+F6aG75pyJIGNvbnNvbGUg5omN5Y+v5p+l77yJIC0tLS0tLS0tLS0KICAgICMgQ2xvdWQgLyBIdWIg6L+Z57G76K6+5aSH5pys6Lqr5rKh5pyJIGNvbnNvbGXvvIzkuZ/kuI3mib/ovb3kuJrliqHvvIznm7TmjqXmoIfkuLrkuI3pgILnlKgKICAgIHNraXBfbW9kZWxzID0geyJDTE9VRCIsICJIVUIiLCAiTUNTIn0KICAgIGZvciBkZXYgaW4gZGV2aWNlczoKICAgICAgICBpZiBkZXYuZ2V0KCJjb25zb2xlUG9ydCIpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIHN0cihkZXYuZ2V0KCJtb2RlbCIpIG9yICIiKS51cHBlcigpIGluIHNraXBfbW9kZWxzOgogICAgICAgICAgICByZXN1bHRzW2RldlsibmFtZSJdXSA9IHsKICAgICAgICAgICAgICAgICJuYW1lIjogZGV2WyJuYW1lIl0sCiAgICAgICAgICAgICAgICAiY29uc29sZVBvcnQiOiBOb25lLAogICAgICAgICAgICAgICAgImhvc3QiOiBOb25lLAogICAgICAgICAgICAgICAgIm9ubGluZSI6IE5vbmUsCiAgICAgICAgICAgICAgICAibWV0aG9kIjogIm5vbmUiLAogICAgICAgICAgICAgICAgImRldGFpbCI6IGYie2Rldi5nZXQoJ21vZGVsJyl9IOWxnuS6jumdnuWPl+euoeiuvuWkh++8jOaXoCBjb25zb2xl77yM5LiN5Y+C5LiO5o6i5rS7IiwKICAgICAgICAgICAgICAgICJhcHBsaWNhYmxlIjogRmFsc2UsCiAgICAgICAgICAgIH0KCiAgICBwZWVyc19vZjogZGljdFtzdHIsIGxpc3RbdHVwbGVbc3RyLCBzdHJdXV0gPSB7fQogICAgZm9yIGxpbmsgaW4gbGlua3M6CiAgICAgICAgYSwgYiA9IGxpbmsuZ2V0KCJmcm9tIiksIGxpbmsuZ2V0KCJ0byIpCiAgICAgICAgaWYgYSBpbiBieV9uYW1lIGFuZCBub3QgYnlfbmFtZVthXS5nZXQoImNvbnNvbGVQb3J0IikgYW5kIGEgbm90IGluIHJlc3VsdHM6CiAgICAgICAgICAgIHBlZXJzX29mLnNldGRlZmF1bHQoYSwgW10pLmFwcGVuZCgoYiwgbGluay5nZXQoInRvUG9ydCIpIG9yICIiKSkKICAgICAgICBpZiBiIGluIGJ5X25hbWUgYW5kIG5vdCBieV9uYW1lW2JdLmdldCgiY29uc29sZVBvcnQiKSBhbmQgYiBub3QgaW4gcmVzdWx0czoKICAgICAgICAgICAgcGVlcnNfb2Yuc2V0ZGVmYXVsdChiLCBbXSkuYXBwZW5kKChhLCBsaW5rLmdldCgiZnJvbVBvcnQiKSBvciAiIikpCgogICAgZ3JvdXBlZDogZGljdFtzdHIsIGxpc3RbdHVwbGVbc3RyLCBzdHJdXV0gPSB7fQogICAgdW5yZXNvbHZlZDogZGljdFtzdHIsIHN0cl0gPSB7fQogICAgZm9yIGNoaWxkLCBwZWVycyBpbiBwZWVyc19vZi5pdGVtcygpOgogICAgICAgIHVzYWJsZSA9IFsKICAgICAgICAgICAgKHAsIHBvcnQpCiAgICAgICAgICAgIGZvciBwLCBwb3J0IGluIHBlZXJzCiAgICAgICAgICAgIGlmIHAgaW4gYnlfbmFtZSBhbmQgYnlfbmFtZVtwXS5nZXQoImNvbnNvbGVQb3J0IikKICAgICAgICBdCiAgICAgICAgaWYgbm90IHVzYWJsZToKICAgICAgICAgICAgdW5yZXNvbHZlZFtjaGlsZF0gPSAi55u06L+e55qE5a+556uv5Lmf5rKh5pyJIGNvbnNvbGXvvIzml6Dms5Xmjqjmlq0iCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZm9yIHBhcmVudCwgcG9ydCBpbiB1c2FibGU6CiAgICAgICAgICAgIGdyb3VwZWQuc2V0ZGVmYXVsdChwYXJlbnQsIFtdKS5hcHBlbmQoKGNoaWxkLCBwb3J0KSkKCiAgICAjIC0tLS0gMy4g5LiK5ri45Zyo57q/5omN5Y675p+l56uv5Y+j77yb6L+c56uv5pyq5byA5py65YiZ6ZO+6Lev5b+F5LiN6YCaIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgIGNhbmRpZGF0ZXM6IGRpY3Rbc3RyLCBsaXN0W3R1cGxlW2Jvb2wgfCBOb25lLCBzdHJdXV0gPSB7fQogICAgcXVlcnlhYmxlID0gW3AgZm9yIHAgaW4gZ3JvdXBlZCBpZiAocmVzdWx0cy5nZXQocCkgb3Ige30pLmdldCgib25saW5lIildCiAgICBwYXJzZWQgPSBhd2FpdCBhc3luY2lvLmdhdGhlcigqKF9xdWVyeV9wYXJlbnQoYnlfbmFtZVtwXSwgdGltZW91dCkgZm9yIHAgaW4gcXVlcnlhYmxlKSkKICAgIHN0YXRlc19ieV9wYXJlbnQgPSBkaWN0KHppcChxdWVyeWFibGUsIHBhcnNlZCkpCgogICAgZm9yIHBhcmVudCwgcGFpcnMgaW4gZ3JvdXBlZC5pdGVtcygpOgogICAgICAgIGluZm8gPSByZXN1bHRzLmdldChwYXJlbnQpIG9yIHt9CiAgICAgICAgaWYgaW5mby5nZXQoImlkZW50aXR5TWlzbWF0Y2giKToKICAgICAgICAgICAgIyDkuIrmuLjnq6/lj6PooqvliKvnmoTmi5PmiZHorr7lpIfljaDnlKjvvIzlroPnmoTmjqXlj6PnirbmgIHkuI3og73ku6PooajmnKzmi5PmiZHpk77ot68KICAgICAgICAgICAgZm9yIGNoaWxkLCBwb3J0IGluIHBhaXJzOgogICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5zZXRkZWZhdWx0KGNoaWxkLCBbXSkuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIChOb25lLCBmIuS4iua4uCB7cGFyZW50fSDnmoQgY29uc29sZSDnq6/lj6Pooqvlhbbku5bmi5PmiZHnmoTorr7lpIfljaDnlKjvvIzpk77ot6/nirbmgIHkuI3lj6/kv6EiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIG5vdCBpbmZvLmdldCgib25saW5lIik6CiAgICAgICAgICAgIGZvciBjaGlsZCwgcG9ydCBpbiBwYWlyczoKICAgICAgICAgICAgICAgIGNhbmRpZGF0ZXMuc2V0ZGVmYXVsdChjaGlsZCwgW10pLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAoRmFsc2UsIGYi5LiK5ri4IHtwYXJlbnR9IOacquW8gOacuu+8jOmTvui3r+S4jeWPr+iDveWvvOmAmiIpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgc3RhdGVzLCBlcnIgPSBzdGF0ZXNfYnlfcGFyZW50LmdldChwYXJlbnQsICh7fSwgTm9uZSkpCiAgICAgICAgZm9yIGNoaWxkLCBwb3J0IGluIHBhaXJzOgogICAgICAgICAgICBzdGF0ZSA9IHN0YXRlcy5nZXQobm9ybWFsaXplX3BvcnQocG9ydCkpCiAgICAgICAgICAgIGlmIHN0YXRlIGlzIE5vbmU6CiAgICAgICAgICAgICAgICBkZXRhaWwgPSBmIntwYXJlbnR9IOS4iuacquivu+WIsOerr+WPoyB7cG9ydH0iCiAgICAgICAgICAgICAgICBpZiBlcnI6CiAgICAgICAgICAgICAgICAgICAgZGV0YWlsICs9IGYi77yIe2Vycn3vvIkiCiAgICAgICAgICAgICAgICBjYW5kaWRhdGVzLnNldGRlZmF1bHQoY2hpbGQsIFtdKS5hcHBlbmQoKE5vbmUsIGRldGFpbCkpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBjYW5kaWRhdGVzLnNldGRlZmF1bHQoY2hpbGQsIFtdKS5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgKHN0YXRlID09ICJ1cCIsIGYie3BhcmVudH0ge3BvcnR9ID0ge3N0YXRlfSIpCiAgICAgICAgICAgICAgICApCgogICAgZm9yIGNoaWxkLCBpdGVtcyBpbiBjYW5kaWRhdGVzLml0ZW1zKCk6CiAgICAgICAgaWYgYW55KGZsYWcgaXMgVHJ1ZSBmb3IgZmxhZywgXyBpbiBpdGVtcyk6CiAgICAgICAgICAgIG9ubGluZSwgZGV0YWlsID0gVHJ1ZSwgbmV4dChkIGZvciBmLCBkIGluIGl0ZW1zIGlmIGYgaXMgVHJ1ZSkKICAgICAgICBlbGlmIGFueShmbGFnIGlzIE5vbmUgZm9yIGZsYWcsIF8gaW4gaXRlbXMpOgogICAgICAgICAgICBvbmxpbmUsIGRldGFpbCA9IE5vbmUsIG5leHQoZCBmb3IgZiwgZCBpbiBpdGVtcyBpZiBmIGlzIE5vbmUpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgb25saW5lLCBkZXRhaWwgPSBGYWxzZSwgaXRlbXNbMF1bMV0KICAgICAgICByZXN1bHRzW2NoaWxkXSA9IHsKICAgICAgICAgICAgIm5hbWUiOiBjaGlsZCwKICAgICAgICAgICAgImNvbnNvbGVQb3J0IjogTm9uZSwKICAgICAgICAgICAgImhvc3QiOiBOb25lLAogICAgICAgICAgICAib25saW5lIjogb25saW5lLAogICAgICAgICAgICAibWV0aG9kIjogImxpbmsiLAogICAgICAgICAgICAiZGV0YWlsIjogZGV0YWlsLAogICAgICAgIH0KCiAgICBmb3IgY2hpbGQsIHJlYXNvbiBpbiB1bnJlc29sdmVkLml0ZW1zKCk6CiAgICAgICAgcmVzdWx0c1tjaGlsZF0gPSB7CiAgICAgICAgICAgICJuYW1lIjogY2hpbGQsCiAgICAgICAgICAgICJjb25zb2xlUG9ydCI6IE5vbmUsCiAgICAgICAgICAgICJob3N0IjogTm9uZSwKICAgICAgICAgICAgIm9ubGluZSI6IE5vbmUsCiAgICAgICAgICAgICJtZXRob2QiOiAibm9uZSIsCiAgICAgICAgICAgICJkZXRhaWwiOiByZWFzb24sCiAgICAgICAgfQoKICAgIG9yZGVyZWQgPSBbXQogICAgZm9yIGRldiBpbiBkZXZpY2VzOgogICAgICAgIG9yZGVyZWQuYXBwZW5kKAogICAgICAgICAgICByZXN1bHRzLmdldChkZXZbIm5hbWUiXSkKICAgICAgICAgICAgb3IgewogICAgICAgICAgICAgICAgIm5hbWUiOiBkZXZbIm5hbWUiXSwKICAgICAgICAgICAgICAgICJjb25zb2xlUG9ydCI6IGRldi5nZXQoImNvbnNvbGVQb3J0IiksCiAgICAgICAgICAgICAgICAiaG9zdCI6IE5vbmUsCiAgICAgICAgICAgICAgICAib25saW5lIjogTm9uZSwKICAgICAgICAgICAgICAgICJtZXRob2QiOiAibm9uZSIsCiAgICAgICAgICAgICAgICAiZGV0YWlsIjogIuaXoOazleWIpOWumiIsCiAgICAgICAgICAgIH0KICAgICAgICApCgogICAgcmV0dXJuIHsKICAgICAgICAiZGV2aWNlcyI6IG9yZGVyZWQsCiAgICAgICAgInRvdGFsIjogbGVuKG9yZGVyZWQpLAogICAgICAgICJvbmxpbmVDb3VudCI6IHN1bSgxIGZvciByIGluIG9yZGVyZWQgaWYgclsib25saW5lIl0gaXMgVHJ1ZSksCiAgICAgICAgIm9mZmxpbmVDb3VudCI6IHN1bSgxIGZvciByIGluIG9yZGVyZWQgaWYgclsib25saW5lIl0gaXMgRmFsc2UpLAogICAgICAgICJ1bmtub3duQ291bnQiOiBzdW0oMSBmb3IgciBpbiBvcmRlcmVkIGlmIHJbIm9ubGluZSJdIGlzIE5vbmUpLAogICAgfQo=
+"""设备在线探测。
+
+第一性原理
+----------
+"设备在线"的本质，是它的虚拟硬件此刻存在于 eNSP 的运行时里。
+不同设备类别，同一个事实的**投影**不同：
+
+* AR 路由器 / 交换机：eNSP 会为运行中的设备启动 console 服务
+  （0.0.0.0:2000x，由 eNSP_Client 进程监听）。端口能连上，即设备在跑。
+* PC / 终端（SimPC）：拓扑里 com_port 恒为 0，既没有 console 服务，也没有
+  独立进程；宿主的 TCP / ICMP 都到不了它（eNSP 虚拟网络与宿主隔离，实测
+  100% 丢包）。它唯一可从外部观测的特征，是插在链路上的虚拟网卡——这反映为
+  **上游设备对应端口的 PHY 状态**：端口 up = 网卡存在 = PC 已启动；
+  端口 down = PC 未启动。
+
+所以判定不能只看端口，而要按设备类别选择投影：
+    有 console  -> 直连探活（端口即证据）
+    无 console  -> 借上游设备的端口状态反推（链路即证据）
+
+混用两者，就会把没有 console 的 PC 误判成离线——这属于"指标不适用"，
+而不是"设备离线"。
+"""
+
+from __future__ import annotations
+
+import asyncio
+import re
+from typing import Any
+
+# 端口名缩写归一：GigabitEthernet0/0/20 / GE0/0/20 / ge0/0/20 -> ge0/0/20
+PORT_PREFIX = (
+    ("xgigabitethernet", "xge"),
+    ("gigabitethernet", "ge"),
+    ("fastethernet", "fe"),
+    ("ethernet", "eth"),
+)
+
+
+def normalize_port(name: str) -> str:
+    s = (name or "").strip().lower().replace(" ", "")
+    for full, short in PORT_PREFIX:
+        if s.startswith(full):
+            return short + s[len(full):]
+    return s
+
+
+def parse_interface_brief(output: str) -> dict[str, str]:
+    """从 display interface brief 提取 {端口: up|down}，按 PHY 列判定。"""
+    states: dict[str, str] = {}
+    for raw in (output or "").splitlines():
+        line = raw.strip()
+        if not line or line.lower().startswith("interface"):
+            continue
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        port, phy = parts[0], parts[1].lower()
+        if not re.search(r"\d", port):
+            continue
+        phy = phy.replace("*", "")
+        if phy.startswith("up"):
+            states[normalize_port(port)] = "up"
+        elif phy.startswith("down"):
+            states[normalize_port(port)] = "down"
+    return states
+
+
+async def _tcp_alive(host: str, port: int, timeout: float) -> bool:
+    try:
+        _reader, writer = await asyncio.wait_for(
+            asyncio.open_connection(host, port), timeout=timeout
+        )
+    except Exception:
+        return False
+    try:
+        writer.close()
+        await writer.wait_closed()
+    except Exception:
+        pass
+    return True
+
+
+async def _query_parent(parent: dict, timeout: float) -> tuple[dict[str, str], str | None]:
+    """登录上游设备，读一次 display interface brief。"""
+    from patrol import inspect_telnet
+
+    target = {
+        "name": parent.get("name"),
+        "host": parent.get("host") or "127.0.0.1",
+        "port": int(parent["consolePort"]),
+    }
+    result = await inspect_telnet(target, ["display interface brief"], "", "", timeout)
+    text = ""
+    for item in result.get("raw") or []:
+        if item.get("output"):
+            text += item["output"] + "\n"
+    return parse_interface_brief(text), result.get("error")
+
+
+def _family(model: str | None) -> str:
+    """AR2220 -> AR22，S5700 V200R001C00 -> S57。"""
+    s = (model or "").strip().upper()
+    m = re.match(r"([A-Z]+\d{2})", s)
+    return m.group(1) if m else s
+
+
+async def _detect_model(host: str, port: int, timeout: float) -> str | None:
+    """读 display version 里的实际型号，用来核对端口背后是不是拓扑里那台设备。"""
+    from patrol import console_send, open_console
+
+    console = await open_console(host, port, timeout=timeout)
+    try:
+        output = await console_send(console, "display version", timeout=timeout)
+    finally:
+        try:
+            await console.close()
+        except Exception:
+            pass
+    match = re.search(r"\(([A-Z]+\d+)[^)]*\)", output or "")
+    return match.group(1) if match else None
+
+
+def _mac_fmt(mac: str | None) -> str:
+    if not mac:
+        return ""
+    parts = [mac[i:i + 4] for i in range(0, len(mac), 4)]
+    return "-".join(parts).upper()
+
+
+def normalize_mac(value: str | None) -> str:
+    """00-E0-FC-25-8E-2D 与 00e0-fc25-8e2d 统一成同一形态。"""
+    return re.sub(r"[^0-9A-Fa-f]", "", value or "").upper()
+
+
+MAC_RE = re.compile(r"([0-9A-Fa-f]{4}[-:][0-9A-Fa-f]{4}[-:][0-9A-Fa-f]{4})")
+
+
+async def _detect_mac(host: str, port: int, timeout: float) -> str | None:
+    """读 display bridge mac-address 拿设备系统 MAC——端口的真身份。"""
+    from patrol import console_send, open_console
+
+    console = await open_console(host, port, timeout=timeout)
+    try:
+        output = await console_send(console, "display bridge mac-address", timeout)
+    finally:
+        try:
+            await console.close()
+        except Exception:
+            pass
+    match = MAC_RE.search(output or "")
+    return normalize_mac(match.group(1)) if match else None
+
+
+async def probe_devices(
+    devices: list[dict],
+    links: list[dict] | None = None,
+    timeout: float = 8.0,
+    concurrency: int = 8,
+) -> dict[str, Any]:
+    devices = [d for d in (devices or []) if d.get("name")]
+    links = links or []
+    by_name = {d["name"]: d for d in devices}
+    sem = asyncio.Semaphore(max(1, int(concurrency)))
+    results: dict[str, dict] = {}
+
+    # ---- 1. 有 console 的设备：直连探活 + 身份核对 -------------------------
+    # 端口号是 eNSP 的全局资源，端口能连只说明"某台设备"在监听，不能说明
+    # 是拓扑里那台。真正的身份特征是拓扑里的 system_mac 与设备实报的系统 MAC：
+    # 一致才算在线；不一致说明端口被另一个拓扑的设备占用，判"不是本设备"。
+    async def check_console(dev: dict) -> None:
+        port = int(dev["consolePort"])
+        host = dev.get("host") or "127.0.0.1"
+        async with sem:
+            alive = await _tcp_alive(host, port, min(timeout, 3.0))
+
+        expected_mac = normalize_mac(dev.get("systemMac"))
+        topo_model = dev.get("model") or ""
+        detected_mac = None
+        detected_model = None
+        identity = None
+
+        if alive:
+            if expected_mac:
+                try:
+                    detected_mac = await _detect_mac(host, port, timeout)
+                except Exception:
+                    detected_mac = None
+                if detected_mac:
+                    identity = detected_mac == expected_mac
+            if identity is None and topo_model:
+                try:
+                    detected_model = await _detect_model(host, port, timeout)
+                except Exception:
+                    detected_model = None
+                if detected_model:
+                    identity = _family(detected_model) == _family(topo_model)
+
+        online = alive and identity is not False
+        mismatch = alive and identity is False
+
+        detail = f"console {host}:{port} {'可连接' if alive else '无响应'}"
+        if identity is True and detected_mac:
+            detail += f"；系统 MAC {_mac_fmt(detected_mac)} 与拓扑一致"
+        elif identity is True:
+            detail += f"；型号 {detected_model} 与拓扑一致"
+        elif mismatch and detected_mac:
+            detail += (
+                f"；端口上是另一台设备（MAC {_mac_fmt(detected_mac)}），"
+                f"本拓扑要求 {_mac_fmt(expected_mac)}，判为不是本设备"
+            )
+        elif mismatch and detected_model:
+            detail += f"；端口实际是 {detected_model}，与拓扑 {topo_model} 不符"
+        elif alive and identity is None:
+            detail += "；设备未返回系统 MAC，身份未验证"
+
+        results[dev["name"]] = {
+            "name": dev["name"],
+            "consolePort": port,
+            "host": host,
+            "online": online,
+            "method": "console",
+            "detail": detail,
+            "detectedMac": detected_mac,
+            "expectedMac": expected_mac,
+            "detectedModel": detected_model,
+            "topologyModel": topo_model,
+            "identity": identity,
+            "identityMismatch": mismatch,
+            "modelMatched": (None if identity is None else identity) if topo_model else None,
+            "identityWarning": mismatch,
+        }
+
+    await asyncio.gather(*(check_console(d) for d in devices if d.get("consolePort")))
+
+    # ---- 2. 无 console 的设备：找直连上游（必须有 console 才可查） ----------
+    # Cloud / Hub 这类设备本身没有 console，也不承载业务，直接标为不适用
+    skip_models = {"CLOUD", "HUB", "MCS"}
+    for dev in devices:
+        if dev.get("consolePort"):
+            continue
+        if str(dev.get("model") or "").upper() in skip_models:
+            results[dev["name"]] = {
+                "name": dev["name"],
+                "consolePort": None,
+                "host": None,
+                "online": None,
+                "method": "none",
+                "detail": f"{dev.get('model')} 属于非受管设备，无 console，不参与探活",
+                "applicable": False,
+            }
+
+    peers_of: dict[str, list[tuple[str, str]]] = {}
+    for link in links:
+        a, b = link.get("from"), link.get("to")
+        if a in by_name and not by_name[a].get("consolePort") and a not in results:
+            peers_of.setdefault(a, []).append((b, link.get("toPort") or ""))
+        if b in by_name and not by_name[b].get("consolePort") and b not in results:
+            peers_of.setdefault(b, []).append((a, link.get("fromPort") or ""))
+
+    grouped: dict[str, list[tuple[str, str]]] = {}
+    unresolved: dict[str, str] = {}
+    for child, peers in peers_of.items():
+        usable = [
+            (p, port)
+            for p, port in peers
+            if p in by_name and by_name[p].get("consolePort")
+        ]
+        if not usable:
+            unresolved[child] = "直连的对端也没有 console，无法推断"
+            continue
+        for parent, port in usable:
+            grouped.setdefault(parent, []).append((child, port))
+
+    # ---- 3. 上游在线才去查端口；远端未开机则链路必不通 ----------------------
+    candidates: dict[str, list[tuple[bool | None, str]]] = {}
+    queryable = [p for p in grouped if (results.get(p) or {}).get("online")]
+    parsed = await asyncio.gather(*(_query_parent(by_name[p], timeout) for p in queryable))
+    states_by_parent = dict(zip(queryable, parsed))
+
+    for parent, pairs in grouped.items():
+        info = results.get(parent) or {}
+        if info.get("identityMismatch"):
+            # 上游端口被别的拓扑设备占用，它的接口状态不能代表本拓扑链路
+            for child, port in pairs:
+                candidates.setdefault(child, []).append(
+                    (None, f"上游 {parent} 的 console 端口被其他拓扑的设备占用，链路状态不可信")
+                )
+            continue
+        if not info.get("online"):
+            for child, port in pairs:
+                candidates.setdefault(child, []).append(
+                    (False, f"上游 {parent} 未开机，链路不可能导通")
+                )
+            continue
+        states, err = states_by_parent.get(parent, ({}, None))
+        for child, port in pairs:
+            state = states.get(normalize_port(port))
+            if state is None:
+                detail = f"{parent} 上未读到端口 {port}"
+                if err:
+                    detail += f"（{err}）"
+                candidates.setdefault(child, []).append((None, detail))
+            else:
+                candidates.setdefault(child, []).append(
+                    (state == "up", f"{parent} {port} = {state}")
+                )
+
+    for child, items in candidates.items():
+        if any(flag is True for flag, _ in items):
+            online, detail = True, next(d for f, d in items if f is True)
+        elif any(flag is None for flag, _ in items):
+            online, detail = None, next(d for f, d in items if f is None)
+        else:
+            online, detail = False, items[0][1]
+        results[child] = {
+            "name": child,
+            "consolePort": None,
+            "host": None,
+            "online": online,
+            "method": "link",
+            "detail": detail,
+        }
+
+    for child, reason in unresolved.items():
+        results[child] = {
+            "name": child,
+            "consolePort": None,
+            "host": None,
+            "online": None,
+            "method": "none",
+            "detail": reason,
+        }
+
+    ordered = []
+    for dev in devices:
+        ordered.append(
+            results.get(dev["name"])
+            or {
+                "name": dev["name"],
+                "consolePort": dev.get("consolePort"),
+                "host": None,
+                "online": None,
+                "method": "none",
+                "detail": "无法判定",
+            }
+        )
+
+    return {
+        "devices": ordered,
+        "total": len(ordered),
+        "onlineCount": sum(1 for r in ordered if r["online"] is True),
+        "offlineCount": sum(1 for r in ordered if r["online"] is False),
+        "unknownCount": sum(1 for r in ordered if r["online"] is None),
+    }

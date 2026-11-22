@@ -1,1 +1,114 @@
-IiIi5beh5qOA5oyH5qCH6Kej5p6Q55qE5qC35pys5rWL6K+V77yI5LiN6L+e6K6+5aSH77yM5Y+q6aqM6K+B5q2j5YiZ77yJIiIiCgppbXBvcnQgc3lzCgpzeXMucGF0aC5pbnNlcnQoMCwgciJEOlxodWF3ZWluZXRcY29uc29sZSIpCgpmcm9tIHBhdHJvbCBpbXBvcnQgKCAgIyBub3FhOiBFNDAyCiAgICBidWlsZF9tZXRyaWNzLAogICAgcGFyc2VfY3B1LAogICAgcGFyc2VfaW50ZXJmYWNlcywKICAgIHBhcnNlX21lbW9yeSwKICAgIHBhcnNlX3RlbXBlcmF0dXJlLAogICAgcGFyc2VfdHJhbnNjZWl2ZXIsCiAgICBwYXJzZV92ZXJzaW9uLAopCgpTQU1QTEVTID0gewogICAgImNwdV9hciI6ICIiIkNQVSBVc2FnZSBTdGF0LiBDeWNsZTogNjAgKFNlY29uZCkKQ1BVIFVzYWdlICAgICAgICAgICAgOiA1JSAgTWF4OiAyNiUKQ1BVIFVzYWdlIFN0YXQuIFRpbWUgOiAyMDI2LTExLTIxICAyMzozMDowMAoKQ1BVIHV0aWxpemF0aW9uIGZvciBmaXZlIHNlY29uZHM6IDUlOiBvbmUgbWludXRlOiA1JTogZml2ZSBtaW51dGVzOiA1JS4iIiIsCiAgICAibWVtX3RhYmxlIjogIiIiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvdGFsICAgIFVzZWQgICAgRnJlZSAgICBSYXRpbwpTeXN0ZW0gVG90YWwgTWVtb3J5KEtCKSAgICAgICAgICAgICAgICAgICAgICAgIDUyNDI4OCAgMTU3Mjg2ICAzNjcwMDIgICAgMzAlIiIiLAogICAgIm1lbV90ZXh0IjogIk1lbW9yeSBVc2luZyBQZXJjZW50YWdlIElzOiA0MiUiLAogICAgInRyYW5zY2VpdmVyIjogIiIiR2lnYWJpdEV0aGVybmV0MC8wLzEgdHJhbnNjZWl2ZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbjoKICBDdXJyZW50IGRpYWdub3N0aWMgcGFyYW1ldGVycyhkQk0sbUEsbVYsQ2Vsc2l1cyk6CiAgICBUZW1wZXJhdHVyZSAgICAgICAgIDogMzMKICAgIFZvbHRhZ2UgICAgICAgICAgICAgOiAzLjI4CiAgICBCaWFzIEN1cnJlbnQgICAgICAgIDogNi41MQogICAgUlggUG93ZXIgICAgICAgICAgICA6IC0yLjEwCiAgICBUWCBQb3dlciAgICAgICAgICAgIDogLTIuMjAKICAgIERhdGEgTGFuZTAgUlggUG93ZXIgOiAtMi4xNSIiIiwKICAgICJ0cmFuc2NlaXZlcl90YWJsZSI6ICIiIkdpZ2FiaXRFdGhlcm5ldDAvMC8xIHRyYW5zY2VpdmVyIGRpYWdub3N0aWMgaW5mb3JtYXRpb246CiAgQ3VycmVudCBkaWFnbm9zdGljIHBhcmFtZXRlcnM6CiAgICBUZW1wLihDKSAgVm9sdGFnZShWKSAgQmlhcyhtQSkgIFJYIHBvd2VyKGRCTSkgIFRYIHBvd2VyKGRCTSkKICAgIDM1ICAgICAgICAzLjI5ICAgICAgICA2LjUwICAgICAgLTguNDAgICAgICAgICAgLTIuMTAiIiIsCiAgICAiaWZicmllZiI6ICIiIkludGVyZmFjZSAgICAgICAgICAgICAgICAgICBQSFkgICBQcm90b2NvbCBJblV0aSBPdXRVdGkgICBpbkVycm9ycyAgb3V0RXJyb3JzCkdpZ2FiaXRFdGhlcm5ldDAvMC8wICAgICAgICB1cCAgICB1cCAgICAgICAwLjAxJSAgMC4wMSUgICAgICAgICAgMCAgICAgICAgICAwCkdpZ2FiaXRFdGhlcm5ldDAvMC8xICAgICAgICB1cCAgICB1cCAgICAgICAwLjAxJSAgMC4wMSUgICAgICAgICAgMCAgICAgICAgICAwCkdpZ2FiaXRFdGhlcm5ldDAvMC8yICAgICAgICBkb3duICBkb3duICAgICAgICAwJSAgICAgMCUgICAgICAgICAgMCAgICAgICAgICAwClZsYW5pZjEwICAgICAgICAgICAgICAgICAgICB1cCAgICB1cCAgICAgICAgIC0tICAgICAtLSAgICAgICAgICAgMCAgICAgICAgICAwIiIiLAogICAgInZlcnNpb24iOiAiIiJIdWF3ZWkgVmVyc2F0aWxlIFJvdXRpbmcgUGxhdGZvcm0gU29mdHdhcmUKVlJQIChSKSBzb2Z0d2FyZSwgVmVyc2lvbiA1LjE3MCAoQVIyMjIwIFYyMDBSMDA1QzIwU1BDMjAwKQpDb3B5cmlnaHQgKEMpIDIwMTItMjAxOSBIdWF3ZWkgVGVjaG5vbG9naWVzIENvLiwgTHRkLgpIVUFXRUkgQVIyMjIwIHVwdGltZSBpcyAwIHdlZWssIDAgZGF5LCAxIGhvdXIsIDIwIG1pbnV0ZXMiIiIsCiAgICAidGVtcGVyYXR1cmUiOiAiIiJUZW1wZXJhdHVyZSBvZiB0aGUgYm9hcmQ6CiAgVGVtcGVyYXR1cmUgOiAzOCIiIiwKfQoKY2hlY2tzID0gW10KCgpkZWYgY2hlY2sobGFiZWwsIGdvdCwgZXhwZWN0KToKICAgIG9rID0gZ290ID09IGV4cGVjdAogICAgY2hlY2tzLmFwcGVuZCgob2ssIGxhYmVsLCBnb3QsIGV4cGVjdCkpCgoKY2hlY2soIkNQVSDkvb/nlKjnjociLCBwYXJzZV9jcHUoU0FNUExFU1siY3B1X2FyIl0pLCA1KQpjaGVjaygi5YaF5a2Y77yI6KGo5qC85qC85byP77yJIiwgcGFyc2VfbWVtb3J5KFNBTVBMRVNbIm1lbV90YWJsZSJdKSwgMzApCmNoZWNrKCLlhoXlrZjvvIjmlofmnKzmoLzlvI/vvIkiLCBwYXJzZV9tZW1vcnkoU0FNUExFU1sibWVtX3RleHQiXSksIDQyKQpjaGVjaygi5rip5bqmIiwgcGFyc2VfdGVtcGVyYXR1cmUoU0FNUExFU1sidGVtcGVyYXR1cmUiXSksIDM4KQoKcngsIHR4ID0gcGFyc2VfdHJhbnNjZWl2ZXIoU0FNUExFU1sidHJhbnNjZWl2ZXIiXSkKY2hlY2soIuaUtuWFie+8iGtleTp2YWx1Ze+8iSIsIHJ4LCAtMi4xKQpjaGVjaygi5Y+R5YWJ77yIa2V5OnZhbHVl77yJIiwgdHgsIC0yLjIpCgpyeDIsIHR4MiA9IHBhcnNlX3RyYW5zY2VpdmVyKFNBTVBMRVNbInRyYW5zY2VpdmVyX3RhYmxlIl0pCmNoZWNrKCLmlLblhYnvvIjooajmoLzlvI/vvIkiLCByeDIsIC04LjQpCmNoZWNrKCLlj5HlhYnvvIjooajmoLzlvI/vvIkiLCB0eDIsIC0yLjEpCgp1cCwgZG93biA9IHBhcnNlX2ludGVyZmFjZXMoU0FNUExFU1siaWZicmllZiJdKQpjaGVjaygi5o6l5Y+jIFVQIiwgdXAsIDMpCmNoZWNrKCLmjqXlj6MgRE9XTiIsIGRvd24sIDEpCgppbmZvID0gcGFyc2VfdmVyc2lvbihTQU1QTEVTWyJ2ZXJzaW9uIl0pCmNoZWNrKCLlnovlj7ciLCBpbmZvWyJtb2RlbCJdLCAiQVIyMjIwIFYyMDBSMDA1QzIwU1BDMjAwIikKY2hlY2soIueJiOacrCIsIGluZm9bInZlcnNpb24iXSwgIjUuMTcwIikKY2hlY2soIui/kOihjOaXtumVvyIsIGluZm9bInVwdGltZSJdLCAiMCB3ZWVrLCAwIGRheSwgMSBob3VyLCAyMCBtaW51dGVzIikKCiMg5a6M5pW05oyH5qCH6ZuGCnJhdyA9IFsKICAgIHsiY29tbWFuZCI6ICJkaXNwbGF5IHZlcnNpb24iLCAib3V0cHV0IjogU0FNUExFU1sidmVyc2lvbiJdfSwKICAgIHsiY29tbWFuZCI6ICJkaXNwbGF5IGNwdS11c2FnZSIsICJvdXRwdXQiOiBTQU1QTEVTWyJjcHVfYXIiXX0sCiAgICB7ImNvbW1hbmQiOiAiZGlzcGxheSBtZW1vcnktdXNhZ2UiLCAib3V0cHV0IjogU0FNUExFU1sibWVtX3RhYmxlIl19LAogICAgeyJjb21tYW5kIjogImRpc3BsYXkgaW50ZXJmYWNlIGJyaWVmIiwgIm91dHB1dCI6IFNBTVBMRVNbImlmYnJpZWYiXX0sCiAgICB7ImNvbW1hbmQiOiAiZGlzcGxheSB0cmFuc2NlaXZlciBkaWFnbm9zaXMgaW50ZXJmYWNlIiwgIm91dHB1dCI6IFNBTVBMRVNbInRyYW5zY2VpdmVyIl19LAogICAgeyJjb21tYW5kIjogImRpc3BsYXkgdGVtcGVyYXR1cmUgYWxsIiwgIm91dHB1dCI6IFNBTVBMRVNbInRlbXBlcmF0dXJlIl19LApdCm1ldHJpY3MgPSBidWlsZF9tZXRyaWNzKHJhdykKYnlfa2V5ID0ge21bImtleSJdOiBtIGZvciBtIGluIG1ldHJpY3N9CgpjaGVjaygi5oyH5qCH5pWw6YePIiwgbGVuKG1ldHJpY3MpLCAxMCkKY2hlY2soIkNQVSDnrYnnuqfmraPluLgiLCBieV9rZXlbImNwdSJdWyJsZXZlbCJdLCAib2siKQpjaGVjaygi5pS25YWJ562J57qn5q2j5bi4IiwgYnlfa2V5WyJyeF9wb3dlciJdWyJsZXZlbCJdLCAib2siKQpjaGVjaygiRE9XTiDmjqXlj6PlkYroraYiLCBieV9rZXlbImlmX2Rvd24iXVsibGV2ZWwiXSwgIndhcm4iKQpjaGVjaygi5Z6L5Y+35paH5pysIiwgYnlfa2V5WyJtb2RlbCJdWyJ2YWx1ZSJdLCAiQVIyMjIwIFYyMDBSMDA1QzIwU1BDMjAwIikKCiMg5byx5YWJ5Zy65pmvCndlYWsgPSBidWlsZF9tZXRyaWNzKAogICAgW3siY29tbWFuZCI6ICJkaXNwbGF5IHRyYW5zY2VpdmVyIGRpYWdub3NpcyBpbnRlcmZhY2UiLCAib3V0cHV0IjogU0FNUExFU1sidHJhbnNjZWl2ZXIiXS5yZXBsYWNlKCItMi4xMCIsICItMjYuMzAiKX1dCikKd2Vha19yeCA9IHttWyJrZXkiXTogbSBmb3IgbSBpbiB3ZWFrfVsicnhfcG93ZXIiXQpjaGVjaygi5byx5YWJ5Yik5byC5bi4Iiwgd2Vha19yeFsibGV2ZWwiXSwgImNyaXQiKQoKcHJpbnQoZiJ7J+e7k+aenCc6PDZ9eyfmo4Dmn6XpobknOjwyMn17J+WunumZhSc6PDMyfeacn+acmyIpCnByaW50KCItIiAqIDg4KQpmb3Igb2ssIGxhYmVsLCBnb3QsIGV4cGVjdCBpbiBjaGVja3M6CiAgICBwcmludChmInsnUEFTUycgaWYgb2sgZWxzZSAnRkFJTCc6PDZ9e2xhYmVsOjwyMn17c3RyKGdvdCk6PDMyfXtleHBlY3R9IikKCmZhaWxlZCA9IFtjIGZvciBjIGluIGNoZWNrcyBpZiBub3QgY1swXV0KcHJpbnQoIi0iICogODgpCnByaW50KGYi5oC76K6hIHtsZW4oY2hlY2tzKX0g6aG577yM6YCa6L+HIHtsZW4oY2hlY2tzKSAtIGxlbihmYWlsZWQpfe+8jOWksei0pSB7bGVuKGZhaWxlZCl9IikKc3lzLmV4aXQoMSBpZiBmYWlsZWQgZWxzZSAwKQo=
+"""巡检指标解析的样本测试（不连设备，只验证正则）"""
+
+import sys
+
+sys.path.insert(0, r"D:\huaweinet\console")
+
+from patrol import (  # noqa: E402
+    build_metrics,
+    parse_cpu,
+    parse_interfaces,
+    parse_memory,
+    parse_temperature,
+    parse_transceiver,
+    parse_version,
+)
+
+SAMPLES = {
+    "cpu_ar": """CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 5%  Max: 26%
+CPU Usage Stat. Time : 2026-11-21  23:30:00
+
+CPU utilization for five seconds: 5%: one minute: 5%: five minutes: 5%.""",
+    "mem_table": """                                                 Total    Used    Free    Ratio
+System Total Memory(KB)                        524288  157286  367002    30%""",
+    "mem_text": "Memory Using Percentage Is: 42%",
+    "transceiver": """GigabitEthernet0/0/1 transceiver diagnostic information:
+  Current diagnostic parameters(dBM,mA,mV,Celsius):
+    Temperature         : 33
+    Voltage             : 3.28
+    Bias Current        : 6.51
+    RX Power            : -2.10
+    TX Power            : -2.20
+    Data Lane0 RX Power : -2.15""",
+    "transceiver_table": """GigabitEthernet0/0/1 transceiver diagnostic information:
+  Current diagnostic parameters:
+    Temp.(C)  Voltage(V)  Bias(mA)  RX power(dBM)  TX power(dBM)
+    35        3.29        6.50      -8.40          -2.10""",
+    "ifbrief": """Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+GigabitEthernet0/0/0        up    up       0.01%  0.01%          0          0
+GigabitEthernet0/0/1        up    up       0.01%  0.01%          0          0
+GigabitEthernet0/0/2        down  down        0%     0%          0          0
+Vlanif10                    up    up         --     --           0          0""",
+    "version": """Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (AR2220 V200R005C20SPC200)
+Copyright (C) 2012-2019 Huawei Technologies Co., Ltd.
+HUAWEI AR2220 uptime is 0 week, 0 day, 1 hour, 20 minutes""",
+    "temperature": """Temperature of the board:
+  Temperature : 38""",
+}
+
+checks = []
+
+
+def check(label, got, expect):
+    ok = got == expect
+    checks.append((ok, label, got, expect))
+
+
+check("CPU 使用率", parse_cpu(SAMPLES["cpu_ar"]), 5)
+check("内存（表格格式）", parse_memory(SAMPLES["mem_table"]), 30)
+check("内存（文本格式）", parse_memory(SAMPLES["mem_text"]), 42)
+check("温度", parse_temperature(SAMPLES["temperature"]), 38)
+
+rx, tx = parse_transceiver(SAMPLES["transceiver"])
+check("收光（key:value）", rx, -2.1)
+check("发光（key:value）", tx, -2.2)
+
+rx2, tx2 = parse_transceiver(SAMPLES["transceiver_table"])
+check("收光（表格式）", rx2, -8.4)
+check("发光（表格式）", tx2, -2.1)
+
+up, down = parse_interfaces(SAMPLES["ifbrief"])
+check("接口 UP", up, 3)
+check("接口 DOWN", down, 1)
+
+info = parse_version(SAMPLES["version"])
+check("型号", info["model"], "AR2220 V200R005C20SPC200")
+check("版本", info["version"], "5.170")
+check("运行时长", info["uptime"], "0 week, 0 day, 1 hour, 20 minutes")
+
+# 完整指标集
+raw = [
+    {"command": "display version", "output": SAMPLES["version"]},
+    {"command": "display cpu-usage", "output": SAMPLES["cpu_ar"]},
+    {"command": "display memory-usage", "output": SAMPLES["mem_table"]},
+    {"command": "display interface brief", "output": SAMPLES["ifbrief"]},
+    {"command": "display transceiver diagnosis interface", "output": SAMPLES["transceiver"]},
+    {"command": "display temperature all", "output": SAMPLES["temperature"]},
+]
+metrics = build_metrics(raw)
+by_key = {m["key"]: m for m in metrics}
+
+check("指标数量", len(metrics), 10)
+check("CPU 等级正常", by_key["cpu"]["level"], "ok")
+check("收光等级正常", by_key["rx_power"]["level"], "ok")
+check("DOWN 接口告警", by_key["if_down"]["level"], "warn")
+check("型号文本", by_key["model"]["value"], "AR2220 V200R005C20SPC200")
+
+# 弱光场景
+weak = build_metrics(
+    [{"command": "display transceiver diagnosis interface", "output": SAMPLES["transceiver"].replace("-2.10", "-26.30")}]
+)
+weak_rx = {m["key"]: m for m in weak}["rx_power"]
+check("弱光判异常", weak_rx["level"], "crit")
+
+print(f"{'结果':<6}{'检查项':<22}{'实际':<32}期望")
+print("-" * 88)
+for ok, label, got, expect in checks:
+    print(f"{'PASS' if ok else 'FAIL':<6}{label:<22}{str(got):<32}{expect}")
+
+failed = [c for c in checks if not c[0]]
+print("-" * 88)
+print(f"总计 {len(checks)} 项，通过 {len(checks) - len(failed)}，失败 {len(failed)}")
+sys.exit(1 if failed else 0)

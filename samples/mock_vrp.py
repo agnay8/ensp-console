@@ -1,1 +1,183 @@
-IiIi5qih5oufIDUg5Y+wIFZSUCDorr7lpIfnmoQgY29uc29sZe+8iHRlbG5ldO+8ie+8jOeUqOS6juW3oeajgOWKn+iDveerr+WIsOerr+a1i+ivleOAggoK55uR5ZCsIDEyNy4wLjAuMToyMDAwLTIwMDTvvIzlkIToh6rov5Tlm57kuI3lkIznmoQgQ1BVIC8g5YaF5a2YIC8g5rip5bqmIC8g5YWJ5Yqf546H77yMCuWFtuS4rSBMU1cyIOaVheaEj+i2hemYiOWAvOOAgUxTVzMg5rKh5pyJ5YWJ5qih5Z2X77yM55So5p2l6aqM6K+B5ZGK6K2m5LiO57y65aSx5oyH5qCH44CCCiIiIgoKaW1wb3J0IGFzeW5jaW8KCmltcG9ydCB0ZWxuZXRsaWIzCgpQUk9GSUxFUyA9IHsKICAgIDIwMDA6IGRpY3QoaG9zdD0iUjEiLCBtb2RlbD0iQVIyMjIwIFYyMDBSMDA1QzIwU1BDMjAwIiwgY3B1PTUsIG1lbT0zMCwgdGVtcD0zOCwKICAgICAgICAgICAgICAgcng9Ii0yLjEwIiwgdHg9Ii0yLjIwIiwgaWZzPVsoIkdpZ2FiaXRFdGhlcm5ldDAvMC8wIiwgInVwIiksICgiR2lnYWJpdEV0aGVybmV0MC8wLzEiLCAidXAiKSwgKCJHaWdhYml0RXRoZXJuZXQwLzAvMiIsICJkb3duIildKSwKICAgIDIwMDE6IGRpY3QoaG9zdD0iTFNXMSIsIG1vZGVsPSJTNTcwMCBWMjAwUjAwNUMwMFNQQzUwMCIsIGNwdT0xMiwgbWVtPTQyLCB0ZW1wPTQxLAogICAgICAgICAgICAgICByeD0iLTguNDAiLCB0eD0iLTIuMTAiLCBpZnM9WygiR2lnYWJpdEV0aGVybmV0MC8wLzEiLCAidXAiKSwgKCJHaWdhYml0RXRoZXJuZXQwLzAvMiIsICJ1cCIpLCAoIkdpZ2FiaXRFdGhlcm5ldDAvMC8xMCIsICJ1cCIpLCAoIkdpZ2FiaXRFdGhlcm5ldDAvMC8xMSIsICJ1cCIpXSksCiAgICAyMDAyOiBkaWN0KGhvc3Q9IkxTVzIiLCBtb2RlbD0iUzU3MDAgVjIwMFIwMDVDMDBTUEM1MDAiLCBjcHU9NzgsIG1lbT04MSwgdGVtcD02MywKICAgICAgICAgICAgICAgcng9Ii0yNi4zMCIsIHR4PSItMi40MCIsIGlmcz1bKCJHaWdhYml0RXRoZXJuZXQwLzAvMSIsICJ1cCIpLCAoIkdpZ2FiaXRFdGhlcm5ldDAvMC8yIiwgInVwIiksICgiR2lnYWJpdEV0aGVybmV0MC8wLzEwIiwgImRvd24iKV0pLAogICAgMjAwMzogZGljdChob3N0PSJMU1czIiwgbW9kZWw9IlM1NzAwIFYyMDBSMDA1QzAwU1BDNTAwIiwgY3B1PTgsIG1lbT0zNSwgdGVtcD0zOSwKICAgICAgICAgICAgICAgcng9Tm9uZSwgdHg9Tm9uZSwgaWZzPVsoIkdpZ2FiaXRFdGhlcm5ldDAvMC8xIiwgInVwIiksICgiR2lnYWJpdEV0aGVybmV0MC8wLzIiLCAidXAiKV0pLAogICAgMjAwNDogZGljdChob3N0PSJMU1c0IiwgbW9kZWw9IlM1NzAwIFYyMDBSMDA1QzAwU1BDNTAwIiwgY3B1PTE1LCBtZW09NDgsIHRlbXA9NDQsCiAgICAgICAgICAgICAgIHJ4PSItMy4yMCIsIHR4PSItMi44MCIsIGlmcz1bKCJHaWdhYml0RXRoZXJuZXQwLzAvMSIsICJ1cCIpLCAoIkdpZ2FiaXRFdGhlcm5ldDAvMC8yMCIsICJ1cCIpXSksCn0KCgpkZWYgdmVyc2lvbl90ZXh0KHApOgogICAgcmV0dXJuICgKICAgICAgICAiSHVhd2VpIFZlcnNhdGlsZSBSb3V0aW5nIFBsYXRmb3JtIFNvZnR3YXJlXHJcbiIKICAgICAgICBmIlZSUCAoUikgc29mdHdhcmUsIFZlcnNpb24gNS4xNzAgKHtwWydtb2RlbCddfSlcclxuIgogICAgICAgICJDb3B5cmlnaHQgKEMpIDIwMTItMjAxOSBIdWF3ZWkgVGVjaG5vbG9naWVzIENvLiwgTHRkLlxyXG4iCiAgICAgICAgZiJIVUFXRUkge3BbJ2hvc3QnXX0gdXB0aW1lIGlzIDAgd2VlaywgMiBkYXksIDMgaG91ciwgMjAgbWludXRlcyIKICAgICkKCgpkZWYgY3B1X3RleHQocCk6CiAgICByZXR1cm4gKAogICAgICAgICJDUFUgVXNhZ2UgU3RhdC4gQ3ljbGU6IDYwIChTZWNvbmQpXHJcbiIKICAgICAgICBmIkNQVSBVc2FnZSAgICAgICAgICAgIDoge3BbJ2NwdSddfSUgIE1heDogODklXHJcbiIKICAgICAgICAiQ1BVIFVzYWdlIFN0YXQuIFRpbWUgOiAyMDI2LTExLTIxICAyMzo0MDowMFxyXG5cclxuIgogICAgICAgIGYiQ1BVIHV0aWxpemF0aW9uIGZvciBmaXZlIHNlY29uZHM6IHtwWydjcHUnXX0lOiBvbmUgbWludXRlOiB7cFsnY3B1J119JTogZml2ZSBtaW51dGVzOiB7cFsnY3B1J119JS4iCiAgICApCgoKZGVmIG1lbW9yeV90ZXh0KHApOgogICAgdXNlZCA9IGludCg1MjQyODggKiBwWyJtZW0iXSAvIDEwMCkKICAgIHJldHVybiAoCiAgICAgICAgIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb3RhbCAgICBVc2VkICAgIEZyZWUgICAgUmF0aW9cclxuIgogICAgICAgIGYiU3lzdGVtIFRvdGFsIE1lbW9yeShLQikgICAgICAgICAgICAgICAgICAgICAgICA1MjQyODggIHt1c2VkfSAgezUyNDI4OCAtIHVzZWR9ICAgIHtwWydtZW0nXX0lIgogICAgKQoKCmRlZiBpbnRlcmZhY2VfdGV4dChwKToKICAgIGxpbmVzID0gWyJJbnRlcmZhY2UgICAgICAgICAgICAgICAgICAgUEhZICAgUHJvdG9jb2wgSW5VdGkgT3V0VXRpICAgaW5FcnJvcnMgIG91dEVycm9ycyJdCiAgICBmb3IgbmFtZSwgc3RhdGUgaW4gcFsiaWZzIl06CiAgICAgICAgbGluZXMuYXBwZW5kKGYie25hbWU6PDI4fXtzdGF0ZTo8Nn17c3RhdGU6PDl9MC4wMSUgIDAuMDElICAgICAgICAgIDAgICAgICAgICAgMCIpCiAgICByZXR1cm4gIlxyXG4iLmpvaW4obGluZXMpCgoKZGVmIHRyYW5zY2VpdmVyX3RleHQocCk6CiAgICBpZiBwWyJyeCJdIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuICJFcnJvcjogVGhlIHBvcnQgZG9lcyBub3Qgc3VwcG9ydCB0cmFuc2NlaXZlciBkaWFnbm9zaXMuIgogICAgcmV0dXJuICgKICAgICAgICAiR2lnYWJpdEV0aGVybmV0MC8wLzEgdHJhbnNjZWl2ZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbjpcclxuIgogICAgICAgICIgIEN1cnJlbnQgZGlhZ25vc3RpYyBwYXJhbWV0ZXJzKGRCTSxtQSxtVixDZWxzaXVzKTpcclxuIgogICAgICAgIGYiICAgIFRlbXBlcmF0dXJlICAgICAgICAgOiB7cFsndGVtcCddfVxyXG4iCiAgICAgICAgIiAgICBWb2x0YWdlICAgICAgICAgICAgIDogMy4yOFxyXG4iCiAgICAgICAgIiAgICBCaWFzIEN1cnJlbnQgICAgICAgIDogNi41MVxyXG4iCiAgICAgICAgZiIgICAgUlggUG93ZXIgICAgICAgICAgICA6IHtwWydyeCddfVxyXG4iCiAgICAgICAgZiIgICAgVFggUG93ZXIgICAgICAgICAgICA6IHtwWyd0eCddfSIKICAgICkKCgpkZWYgdGVtcGVyYXR1cmVfdGV4dChwKToKICAgIHJldHVybiBmIlRlbXBlcmF0dXJlIG9mIHRoZSBib2FyZDpcclxuICBUZW1wZXJhdHVyZSA6IHtwWyd0ZW1wJ119IgoKCmRlZiBjb25maWdfdGV4dChwKToKICAgIGhvc3QgPSBwWyJob3N0Il0KICAgIGxpbmVzID0gWwogICAgICAgICIjIiwKICAgICAgICBmInN5c25hbWUge2hvc3R9IiwKICAgICAgICAiIyIsCiAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMSIsCiAgICAgICAgZiIgaXAgYWRkcmVzcyAxMC4wLntwWydwb3J0J10gJSAxMDB9LjIgMjU1LjI1NS4yNTUuMCIsCiAgICAgICAgIiMiLAogICAgXQogICAgaWYgaG9zdC5zdGFydHN3aXRoKCJMU1ciKToKICAgICAgICBsaW5lcyArPSBbCiAgICAgICAgICAgICJ2bGFuIGJhdGNoIDEwIDIwIDMwIiwKICAgICAgICAgICAgImludGVyZmFjZSBWbGFuaWYxMCIsCiAgICAgICAgICAgICIgaXAgYWRkcmVzcyAxOTIuMTY4LjEwLjI1MiAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAgICAgIiB2cnJwIHZyaWQgMTAgdmlydHVhbC1pcCAxOTIuMTY4LjEwLjI1NCIsCiAgICAgICAgICAgICIjIiwKICAgICAgICBdCiAgICBlbHNlOgogICAgICAgIGxpbmVzICs9IFsKICAgICAgICAgICAgImludGVyZmFjZSBHaWdhYml0RXRoZXJuZXQwLzAvMCIsCiAgICAgICAgICAgICIgaXAgYWRkcmVzcyAxMC4wLjEuMSAyNTUuMjU1LjI1NS4wIiwKICAgICAgICAgICAgIiMiLAogICAgICAgIF0KICAgIGxpbmVzICs9IFsKICAgICAgICAib3NwZiAxIHJvdXRlci1pZCAxLjEuMS4xIiwKICAgICAgICAiIGFyZWEgMC4wLjAuMCIsCiAgICAgICAgIiAgbmV0d29yayAxMC4wLjAuMCAwLjAuMC4yNTUiLAogICAgICAgICIjIiwKICAgICAgICAicmV0dXJuIiwKICAgIF0KICAgIHJldHVybiAiXHJcbiIuam9pbihsaW5lcykKCgpkZWYgcmVzcG9uZChwLCBjbWQ6IHN0cikgLT4gc3RyOgogICAgYyA9IGNtZC5sb3dlcigpLnN0cmlwKCkKICAgIGlmIGMuc3RhcnRzd2l0aCgiZGlzcGxheSB2ZXJzaW9uIik6CiAgICAgICAgcmV0dXJuIHZlcnNpb25fdGV4dChwKQogICAgaWYgYy5zdGFydHN3aXRoKCJkaXNwbGF5IGNwdS11c2FnZSIpOgogICAgICAgIHJldHVybiBjcHVfdGV4dChwKQogICAgaWYgYy5zdGFydHN3aXRoKCJkaXNwbGF5IG1lbW9yeS11c2FnZSIpOgogICAgICAgIHJldHVybiBtZW1vcnlfdGV4dChwKQogICAgaWYgYy5zdGFydHN3aXRoKCJkaXNwbGF5IGludGVyZmFjZSBicmllZiIpOgogICAgICAgIHJldHVybiBpbnRlcmZhY2VfdGV4dChwKQogICAgaWYgYy5zdGFydHN3aXRoKCJkaXNwbGF5IHRyYW5zY2VpdmVyIik6CiAgICAgICAgcmV0dXJuIHRyYW5zY2VpdmVyX3RleHQocCkKICAgIGlmIGMuc3RhcnRzd2l0aCgiZGlzcGxheSB0ZW1wZXJhdHVyZSIpOgogICAgICAgIHJldHVybiB0ZW1wZXJhdHVyZV90ZXh0KHApCiAgICBpZiBjLnN0YXJ0c3dpdGgoImRpc3BsYXkgY3VycmVudC1jb25maWd1cmF0aW9uIik6CiAgICAgICAgcmV0dXJuIGNvbmZpZ190ZXh0KHApCiAgICBpZiBjLnN0YXJ0c3dpdGgoInNjcmVlbi1sZW5ndGgiKToKICAgICAgICByZXR1cm4gIiIKICAgIGlmIGMuc3RhcnRzd2l0aCgicGluZyIpOgogICAgICAgIHRhcmdldCA9IGMuc3BsaXQoKVstMV0KICAgICAgICByZXR1cm4gKAogICAgICAgICAgICBmIiAgUElORyB7dGFyZ2V0fTogNTYgZGF0YSBieXRlcywgcHJlc3MgQ1RSTF9DIHRvIGJyZWFrXHJcbiIKICAgICAgICAgICAgZiIgICAgUmVwbHkgZnJvbSB7dGFyZ2V0fTogYnl0ZXM9NTYgU2VxdWVuY2U9MSB0dGw9MjU0IHRpbWU9MSBtc1xyXG4iCiAgICAgICAgICAgIGYiICAtLS0ge3RhcmdldH0gcGluZyBzdGF0aXN0aWNzIC0tLVxyXG4iCiAgICAgICAgICAgICIgICAgMSBwYWNrZXQocykgdHJhbnNtaXR0ZWRcclxuIgogICAgICAgICAgICAiICAgIDEgcGFja2V0KHMpIHJlY2VpdmVkXHJcbiIKICAgICAgICAgICAgIiAgICAwLjAwJSBwYWNrZXQgbG9zcyIKICAgICAgICApCiAgICByZXR1cm4gIkVycm9yOiBVbnJlY29nbml6ZWQgY29tbWFuZCBmb3VuZCBhdCAnXicgcG9zaXRpb24uIgoKCmRlZiBtYWtlX3NoZWxsKHBvcnQ6IGludCk6CiAgICBwcm9maWxlID0gUFJPRklMRVNbcG9ydF0KICAgIHByb2ZpbGUuc2V0ZGVmYXVsdCgicG9ydCIsIHBvcnQpCiAgICBwcm9tcHQgPSBmIjx7cHJvZmlsZVsnaG9zdCddfT4iCgogICAgYXN5bmMgZGVmIHNoZWxsKHJlYWRlciwgd3JpdGVyKToKICAgICAgICB3cml0ZXIud3JpdGUoZiJcclxue3Byb21wdH1cclxuIikKICAgICAgICBhd2FpdCB3cml0ZXIuZHJhaW4oKQogICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGxpbmUgPSBhd2FpdCByZWFkZXIucmVhZGxpbmUoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgaWYgbm90IGxpbmU6CiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICBjbWQgPSBsaW5lLnN0cmlwKCkKICAgICAgICAgICAgaWYgbm90IGNtZDoKICAgICAgICAgICAgICAgIHdyaXRlci53cml0ZShmIntwcm9tcHR9XHJcbiIpCiAgICAgICAgICAgICAgICBhd2FpdCB3cml0ZXIuZHJhaW4oKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgYm9keSA9IHJlc3BvbmQocHJvZmlsZSwgY21kKQogICAgICAgICAgICB3cml0ZXIud3JpdGUoZiJ7Ym9keX1cclxue3Byb21wdH1cclxuIiBpZiBib2R5IGVsc2UgZiJ7cHJvbXB0fVxyXG4iKQogICAgICAgICAgICBhd2FpdCB3cml0ZXIuZHJhaW4oKQoKICAgIHJldHVybiBzaGVsbAoKCmFzeW5jIGRlZiBtYWluKCk6CiAgICBzZXJ2ZXJzID0gW10KICAgIGZvciBwb3J0IGluIFBST0ZJTEVTOgogICAgICAgIHNlcnZlciA9IGF3YWl0IHRlbG5ldGxpYjMuY3JlYXRlX3NlcnZlcigKICAgICAgICAgICAgaG9zdD0iMTI3LjAuMC4xIiwgcG9ydD1wb3J0LCBzaGVsbD1tYWtlX3NoZWxsKHBvcnQpLCBlbmNvZGluZz0idXRmOCIKICAgICAgICApCiAgICAgICAgc2VydmVycy5hcHBlbmQoc2VydmVyKQogICAgcHJpbnQoIm1vY2sgVlJQIGxpc3RlbmluZzoiLCAiLCAiLmpvaW4oc3RyKHApIGZvciBwIGluIFBST0ZJTEVTKSwgZmx1c2g9VHJ1ZSkKICAgIGF3YWl0IGFzeW5jaW8uZ2F0aGVyKCoocy53YWl0X2Nsb3NlZCgpIGZvciBzIGluIHNlcnZlcnMpKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB0cnk6CiAgICAgICAgYXN5bmNpby5ydW4obWFpbigpKQogICAgZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0OgogICAgICAgIHBhc3MK
+"""模拟 5 台 VRP 设备的 console（telnet），用于巡检功能端到端测试。
+
+监听 127.0.0.1:2000-2004，各自返回不同的 CPU / 内存 / 温度 / 光功率，
+其中 LSW2 故意超阈值、LSW3 没有光模块，用来验证告警与缺失指标。
+"""
+
+import asyncio
+
+import telnetlib3
+
+PROFILES = {
+    2000: dict(host="R1", model="AR2220 V200R005C20SPC200", cpu=5, mem=30, temp=38,
+               rx="-2.10", tx="-2.20", ifs=[("GigabitEthernet0/0/0", "up"), ("GigabitEthernet0/0/1", "up"), ("GigabitEthernet0/0/2", "down")]),
+    2001: dict(host="LSW1", model="S5700 V200R005C00SPC500", cpu=12, mem=42, temp=41,
+               rx="-8.40", tx="-2.10", ifs=[("GigabitEthernet0/0/1", "up"), ("GigabitEthernet0/0/2", "up"), ("GigabitEthernet0/0/10", "up"), ("GigabitEthernet0/0/11", "up")]),
+    2002: dict(host="LSW2", model="S5700 V200R005C00SPC500", cpu=78, mem=81, temp=63,
+               rx="-26.30", tx="-2.40", ifs=[("GigabitEthernet0/0/1", "up"), ("GigabitEthernet0/0/2", "up"), ("GigabitEthernet0/0/10", "down")]),
+    2003: dict(host="LSW3", model="S5700 V200R005C00SPC500", cpu=8, mem=35, temp=39,
+               rx=None, tx=None, ifs=[("GigabitEthernet0/0/1", "up"), ("GigabitEthernet0/0/2", "up")]),
+    2004: dict(host="LSW4", model="S5700 V200R005C00SPC500", cpu=15, mem=48, temp=44,
+               rx="-3.20", tx="-2.80", ifs=[("GigabitEthernet0/0/1", "up"), ("GigabitEthernet0/0/20", "up")]),
+}
+
+
+def version_text(p):
+    return (
+        "Huawei Versatile Routing Platform Software\r\n"
+        f"VRP (R) software, Version 5.170 ({p['model']})\r\n"
+        "Copyright (C) 2012-2019 Huawei Technologies Co., Ltd.\r\n"
+        f"HUAWEI {p['host']} uptime is 0 week, 2 day, 3 hour, 20 minutes"
+    )
+
+
+def cpu_text(p):
+    return (
+        "CPU Usage Stat. Cycle: 60 (Second)\r\n"
+        f"CPU Usage            : {p['cpu']}%  Max: 89%\r\n"
+        "CPU Usage Stat. Time : 2026-11-21  23:40:00\r\n\r\n"
+        f"CPU utilization for five seconds: {p['cpu']}%: one minute: {p['cpu']}%: five minutes: {p['cpu']}%."
+    )
+
+
+def memory_text(p):
+    used = int(524288 * p["mem"] / 100)
+    return (
+        "                                                 Total    Used    Free    Ratio\r\n"
+        f"System Total Memory(KB)                        524288  {used}  {524288 - used}    {p['mem']}%"
+    )
+
+
+def interface_text(p):
+    lines = ["Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors"]
+    for name, state in p["ifs"]:
+        lines.append(f"{name:<28}{state:<6}{state:<9}0.01%  0.01%          0          0")
+    return "\r\n".join(lines)
+
+
+def transceiver_text(p):
+    if p["rx"] is None:
+        return "Error: The port does not support transceiver diagnosis."
+    return (
+        "GigabitEthernet0/0/1 transceiver diagnostic information:\r\n"
+        "  Current diagnostic parameters(dBM,mA,mV,Celsius):\r\n"
+        f"    Temperature         : {p['temp']}\r\n"
+        "    Voltage             : 3.28\r\n"
+        "    Bias Current        : 6.51\r\n"
+        f"    RX Power            : {p['rx']}\r\n"
+        f"    TX Power            : {p['tx']}"
+    )
+
+
+def temperature_text(p):
+    return f"Temperature of the board:\r\n  Temperature : {p['temp']}"
+
+
+def config_text(p):
+    host = p["host"]
+    lines = [
+        "#",
+        f"sysname {host}",
+        "#",
+        "interface GigabitEthernet0/0/1",
+        f" ip address 10.0.{p['port'] % 100}.2 255.255.255.0",
+        "#",
+    ]
+    if host.startswith("LSW"):
+        lines += [
+            "vlan batch 10 20 30",
+            "interface Vlanif10",
+            " ip address 192.168.10.252 255.255.255.0",
+            " vrrp vrid 10 virtual-ip 192.168.10.254",
+            "#",
+        ]
+    else:
+        lines += [
+            "interface GigabitEthernet0/0/0",
+            " ip address 10.0.1.1 255.255.255.0",
+            "#",
+        ]
+    lines += [
+        "ospf 1 router-id 1.1.1.1",
+        " area 0.0.0.0",
+        "  network 10.0.0.0 0.0.0.255",
+        "#",
+        "return",
+    ]
+    return "\r\n".join(lines)
+
+
+def respond(p, cmd: str) -> str:
+    c = cmd.lower().strip()
+    if c.startswith("display version"):
+        return version_text(p)
+    if c.startswith("display cpu-usage"):
+        return cpu_text(p)
+    if c.startswith("display memory-usage"):
+        return memory_text(p)
+    if c.startswith("display interface brief"):
+        return interface_text(p)
+    if c.startswith("display transceiver"):
+        return transceiver_text(p)
+    if c.startswith("display temperature"):
+        return temperature_text(p)
+    if c.startswith("display current-configuration"):
+        return config_text(p)
+    if c.startswith("screen-length"):
+        return ""
+    if c.startswith("ping"):
+        target = c.split()[-1]
+        return (
+            f"  PING {target}: 56 data bytes, press CTRL_C to break\r\n"
+            f"    Reply from {target}: bytes=56 Sequence=1 ttl=254 time=1 ms\r\n"
+            f"  --- {target} ping statistics ---\r\n"
+            "    1 packet(s) transmitted\r\n"
+            "    1 packet(s) received\r\n"
+            "    0.00% packet loss"
+        )
+    return "Error: Unrecognized command found at '^' position."
+
+
+def make_shell(port: int):
+    profile = PROFILES[port]
+    profile.setdefault("port", port)
+    prompt = f"<{profile['host']}>"
+
+    async def shell(reader, writer):
+        writer.write(f"\r\n{prompt}\r\n")
+        await writer.drain()
+        while True:
+            try:
+                line = await reader.readline()
+            except Exception:
+                break
+            if not line:
+                break
+            cmd = line.strip()
+            if not cmd:
+                writer.write(f"{prompt}\r\n")
+                await writer.drain()
+                continue
+            body = respond(profile, cmd)
+            writer.write(f"{body}\r\n{prompt}\r\n" if body else f"{prompt}\r\n")
+            await writer.drain()
+
+    return shell
+
+
+async def main():
+    servers = []
+    for port in PROFILES:
+        server = await telnetlib3.create_server(
+            host="127.0.0.1", port=port, shell=make_shell(port), encoding="utf8"
+        )
+        servers.append(server)
+    print("mock VRP listening:", ", ".join(str(p) for p in PROFILES), flush=True)
+    await asyncio.gather(*(s.wait_closed() for s in servers))
+
+
+if __name__ == "__main__":
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        pass
